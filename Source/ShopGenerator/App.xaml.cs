@@ -45,7 +45,7 @@ namespace ShopGenerator
 			}
 
 			string databaseRep = Directory.GetCurrentDirectory() +  "/Database/";
-			string shopRep = Directory.GetCurrentDirectory() + "/../../Shop/";
+			string shopRep = Directory.GetCurrentDirectory() + "/../ShopGenerated/";
 
 			_localization = new Localization();
 			_database = new Database(databaseRep);
