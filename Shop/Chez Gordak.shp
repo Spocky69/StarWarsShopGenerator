@@ -1,0 +1,144 @@
+Gordak  (Sullustéen) EoE p395 Contrebandier + negociation 2
+A bord de son vieux YT-2400 (Eoe p 265) il trafique surtout des armes. Très dur en négociation, il n'a aucun remord à extorquer le plus d'argent à ses clients. Il ne traitera jamais avec l'empire. On dit qu'il a ses entrées chez les Hutts
+
+------------ Matériel ------------------------------------------------------------------------------------------------------------------------
+Livre    Nom                                 Ill. Prix     Enc Rar. 
+---- Matériel de communication ---
+EVi 48   Infra-Jumelles                      -    350      1   1    
+SoR 111  Falsificateur de voix               -    1400     4   6    
+EVi 48   Audio bulle Privacy-7               -    500      4   5    
+SoR 111  Lien Point à Point                  -    100      2   7    
+
+---- Cybernétique ----------------
+SoR 112  Système de transport de données     -    5000     0   6    
+
+---- Matériel de détection -------
+EoE 177  Détecteur universel                 -    500      2   3    
+EoE 177  Détecteur de poche                  -    100      0   2    
+EoE 177  Jumelles scanner                    -    150      0   3    
+KtP 50   PX-7 Senseur à chaleur              -    250      3   7    
+KtP 51   Veridicator 200                     -    4000     1   8    
+EoE 176  Electrojumelles                     -    250      1   1    
+
+---- Matériel médical ------------
+EoE 178  Bacta (litre)                       -    4000     12  1    
+DoH 49   Brancard antichoc                   -    250      2   2    
+DoH 50   Réplicateur de protéine à plasma    -    5500     3   4    
+DAl 50   Suite d'antidotes                   -    250      1   5    
+EoE 178  Médipack                            -    400      2   2    
+KtP 51   Scanner sanguin                     -    400      1   5    
+EoE 178  Médipack de secours                 -    100      1   1    
+DoH 50   Scanner biologique                  -    5000     1   2    
+
+---- Matériel de sécurité --------
+LbE 46   Batterie anti-véhicule légère       -    4000     0   2    
+DoH 48   GeoScanner Fabritech 7000           -    4800     2   3    
+
+---- Matériel de survie ----------
+EoE 181  Kit de survie en cas de crash       -    300      5   2    
+DoH 47   Cocon environnemental BC-7          -    2000     3   4    
+DAl 53   Datapad par espèce                  -    150      2   2    
+Fho 47   Générateur de biome                 -    9000     45  4    
+Fho 47   Générateur d'eau                    -    2000     12  2    
+EoE 181  Combinaison spatiale                -    100      4   1    
+DoH 48   Seconde peau thermo-régulée         -    700      2   4    
+
+---- Outils ----------------------
+NoP 105  Chronoscanner Barbottan             -    1200     0   2    
+Fho 47   Système de divertissement portable  -    2500     10  4    
+EoE 183  Trousse à outils                    -    350      4   2    
+Smo 52   Pinces à répulsion                  -    250      3   1    
+SoR 115  Botte de saut Aratech               -    2000     2   6    
+EVi 50   Kit de secours                      -    250      2   2    
+SoR 115  Branchie organique Mon Cal          -    200      1   5    
+
+---- Matériel de divertissement --
+EoE ---- Table de Dejark                     -    350      10  1    
+LbE 44   Robe de commandement                -    100      1   5    
+
+
+------------ Armes ---------------------------------------------------------------------------------------------------------------------------
+Livre    Nom                                 Comp.        Dég. Crit. Portée   Enc Emp. Ill. Prix     Rar. Spécial                             
+---- Armes énergétiques --------------------------------------------------
+SoR 104  Carabine à bolas                    Dist. (Lou.) 8    3     Moyenne  3   3    -    1600     6    Précis 1,Enchevêtrement 1           
+FCa 43   Pistolet blaster léger Liquidsil... Dist.(Lég.)  6    3     Moyenne  1   1    -    425      4    Réglage étourdissant                
+EoE 163  Carabine blaster                    Dist.(Lou.)  9    3     Moyenne  3   4    -    850      5    Réglage étourdissant                
+SoT 40   Blaster de cavalerie D-45 Dragoon   Dist. (Lég.) 8    3     Moyenne  1   3    -    1900     6    Précis 1,Réglage étourdissant       
+EoE 164  Arbalète blaster                    Dist.(Lou.)  10   3     Moyenne  5   2    -    1250     7    Encombrant 3 Renversement           
+FCa 44   Désactivateur de droïd Felebreck    Dist.(Lég.)  12   3     Courte   1   1    -    1050     5    Choc 1,Ion,Munitions limités 3      
+SoR 105  Baton de combat Mon Calamari        Dist. (Lég.) 5    4     Moyenne  1   1    -    250      6    Réglage étourdissant                
+FCa 43   Pistoler blaster lourd 'Déstruct... Dist.(Lég.)  8    3     Moyenne  3   3    -    1000     7    Réglage étourdissant,Encombrant 2   
+KtP 42   Blastech DLS-12 carabine blaster... Dist. (Lou.) 10   3     Moyenne  4   3    -    1350     7    Automatique,Encombrant 2            
+
+---- Armes à percussion --------------------------------------------------
+LNH 102  Pistolet de dissuasion Arms KD-30   Dist. (Lég.) 4    5     Courte   2   0    -    350      6    Perforant 2,Sanguinaire 1           
+FCa 45   Fusil d'arrêt à huit balles Ados... Dist. (Lou.) 7    6     Courte   3   2    -    550      4    Souffle 3,Renversement              
+LNH 102  Fusil de chasse Vodran              Dist. (Lou.) 7    4     Longue   4   2    -    800      7    Encombrant 2                        
+LNH 102  Lanceur camouflé à main 2-VX        Dist. (Lég.) 1    5     Courte   0   0    -    300      5    Munitions limités 3                 
+
+---- Armes de jet --------------------------------------------------------
+FCa 46   Projecteur CryoBan Taggeco.         Dist.(Lou.)  6    2     Courte   3   0    -    500      4    Souffle 6,Encombrant 3,Sanguinai... 
+
+---- Explosifs et autres armes -------------------------------------------
+SoR 107  Mini-torpille filet                 Dist. (Lou.) 0    0     Moyenne  1   0    -    100      5    Souffle 0,Enchevêtrement 6,Munit... 
+Fho 41   Vaporisateur de toile               Dist.(Lou.)  8    0     Moyenne  4   2    -    2000     5    Souffle 5,Désorientation 3,Dégat... 
+
+---- Armes de pugilat ----------------------------------------------------
+DAl 46   Gant à aiguille                     Pugilat      0    5     Contact  1   0    R    750      8    
+
+---- Armes de corps à corps ----------------------------------------------
+KtP 45   Fouet cryogénique Rodien            C. à C.      +2   3     Courte   1   1    -    1550     7    Enchevêtrement 1,Sanguinaire 2,I... 
+NoP 103  Electrolance Barbottan              C. à C.      2    3     Contact  3   2    -    300      5    Parade 2,Dégats Etourdissant        
+KtP 45   Vibrolame de parade                 C. à C.      +1   2     Contact  1   2    -    400      6    Parade 1,Perforant 2,Sanguinaire 1  
+KtP 45   Bouclier énergetique                C. à C.      +0   5     Contact  2   1    -    1000     7    Choc 1,Parade 1,Déviation 1         
+EoE 168  Lance de force                      C. à C.      +3   2     Contact  3   3    -    500      4    Perforant 2,Réglage étourdissant    
+NoP 103  Pieu électrique                     C. à C.      2    4     Contact  3   2    -    450      5    Etourdissement 3,Dégats Etourdis... 
+DoH 44   Baton de controle de foule          C. à C.      +2   5     Contact  2   1    -    1000     4    Cortosis,Désorientation 2,Dégats... 
+LNH 103  Arg'Garok                           C. à C.      5    3     Contact  5   3    -    1000     7    Encombrant 5,Mauvaise qualité,Pe... 
+Fho 43   Baton étourdissant                  C. à C.      +2   6     Contact  2   2    -    200      4    Désorientation 2,Dégats Etourdis... 
+
+---- Lightsaber ----------------------------------------------------------
+EVi 43   Couteau à phase Philaxien           Sabre Laser  +1   3     Contact  1   1    -    1500     8    Perforant 4,Sanguinaire 1           
+EVi 42   Garde sabre laser avec garde en ... Sabre Laser  0    0     Contact  1   4    -    900      7    Parade 1                            
+
+
+------------ Armures -------------------------------------------------------------------------------------------------------------------------
+Livre    Nom                                 Défense Encaissement Ill. Prix     Enc Emp. Rar. 
+DAl 49   Armure seconde peau                 1       1            -    2000     2   0    7    
+DAl 47   Robe de diplomate                   0       0            -    400      2   0    6    
+LNH 104  Combinaison d'ombre Sakiyan         0       1            -    2500     1   1    8    
+DAl 48   Costume prompteur                   0       1            -    525      2   1    6    
+EVi 44   Combinaison anti-G                  0       1            -    2000     2   1    3    
+Fho 44   Veste armurée taillée sur mesure    0       1            -    850      2   2    4    
+SoT 43   Plateforme de monte H-Series Meg... 0       4            -    8500     7   1    7    
+DAl 48   Blouson réfléchissant               0       1            -    1500     3   0    8    
+SoT 43   Armure de plaque pour animal Cap... 0       0            -    250      2   0    4    
+
+
+------------ Améliorations -------------------------------------------------------------------------------------------------------------------
+Livre    Nom                                 Ill. Prix     Enc Emp. Rar. 
+---- Kit d'arme ----------------------------
+Smo 56   Détecteur sonore                    -    1500     0   1    8    
+EoE 193  Tête lestée                         -    250      0   2    3    
+Smo 55   Recharge rapide Xciter              -    750      0   1    7    
+Smo 56   Sous canon grappin                  -    500      2   2    3    
+FCa 51   Gachette facile                     -    450      0   1    4    
+
+---- Kit d'armure --------------------------
+Smo 58   Système de réparation automatique   -    3000     0   2    6    
+
+---- Vehicle -------------------------------
+EoE 271  Système de visé améliorée           -    4000     0   1    4    
+
+
+------------ Marché Noir ---------------------------------------------------------------------------------------------------------------------
+Livre    Nom                                 Ill. Prix     Enc Rar. 
+---- Drogues ---------------------
+LNH 110  Herbe de Marcan (100 doses)         -    1750     25  5    
+NoP 105  Inhalateur de souffre               -    120      0   3    
+
+---- Objets illégaux uniques -----
+NoP 108  Les yeux de Laqasa (Devaron)        -    9000     0   8    
+Nod 54   Pompe à eau salée                   -    2500     1   7    
+
+

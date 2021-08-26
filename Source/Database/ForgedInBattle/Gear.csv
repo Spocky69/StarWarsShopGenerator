@@ -1,0 +1,33 @@
+Communications;;;;;;
+52;Comlink sécurisé 3-Mal;-;250;0;4;Cryptage militaire, +1 dé noir interception, +2 dés bleus jet connaissance
+52;HeadComm DH-77;I;400;0;3;Cryptage, +3 dés noirs pour intercepter, portée moyenne planétaire
+52;Commande à distance d'artillerie Atgar;-;400;1;7;Lié arme,Jet informatique diff3,portée moyenne,Imprécis2
+Poisons;;;;;;
+Detection;;;;;;
+53;Scanner à faible empreinte;-;700;4;5;Silouhette 1, Portée courte : Radiation, moyenne : vie, longue portée : énergie, extrème : comunication
+53;Senseur automatisé SE-Vigilant;-;3000;2;4;2 senseurs, Détection transmission, automatique
+Medical;;;;;;
+53;Nullicaine;-;25;0;2;Jet médecine diff 1, +3 stress, ignore une blessure critique diff 1-3 fin de la rencontre
+53;Batonnet énergisant;-;5;0;2;-1 dé noir pour rester éveiller dure une scène, +1 stress
+53;Pack Trauma militaire;-;50;1;3;Jet médecine pour soigner blessure critique sans malus
+Cybernetic;;;;;;
+Recreational;;;;;;
+Security;;;;;;
+Survival;;;;;;
+54;Unité de condensation ;-;300;2;2;2 litres,6 mois 1 personne
+54;Outils de tranchées ;-;20;1;1;Dgt+2,Crit4,Incassable
+54;Générateur d'énergie portable;-;500;10;2;Recharge un élement en 1 manœuvre
+54;PlasTente Pretormin;-;300;3;2;Taille 2m,jet résistance température-2 dés noir Diff -1
+55;Sac à dos modulaire;-;10;0;2;Antenne à comlink, 2 modules possibles
+55;Unité de contrôle de température;-;500;2;3;-2 dés noir résisté froid ou chaud
+55;Unité d'énergie;-;250;3;3;Recharger arme, ou gros équipement pour 2 heures
+55;Unité Comms;-;500;2;4;Longue portée planétaire, Cryptage +2 dés noir pour écouter
+55;Unité de senseurs;-;3000;2;3;Senseur mouvement longue portée, +1 avantage jet vigilance
+55;Unité d'oxygène;-;300;3;3;Oxygène 2 heures
+55;Unité de stockage;-;25;0;2;Seuil encombrement +3
+Tools;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+;;-;;;;

@@ -1,0 +1,42 @@
+Bengara 
+Description
+
+------------ Matériel ------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Rar Description                                   
+---- Matériel de communication ---------------------------
+SoR 111 Falsificateur de voix                   - 1400     4   6   
+Fho 45  Collier de communication                - 50       0   1   
+
+---- Cybernétique ----------------------------------------
+EoE 175 Prothèse réplique (organe)              - 1000     0   4   
+
+---- Matériel de détection -------------------------------
+DCo 57  Scanner de demolition Mark 10           - 300      1   4   +1 per pour détecter explosif                 
+
+---- Matériel médical ------------------------------------
+FiB 53  Pack Trauma militaire                   - 50       1   3   
+KtP 51  Pansement Med-Aid                       - 20       1   4   
+
+---- Matériel de sécurité --------------------------------
+KtP 51  Transpondeur personnel                  - 100      0   4   
+EoE 180 Brouilleur                              - 400      4   3   
+
+---- Matériel de survie ----------------------------------
+DAl 51  Guide du routard galactique             - 25       0   2   +1 avantage dans la région pour chercher      
+SPi 47  Sac de selle                            - 25       0   4   
+SPi 46  Sac à dos modulaire MK. III             - 15       0   1   
+
+---- Outils ----------------------------------------------
+SoT 45  Jumelles de visée Fabritech AG/L MK.III - 700      5   5   
+EVi 51  Compas urbain                           - 125      1   1   
+
+
+------------ Améliorations -------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Emp Rar Description                                                            
+---- Kit d'arme ----------------------------------------------------------------
+KtP 54  Tuteur d'arme magnétique                - 250      0   1   2   
+
+---- Kit d'armure --------------------------------------------------------------
+SPi 51  Bio-Camouflage passif                   - 75       0   1   2   
+
+

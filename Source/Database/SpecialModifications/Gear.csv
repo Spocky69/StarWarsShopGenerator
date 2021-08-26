@@ -1,0 +1,68 @@
+Communications;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Poisons;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Detection;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Medical;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Cybernetic;;;;;;
+50;Regulateur de rapport biologique;-;3000;0;8;Non Droid,Max implant+2,Ne comlpte pas comme une implant
+50;Circuit d'évasion;I;1000;0;6;Droid,Résister un plot de restriction, jet Résistance diff1,2avantages->Plot grillé
+51;Routeur de piratage intégré;I;1250;0;7;Outil slicer,+1 dé noir pour tracer
+51;Enregistreur neural;-;250;0;8;Jet Sang-Froid Diff1 souvenir exact,Port de sortie
+51;Interrupteur de redémarrage;-;1000;0;6;Action Décharge d'urgence,Jet sang-froid diff2,Réactive les implants,+2 stress / implant
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Recreational;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Security;;;;;;
+51;Pic de données;I;100;1;3;Surcharge Sécurité,Grille après utilisation
+51;Console de traçage Ealewon A-212;-;3000;12;6;Protège un système:Diff+1dé noir pour pirater,+2dés bleus pour tracer
+51;Tablette de modification de signature;I;250;2;7;+2 dés noir pour tracer piratage
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Survival;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Tools;;;;;;
+51;Bras de chargement lourd CZ-88;-;1500;30;3;Saisir objet, Vigueur 5, athlétisme1,vaisseau silhouette 3 minimum
+52;Tentacule mécanique;-;225;4;4;-2 dés noirs pour rétirer stress véhicule
+52;Boite à outil intelligente Merr-Sonn VX-A;-;2500;3;8;Boite à outil,Temps de réparation / 2
+52;Station de recyclage OS-Series Tech;-;1500;10;5;+2 dés bleu récupérer des objets,Temps/2,Echec fabrication récupère 50% de la valeur
+52;Pinces à répulsion;-;250;3;1;Peut portée Objet Encombrement10,-1 dé noir réparer coque ou critique sur véhicule
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+53;Appareil téléguidé générique;-;400;0;2;Minion,Perception
+53;Nuée d'insecte téléguidé;-;700;0;4;Minion,Mécanique,Cac,Vulnérable Souffle,Dgt2,Crit3,Perforant2
+53;Service de réparation téléguidé;-;900;0;3;Minion,Informatique,Mécanique,Durée-25%
+53;Bouclier téléguidé;-;1100;0;5;Minion,Vigilance,Garde du Corps

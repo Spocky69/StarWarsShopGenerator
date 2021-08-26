@@ -1,0 +1,44 @@
+Clihssk 
+Description
+
+------------ Armes ---------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     Comp Dég Crit Por Enc Emp I Prix     Rar Spécial                                       
+---- Armes énergétiques -----------------------------------------------
+LNH 100 Revolver à répétition Arakid Industr... Lou  7   3    Moy 3   1   - 1000     6   Automatique,Réglage étourdissant              
+FCa 43  Pistolet blaster léger Liquidsilver L7  Lég  6   3    Moy 1   1   - 425      4   Réglage étourdissant                          
+SoF 94  Pistolet blaster CDEF                   Lég  5   4    Moy 1   1   - 150      4   Mauvaise qualité,Réglage étourdissant         
+DCo 42  Pistolet à accélérateur de particule... Lou  6   3    Cou 3   3   - 890      6   Souffle 5,Réglage étourdissant                
+Smo 45  Pistolet à moteur ionique               Lou  5   4    Cou 8   0   - 300      2   Choc 1,Encombrant 5,Ionique,Déploiement 1     
+Fho 40  Fusil sonic SW-E2                       Lou  8   6    Lon 4   3   - 1200     6   Choc 1,Cadence Lente 1,Dégats Etourdissement  
+
+---- Armes à percussion -----------------------------------------------
+LNH 102 Lanceur camouflé à main 2-VX            Lég  1   5    Cou 0   0   - 300      5   Munitions limités 3                           
+SoF 97  Arc composite Corrélien                 Lou  5   5    Moy 3   1   - 200      5   Encombrant 3,Renversement,Munitions limité... 
+SoF 97  Flèche explosive                        Lég  6   3    Moy 0   0   - 50       6   Souffle 4,Munitions limités 1                 
+
+---- Armes de corps à corps -------------------------------------------
+SoF 98  Rayon perforant J-7B                    CàC  9   2    Con 6   0   - 3000     5   Brêche 1,Encombrant 4,Imprécis 2,Briseur      
+
+
+------------ Armures -------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     Déf Enc I Prix     Enc Emp Rar Description                                                            
+DoH 46  Combinaison de plongée                  0   2   - 400      3   2   2   6h oxygène, Pas de pénalité dans l'eau                                 
+
+
+------------ Améliorations -------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Emp Rar Description                                                            
+---- Kit d'arme ----------------------------------------------------------------
+EoE 190 Canon à dispersion large                - 1725     0   2   4   
+EoE 191 Harnais                                 - 500      0   2   2   
+KtP 53  Paramètre de surcharge énergétique      - 500      0   3   5   
+Smo 56  Sous canon grappin                      - 500      2   2   3   
+FiB 51  Reséquencement du schéma Galven         - 1000     0   2   5   
+EoE 191 Canon court                             - 250      0   1   4   
+
+---- Kit d'armure --------------------------------------------------------------
+EoE 194 Bouclier thermique                      - 1000     0   1   3   
+EoE 194 Dispositif optique amélioré             - 1750     0   2   3   
+KtP 58  Etanche au vide                         - 1750     1   1   3   
+SPi 51  Bio-Camouflage passif                   - 75       0   1   2   
+
+

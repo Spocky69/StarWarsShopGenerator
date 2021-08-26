@@ -1,0 +1,25 @@
+Weapon;;;;;;;
+53;Chargeur cycliques de cristaux;I;1500;0;2;8;2 crystaux, Mod : 3eme crystal
+53;Paramètre de surcharge énergétique;-;500;0;3;5;Vibrolame, Manœuvre : Sanguinaire 3, 3 menaces -> arrêt, Mods : +1 avantage, Manœuvre -> Incident
+54;Résonateur de sensibilité à la force;I;1000;0;2;8;Arme Légere, arme lourde, Nécessite force 1 minimum, Mods : Tir précient (p29)
+54;Lampe intégrée;-;200;1;1;4;-2 dés noirs luminosité (courte), mods : longue, Désorienté (2)
+54;Tuteur d'arme magnétique;-;250;0;1;2;Arme 1 main, Récupérer son arme, Incident, Engagé, Mods : Arme en main
+54;Pack de décharge pour bouclier;-;800;1;1;5;Bouclier, Si attaquer CaC et 2 meances attaquant subit 3 stress, Mods : Désoriente+1 (2), Garde stratégique
+Armor;;;;;;;
+56;Armure à pic;-;500;2;3;2;
+56;Sauvegarde;-;900;2;2;4;
+56;Recouvrement Kiirium;-;2500;1;2;7;
+56;Recouvrement anti-friction;-;750;0;1;5;
+57;Enlèvement rapide;-;650;0;1;4;
+57;Plaques réactives;-;2000;4;4;6;
+58;Peau caméléon Reflec;I;1200;0;1;6;
+58;Matrice étourdissante;-;1750;1;1;3;
+58;Etanche au vide;-;1750;1;1;3;
+;;-;;;;;
+Vehicle;;;;;;;
+;;-;;;;;
+Crystal;;;;;;;
+55;Pierre Kimber;I;6500;0;2;8;
+55;Crystal Sorian;I;16000;0;4;9;
+;;-;;;;;
+;;-;;;;;

@@ -1,0 +1,13 @@
+47;Vétement commun;0;0;-;25;0;0;0;Diff +1 identifié la cible
+47;Habit de docker;0;0;-;30;1;0;0;3 objets Enc1 pour Enc0
+47;Robe de diplomate;0;0;-;400;2;0;6;+1 jet sociaux diplomatie
+48;Blouson réfléchissant;0;1;-;1500;3;0;8;Devient aveuglant 1 fois / rencontre
+48;Harnais de chargement;1;1;-;1000;3;2;6;Enc +6, Diff +2 jet de combat
+48;Costume holographique;1;0;-;750;2;0;8;Peut projeter 10 images, programable
+48;Costume prompteur;0;1;-;525;2;1;6;+1 jet sociaux sur foule
+48;Habit de noble;0;0;-;750;1;3;7;Diff -1 Jet sociaux sur noble
+49;Accoutrement d'artiste;0;0;-;50;0;0;4;+1 pour attirer l'attention
+49;Armure à puissance active;1;1;I;3000;4;2;8;Active : Def +1, Enc+1, -1 manoeuvre
+49;Robes resplendissantes;0;1;-;500;2;0;5;Allié +1 Per, Discretion, Magouille
+49;Armure seconde peau;1;1;-;2000;2;0;7;Dissimulé +2
+;;;;-;;;;;

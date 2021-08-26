@@ -1,0 +1,39 @@
+Shan Sien
+Gossam
+
+------------ Matériel ------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Rar Description                                                            
+---- Poisons ----------------------------------------------------------
+LNH 109 Gaz Dioxis                              I 100      0   6   Diff 3, 5 dégats, chaque menace +2 stress, 3 tours                     
+
+---- Matériel de sécurité ---------------------------------------------
+EVi 49  Clé électronique aléatoire              I 750      1   4   Ouvre serrure à code, mdp, 5 min, Magouille diff 4 accélérer à 1min    
+EoE 179 Passe-partout électronique              I 1000     1   5   Ouvre automatiquement serrures electronique diff 2                     
+
+
+------------ Armes ---------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     Comp Dég Crit Por Enc Emp I Prix     Rar Spécial                                       
+---- Armes énergétiques -----------------------------------------------
+LNH 100 Lance blaster Weekaï                    Lou  8   3    Ext 5   2   - 850      6   Précis 1,Encombrant 2                         
+
+---- Explosifs et autres armes ----------------------------------------
+SPi 41  Fusil de chasse 'Ferme'                 Lou  7   5    Lon 5   4   - 500      6   Précis 1,Encombrant 2                         
+DAl 45  Mine de renversement                    Lég  6   0    Cou 1   0   - 200      6   Dégats Etourdissant,Munitions limités 1, g... 
+SoR 107 Grenade à spores étourdissantes         Lég  6   3    Cou 1   0   - 400      5   Souffle6,Choc2,Munitions limités1,Dégats E... 
+Nod 46  Mini-Missile explosif                   Lou  7   2    Cou 1   1   - 150      4   Souffle 6,Munitions limités 1                 
+SoR 107 Mini-torpille à ion                     Lou  10  2    Lon 1   0   - 150      6   Souffle 8,Ionique,Munitions limités 1         
+
+---- Armes de corps à corps -------------------------------------------
+SoT 41  Fouet long                              CàC  1   5    Cou 3   1   - 600      4   Enchevêtrement 2,Dégâts Etourdissant          
+SoR 108 Cape étourdissante SVT-300              Pug  7   3    Con 2   0   - 1500     4   Munitions limités 3,Dégats Etourdissement,... 
+
+
+------------ Marché Noir ---------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Rar Description                                                            
+---- Drogues ----------------------------------------------------------
+EoE 187 Yarrock (1 dose)                        I 350      0   8   Résiste à la peur 1 scéne, 1 dé noir à présence et volonté pour la ... 
+LNH 109 Gaz Dioxis                              I 100      0   6   
+NoP 105 Longue vue                              I 650      0   8   +1 volonté, 2 stress par tour fin de la scène                          
+LNH 109 Venin de Raquor                         I 150      0   7   
+
+

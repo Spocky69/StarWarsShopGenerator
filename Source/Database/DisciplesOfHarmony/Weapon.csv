@@ -1,0 +1,32 @@
+Energy;;;;;;;;;;;
+42;Fusil à contusion AJ-23;Lou;8;5;Cou;4;2;-;8000;4;Souffle 7,Choc 2,Imprécis 2,Renversement,Dégats Etourdissant
+42;Fusil Cryoban;Lég;6;0;Moy;2;1;-;450;6;Gel Cryogénique, Enchevêtrement 1,Perforant 5,Dégats Etourdissant
+42;Etourdisseur à ion IDX-9;Lég;7;0;Moy;1;2;-;300;4;Ion,Dégats Etourdissant, Canon rétractable
+;;;;;;;;-;;;
+Slugthrowers;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Thrown;;;;;;;;;;;
+;;;;;;;;-;;;
+Others;;;;;;;;;;;
+43;Grenade étourdissante à spore;Lég;8;0;Cou;1;0;-;100;7;Souffle 7,Munitions limités 1,Perforant 3,Dégats Etourdissant
+43;Grenade à mousse;Lég;0;0;Cou;1;0;-;150;5;Enchevêtrement 4 (auto),Munitions limités 1
+43;Fusil à vaporisation;Lou;7;0;Moy;4;1;-;2700;6;Incendiaire 3,Munitions limités 3,Perforant 3,Dégats Etourdissant
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Brawling;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Melee;;;;;;;;;;;
+44;Fouet neuronal;CàC;+1;5;Cou;1;1;-;800;7;Enchevêtrement 1,Etourdissement 3,Dégats Etourdissant
+44;Baton de peur;CàC;5;0;Con;1;0;-;1500;8;Munitions limités 3,Perforant 1,Dégats Etourdissant, Caché 2, Tromphe Jet peur Diff 5
+44;Baton de controle de foule;CàC;+2;5;Con;2;1;-;1000;4;Cortosis,Désorientation 2,Dégats Etourdissant
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Lightsaber;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;

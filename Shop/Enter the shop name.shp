@@ -1,0 +1,77 @@
+Name
+Description
+
+------------ Matériel ------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Rar Description                                   
+---- Matériel de communication ---------------------------
+DAl 50  Enregistreur dissimulé                  - 175      0   5   Dissimulé 2, son et image holo                
+EVi 48  Audio bulle Privacy-7                   - 500      4   5   2 tiges, crée un mur antison, Perception D... 
+
+---- Matériel de détection -------------------------------
+EoE 177 Jumelles scanner                        - 150      0   3   Thermique, amplification lumière              
+
+---- Matériel médical ------------------------------------
+KtP 51  Scanner sanguin                         - 400      1   5   Jet medecine diff 1 trouver poison, +2 ava... 
+DoH 50  Scanner biologique                      - 5000     1   2   Diff -2 jet médecine                          
+
+---- Matériel de sécurité --------------------------------
+LbE 46  Batterie anti-véhicule légère           - 4000     30  2   Dgt4,Crit4,Courte,Breche1,Imprécis2,Cadenc... 
+
+---- Matériel de survie ----------------------------------
+KoF 50  Condensateur                            - 300      2   2   Eau pour une personne, batterie 6 mois        
+SPi 47  Équipement de monte                     - 100      3   4   
+KoF 50  Refuge portable                         - 200      2   2   4 personnes, Senseur passif                   
+
+---- Outils ----------------------------------------------
+Smo 51  Bras de chargement lourd CZ-88          - 1500     30  3   Saisir objet, Vigueur 5, athlétisme1,vaiss... 
+NoP 105 Chevalière Adamit                       - 500      0   8   Planète Weik                                  
+
+---- Matériel de divertissement --------------------------
+DAl 51  Bijoux de luxe                          - 2000     0   7   +1 avantage jet charme, tromperie             
+
+
+------------ Armes ---------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     Comp Dég Crit Por Enc Emp I Prix     Rar Spécial                                       
+---- Armes énergétiques -----------------------------------------------
+DoH 42  Etourdisseur à ion IDX-9                Lég  7   0    Moy 1   2   - 300      4   Ion,Dégats Etourdissant, Canon rétractable    
+DCo 43  Fusil blaster lourd DH-X                Lou  10  3    Lon 7   4   - 1900     6   Etourdissement 3,Perforant 2                  
+
+---- Armes à percussion -----------------------------------------------
+SoR 106 Pistolet fracasseur Verpine             Lég  8   3    Moy 1   2   - 15000    8   Renversement,Perforant 2,2Menaces->endomma... 
+
+---- Explosifs et autres armes ----------------------------------------
+Smo 46  Pistolet à clous                        Lég  4   3    Con 4   1   - 900      1   Enchevêtrement 1,Imprécis 2,Munitions limi... 
+
+---- Armes de corps à corps -------------------------------------------
+LNH 104 Fouet neural                            CàC  1   4    Cou 1   1   - 750      6   Désorientation 4,Enchevêtrement 1,Dégats E... 
+
+
+------------ Armures -------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     Déf Enc I Prix     Enc Emp Rar Description                                                            
+Smo 49  Combinaison de mécanicien               0   2   - 1175     5   1   3   Kit de réparation                                                      
+Smo 49  Combinaison contre les dangers indus... 0   2   - 1000     7   2   4   Respirateur,Jet Résistance +2Dés bleus                                 
+SoR 109 Armure de fibre ultramaillé Verpine     0   1   - 3000     3   2   5   Activer->+2Défense,adversaire 2avantages->Stopper                      
+EoE 172 Bouclier déflecteur individuel          2   0   - 10000    3   0   8   Désastre -> s'éteind, 10 minutes, recharge 3 heures                    
+Smo 49  Armure Merr-Sonn N-57                   0   2   - 3000     5   5   6   Manœuvre->Recharger équipement                                         
+EoE 170 Tenue d'exploration                     0   1   - 500      2   1   1   Retire 1 dé noir dû à l'environement                                   
+SoT 42  Tenue de monte Cabalerrin-Series        1   1   - 1500     3   1   6   
+
+
+------------ Améliorations -------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Emp Rar Description                                                            
+---- Kit d'arme ----------------------------------------------------------------
+FiB 51  Reséquencement du schéma Galven         - 1000     0   2   5   Dgt+1,+2menaces, Mods:Dgt+1(2),Perforant+1(2)                          
+Nod 51  Lanceur de Mini-missile                 - 1200     3   3   6   
+Smo 55  Chargeur rapide Xciter                  - 750      0   1   7   Blaster,Automatique,Imprécis3,Mods:Imprécis-1(2)                       
+
+
+------------ Marché Noir ---------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Rar Description                                   
+---- Drogues ---------------------------------------------
+NoP 105 Inhalateur de souffre                   - 120      0   3   Dévanorien, Manœuvre -> +2 stress, +1 dé b... 
+
+---- Objets illégaux uniques -----------------------------
+NoP 110 La couronne de vérité (Auratera)        - 2000     0   10  
+NoP 111 Le drame d'Orphée (Aleen)               - 8000     0   9   
+
+

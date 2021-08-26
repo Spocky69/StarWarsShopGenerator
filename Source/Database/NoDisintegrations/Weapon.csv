@@ -1,0 +1,25 @@
+Energy;;;;;;;;;;;
+44;Fusil de précison X;Lou;9;3;Lon;5;1;-;1500;8;Perforant 1,Réglage étourdissant (portée moy)
+44;Blaster anti-émeute;Lou;10;6;Cou;6;3;-;1250;5;Souffle 6,Encombrant 3,Réglage étourdissant
+Slugthrowers;;;;;;;;;;;
+Thrown;;;;;;;;;;;
+Others;;;;;;;;;;;
+44;Lance-flamme;Lég;5;2;Cou;4;1;I;1200;7;Souffle 2,Incendiaire 2,Perforant 2,Sanguinaire 3
+45;Lanceur de grappin;Lég;3;5;Cou;2;0;-;450;5;Enchevêtrement 3, Diff 2 attrapé objet, Athlétisme diff 2 tiré une personne
+45;Canon à répulsion;Lou;3;6;Cou;5;1;-;1000;7;Souffle 2,Choc 1,Renversement,Déploiement 1,Cadence Lente 1
+46;Mini-Missile anti-armure;Lou;8;4;Cou;1;1;-;300;5;Brêche 1,Munitions limités 1
+46;Mini-Missile explosif;Lou;7;2;Cou;1;1;-;150;4;Souffle 6,Munitions limités 1
+46;Mini-fléchettes explosives;Lou;6;2;Cou;1;1;-;175;5;Souffle 5,Sanguinaire 2,Munitions limités 1
+46;Mini-Missile incendiaire;Lou;6;3;Cou;1;1;-;175;5;Souffle 5,Incendiaire 2,Munitions limités 1
+47;Mini-Missile à ion;Lou;10;3;Cou;1;1;-;100;6;Ion,Briseur,Munitions limités 1
+47;Lanceur de Mini-Missile;Lég;0;0;Moy;3;0;-;500;7;3 Mini-missiles
+Brawling;;;;;;;;;;;
+;;;;;;;;;;;
+Melee;;;;;;;;;;;
+48;Baton étourdissant 'Gardien de la paix';CàC;+2;4;Con;3;2;-;500;3;Encombrant 3,Etourdissement 3,Désorientation 2
+48;Pic à ion;CàC;10;3;Con;2;1;-;750;6;Imprécis 1,Ion,Perforant 4
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;

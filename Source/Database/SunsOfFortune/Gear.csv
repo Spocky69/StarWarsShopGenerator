@@ -1,0 +1,68 @@
+Communications;;;;;;
+100;Transeveur longue portée;-;1000;5;3;Portée 100 année lumière
+100;Encodeur électronique Carbanti United;-;1250;3;6;Crypte les messages, diff 5 pour décrypter
+100;Activateur de vaisseau  à distance (courte portée);-;300;0;4;Portée 5 km
+100;Activateur de vaisseau  à distance (longue portée);-;1500;0;7;Portée plusieurs parsecs
+Poisons;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Detection;;;;;;
+101;Intercepteur de signal hyperspatial;-;10500;5;8;Traquer un vaisseau en hyperespace et communication
+101;Lunettes de détection d'armes;-;750;1;5;+2 dés bleu jet perception pour trouver une arme
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Medical;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Cybernetic;;;;;;
+101;Interface avionique;-;8000;0;6;+1 pilotage (espace, planétaire)
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Recreational;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Security;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Survival;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Tools;;;;;;
+103;Sac à dos anti-grav;-;450;1;5;Pas de dégats de chute
+103;Tenue extra-véhiculaire;-;1500;12;7;Pas de malus en 0G, Outils, laser de coupe
+103;Ceinture anti-grav;-;500;0;6;Pas de dégats de chute
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+102;Cam droid;-;800;0;3;
+102;Droid extincteur;-;8000;10;4;
+;;-;;;;

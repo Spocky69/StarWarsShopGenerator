@@ -1,0 +1,69 @@
+Communications;;;;;;
+48;Infra-Jumelles;-;350;1;1;Vision thermique, 2m de béton, Jet perception +1 dé noir
+48;Infra-Jumelles longue portée;-;500;1;1;Zoom, Vision thermique désactivable, 2m de béton, Jet perception +1 dé noir
+48;Microdroid espion;I;1500;0;5;Araignée, Ordre simple, Magouille Vs Vigilance, Détecter Diff 4 Vigilance
+48;Audio bulle Privacy-7;-;500;4;5;2 tiges, crée un mur antison, Perception Diff 3 écouter à travers
+Poisons;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Detection;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Medical;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Cybernetic;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Recreational;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Security;;;;;;
+49;Etourdisseur palmaire Model31;I;500;1;4;Jet MagouilleVsResistance,12 dgt stress,
+49;Clé électronique aléatoire;I;750;1;4;Ouvre serrure à code, mdp, 5 min, Magouille diff 4 accélérer à 1min
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Survival;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Tools;;;;;;
+50;Kit de secours;-;250;2;2;40 rations, micro générateur, 1 semaine de survie
+50;Patch de réparation d'urgence ;-;25;1;1;Droid : 3 blessures (max 5 patchs / jour)
+50;Skate répulseur;-;2000;4;4;Silouhette1, Vitesse1, Maniabilité -1, Pil. Planète, 5m
+51;Grappin répulseur;-;620;1;3;Diff escalade -2 ou encombrement -7
+51;Compas urbain;-;125;1;1;-2 dés noirs navigué en ville, +1 dé bleu trouver informations
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+45;Droid mineur Serie Dum;-;450;0;1;Minion,Informatique,Mecanique,Perception,+1débleu / 3droids,
+46;Droid policier Guardian;-;8100;0;6;Athlétisme(2),Perception(3),PilotagePlanétaire(2),Arme légère,Vigilance(2)
+46;Droid de sécurité Serie MI;I;41225;0;7;Pugilat(3),Tromperie(4),Perception(3,ArmeLourde(4),Vigilance4
+47;Droid d'infiltration TC-SC;I;15600;0;8;Athlétisme(2),Informatique(3),Calme(3),Tromperie(4),Melee(3),Perception(3),ArmeLégère(3),Magouille(3),Discretion(4),Vigilance(3)

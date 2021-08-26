@@ -1,0 +1,46 @@
+Energy;;;;;;;;;;;
+104;Carabine ‡ bolas;Lou;8;3;Moy;3;3;-;1600;6;PrÈcis 1,EnchevÍtrement 1
+104;Disrupteur ‡ droid;LÈg;6;3;Cou;2;1;-;800;7;Sanguinaire 3(droid),Organique(Stress+2)
+104;Blaster de poche rÈglable;LÈg;7;4;Cou;1;0;-;400;7;Munitions limitÈs 12, dgt 1‡7,Dissimulable1 
+105;Baton de combat Mon Calamari;LÈg;5;4;Moy;1;1;-;250;6;RÈglage Ètourdissant
+106;Lance blaster Mon Calamari;Lou;8;3;Lon;5;3;-;1350;5;RÈglage Ètourdissant
+106;Pistolet blaster lourd 'Renegade';LÈg;8;3;Moy;2;3;-;950;4;ImprÈcis 1,RÈglage Ètourdissant
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Slugthrowers;;;;;;;;;;;
+106;Fusil bi-flÈchette DF-D1;Lou;9;3;Cou;3;3;I;1000;5;Souffle 4,Munitions limitÈs 5,JumelÈ 1,Sanguinaire 2
+106;Pistolet fracasseur Verpine;LÈg;8;3;Moy;1;2;-;15000;8;Renversement,Perforant 2,2Menaces->endommagÈ+1
+106;Fusil fracasseur Verpine;Lou;12;3;Ext;3;3;-;30000;8;Renversement,Perforant 4,2Menaces->endommagÈ+1
+106;Fusil fracasseur lourd Verpine;Art;15;2;Ext;4;4;-;45000;8;PrÈcis 2,Renversement,Perforant 6
+Thrown;;;;;;;;;;;
+;;;;;;;;-;;;
+Others;;;;;;;;;;;
+107;Lanceur de mini-torpille;Lou;8;2;Lon;4;4;-;2000;6;Souffle6,Encombrant2,Munitions limitÈs2,Hors de l'eau:Diff+2
+107;Mini-torpille anti-personnelle;Lou;8;2;Lon;1;0;-;100;5;Souffle 6,Munitions limitÈs 2
+107;Mini-torpille perce-armure;Lou;12;3;Moy;1;0;-;150;6;Souffle 2,Munitions limitÈs 1,Perforant 4
+107;Mini-torpille ‡ encre;Lou;0;0;Lon;1;0;-;50;5;Souffle 0,DÈsorientation 4,Munitions limitÈs 1
+107;Mini-torpille ‡ ion;Lou;10;2;Lon;1;0;-;150;6;Souffle 8,Ionique,Munitions limitÈs 1
+107;Mini-torpille filet;Lou;0;0;Moy;1;0;-;100;5;Souffle 0,EnchevÍtrement 6,Munitions limitÈs 1
+107;Mini-torpille Ètourdissante ;Lou;8;2;Lon;1;0;-;300;5;Souffle 4,Choc 2,Munitions limitÈs 1,DÈgats Etourdissement
+107;Grenade ‡ spores Ètourdissantes;LÈg;6;3;Cou;1;0;-;400;5;Souffle6,Choc2,Munitions limitÈs1,DÈgats Etourdissement,Diff1rouge,DÈsastre->+6stress,Jet mÈdecine diff3
+Brawling;;;;;;;;;;;
+;;Pug;;;;;;-;;;
+;;;;;;;;-;;;
+Melee;;;;;;;;;;;
+108;Cape Ètourdissante SVT-300;Pug;7;3;Con;2;0;-;1500;4;Munitions limitÈs 3,DÈgats Etourdissement,Attaquant MÈlÈe->+7stress,Recharger:3Minutes 
+108;Pic de corail Mon-Calamari;C‡C;+3;2;Con;3;3;-;1000;6;Parade1,Perforant2,
+108;Lance ÈnergÈtique Mon Calamary;C‡C;+3;2;Con;4;2;-;1500;6;Encombrant 3,Perforant 2
+108;Super Ètourdissant CS-12;C‡C;6;3;Con;1;0;-;575;3;DÈsorientation 2,DÈgats Etourdissement,Dissimulable1
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Lightsaber;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;

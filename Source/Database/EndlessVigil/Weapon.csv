@@ -1,0 +1,41 @@
+Energy;;;;;;;;;;;
+40;Pistolet blaster lourd BR-219;Lég;8;3;Cou;2;2;I;625;7;Réglage étourdissant,Sanguinaire 2,2Menaces Endommagé +1
+40;Lance Blaster GLX;Lou;7;3;Lon;3;3;-;1600;6;Automatique,Désorientation 2,Réglage étourdissant
+40;Fusil de précision LD-1;Lou;9;4;Ext;6;3;-;1275;7;Précis 2,Encombrant 3,Perforant 3,Cadence Lente 1
+41;Paladin MK II SSG;Lou;8;3;Lon;4;2;-;3250;8;Automatique,Perforant 1,Réglage étourdissant,Bonne qualité,Baton étourdissant
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Slugthrowers;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Thrown;;;;;;;;;;;
+;;;;;;;;-;;;
+Others;;;;;;;;;;;
+41;Flèchette sabre KWS MK I9;Lég;1;0;Lon;3;2;-;1600;9;Munitions limités 1,Neuroparalysant,
+42;Lanceur d'aiguilles NX-14;Lég;1;0;Cou;1;1;I;650;7;Perforant 3,Dissimulable(1),Annule effet bouclier
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Brawling;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Melee;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Lightsaber;;;;;;;;;;;
+42;Sabre laser avec garde en croix;Sabre Laser;6;2;Contact;1;4;I;9700;10;Brêche 1,Parade 1,Briseur,Attaquant 3 Menaces->Désarmé
+42;Fouet laser;Sabre Laser;4;4;Cou;1;1;I;11400;10;Enchevêtrement 1,Perforant 4,Imprécis 4,2Avantages->Cible ne peut pas utiliser Parade
+43;Couteau à phase Philaxien;Sabre Laser;+1;3;Contact;1;1;-;1500;8;Perforant 4,Sanguinaire 1,Lancer:2Avantages->Boomerang
+42;Garde sabre laser avec garde en croix;Sabre Laser;0;0;Contact;1;4;-;900;7;Parade 1

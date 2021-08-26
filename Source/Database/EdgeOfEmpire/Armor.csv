@@ -1,0 +1,7 @@
+172;Armure de combat lourde;1;2;I;5000;6;4;7;
+171;Armure laminée;0;2;-;2500;4;3;5;
+170;Armure matelassée;0;2;-;500;2;0;1;
+172;Bouclier déflecteur individuel;2;0;-;10000;3;0;8;Désastre -> s'éteind, 10 minutes, recharge 3 heures
+170;Tenue d'exploration;0;1;-;500;2;1;1;Retire 1 dé noir dû à l'environement
+170;Vêtement renforcés;1;1;-;1000;3;1;6;Jet perception diff 2 pour détecter
+170;Vêtement épais;0;1;-;50;1;0;0;

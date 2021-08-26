@@ -1,0 +1,36 @@
+Energy;;;;;;;;;;;
+162;Blaster de poche;Lég;5;4;Cou;1;1;-;200;4;Réglage étourdissant, Caché 1
+162;Pistolet blaster léger;Lég;5;4;Moy;1;2;-;300;4;Réglage étourdissant
+162;Pistolet blaster;Lég;6;3;Moy;1;3;-;400;4;Réglage étourdissant
+163;Pistolet blaster lourd;Lég;7;3;Moy;2;3;-;700;6;Réglage étourdissant, Court Mun 3
+163;Carabine blaster;Lou;9;3;Moy;3;4;-;850;5;Réglage étourdissant
+163;Fusil blaster;Lou;9;3;Lon;4;4;-;900;5;Réglage étourdissant
+163;Fusil blaster lourd;Lou;10;3;Lon;6;4;-;1500;6;Automatique,Encombrant 3
+164;Blaster mitrailleur léger;Lou;11;3;Lon;7;4;I;2250;7;Automatique,Encombrant 4,Perforant 1
+164;Blaster mitrailleur lourd;Art;15;2;Lon;9;4;I;6000;8;Automatique,Encombrant 5,Perforant 2,Sanguinaire 1, Trépied, Déploiement 3
+164;Arbalète blaster;Lou;10;3;Moy;5;2;-;1250;7;Encombrant 3, Renversement, Manœuvre pour recharger
+164;Blaster à ionisation;Lou;10;5;Cou;3;3;-;250;3;Désorientation 5,Dégâts étourdissant (Droïd uniquement)
+164;Pistolet disrupteur;Lou;10;2;Cou;2;2;I;3000;6;Sanguinaire 4, Crit 96-100 Min, Portée ou Cadence fixe
+164;Fusil disrupteur;Lou;10;2;Lon;5;4;I;5000;6;Encombrant 2,Sanguinaire 5, Crit 96-100 Min, Portée ou Cadence fixe
+Slugthrowers;;;;;;;;;;;
+165;Pistolet à percussion;Lég;4;5;Cou;1;0;-;100;3;
+165;Fusil à percussion;Lég;7;5;Moy;5;1;-;250;3;Encombrant 2
+Thrown;;;;;;;;;;;
+165;Bolas / Filet;Lég;2;0;Cou;1;2;-;20;2;Enchevêtrement 3,Renversement,Munitions limités 1
+Others;;;;;;;;;;;
+166;Détonateur thermique;Lég;20;2;Cou;1;0;I;2000;8;Brêche 1,Munitions limités 1,Sanguinaire 4,Souffle 15
+166;Grenade à fragmentation;Lég;8;4;Cou;1;0;-;50;5;Munitions limités 1,Souffle 6
+166;Grenade étourdissante;Lég;8;0;Cou;1;0;-;75;4;Désorientation 3,Dégâts étourdissant,Munitions limités 1,Souffle 8
+166;Lance-flammes;Lou;8;2;Cou;6;2;-;1000;6;Incendiaire 3,Souffle 8
+166;Lance-missiles;Art;20;2;Ext;7;4;I;7500;8;Brêche 1,Déploiement 1,Encombrant 3,Munitions limités 6,Guidé 3,Souffle 10
+Brawling;;;;;;;;;;;
+167;Coup-de-poing;Pug;+1;4;Con;1;0;-;25;0;Désorientation 3
+167;Gants à décharges;Pug;+0;5;Con;0;1;-;300;2;Etourdissement 3
+Melee;;;;;;;;;;;
+167;Bâton Gaderffii;CàC;+2;3;Con;3;0;-;100;2;Désorientation 3,Parade 1
+167;Couteau de combat;CàC;+1;3;Con;1;0;-;25;1;
+168;Lance de force;CàC;+3;2;Con;3;3;-;500;4;Perforant 2,Réglage étourdissant
+168;Mattraque;CàC;+2;5;Con;2;0;-;15;1;Etourdissement 2
+169;Vibroépée;CàC;+2;2;Con;3;3;-;750;5;Parade,Perforant 2,Sanguinaire 1
+168;Vibrohache;CàC;+3;2;Con;4;3;-;750;5;Parade,Perforant 2,Sanguinaire 3
+168;Vibrolame;CàC;+1;2;Con;1;2;-;250;3;Perforant 2,Sanguinaire 1

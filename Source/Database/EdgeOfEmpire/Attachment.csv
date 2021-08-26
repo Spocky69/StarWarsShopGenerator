@@ -1,0 +1,61 @@
+Weapon;;;;;;;
+189;Arme sur mesure;-;5000;0;1;6;Bonne qualité, +1 avantage, Dégats +1
+189;Bipied;-;100;0;1;1;Fusil : Encombrant - 2 si déployé
+190;Canon à dispersion large;-;1725;0;2;4;Fusil : Ajoute souffle4, portée -1, Mod : Souffle +1 (2)
+191;Canon accélérateur;-;1750;0;2;4;Fusil : Dégats +1, +1 dé noir entretien, Mod : Dégats +1 (2) Précis +1, Perforant +1  
+191;Canon court;-;250;0;1;4;Pistolet : Diff +1 trouver l'arme, portée -1 min portée courte ou +1 dé noir, Mod : arme en main
+191;Canon longue portée;-;1200;0;2;4;Fusil : Portée +1, Encombrant 2, Mod : Précis +1 (2), Tireur d'élite
+191;Crosse équilibrée;-;1500;0;2;5;Corps à corps : Précis +1, Mod : Précis +1 (1), Encombrement -1
+191;Harnais;-;500;0;2;2;Arme lourde ou artillerie : Encombrement -2 , Mod : Stabilité
+191;Lame crantée;-;50;0;1;1;Corps à Corps : tranchant, Sanguinaire +1
+192;Lame monomoléculaire;-;1000;0;1;5;Corps à Corps : tranchant, Crit -1, Mod : Perforant +1 (2)
+192;Lance-flamme amovible;I;3000;0;2;5;Fusil, Dégats 10, crit2, portée courte, Incendiaire 5, Souffle2, Encombrant 1
+192;Lance-grenade amovible;I;2000;0;2;5;Comp Armes lourdes, Encombrant 1, Encombrement +2, Munition limitées 1, Mod : Munitions limités +1 (5)
+192;Mire retirée;-;25;0;1;0;Pistolet : Armes en main, +1 dés de diff portée moyenne ou plus, Mod : +1 diff pour détecteer l'arme
+192;Module de mise à feu pour blaster;-;500;0;1;4;Pistolet : Dégats +1, +1 dé noir jet attaque, Mod : Dégats +1 (2), Perforant +1 (2)
+192;Poignée frontale;-;250;0;1;1;Fusil : Retire malus distance pour armes lourdes, Mod : Bout portant +1, Précis +1
+193;Sangle;-;100;0;1;0;Armes lourdes : Encombrement -1, Mod : Arme en main
+193;Système d'accélération pour arbalète;-;250;0;1;4;Arbalète Wookie : Dégats +1, Mod : Dégats +1 (2), Perforant +1 (2)
+193;Système de réarmement automatique d'arbalète;-;500;0;1;3;Arbalète Wookie : Supprime la manœuvre de rechargement, Mod : Automatique
+193;Tête lestée;-;250;0;2;3;Pugilat ou CaC contondant : Dégats +1, Mod : Dégats +1, Etourdissement +1
+193;Trépied;-;250;0;2;3;Blaster répétition, Artillerie : Encombrement -3, 2 manœuvres pour déployer, Mod : Encombrant -1 (2)
+193;Viseur multi-optiques;-;2000;0;1;3;-2 dé noir vision, Mod : Perception +1 (2)
+194;Viseur téléscopique;-;250;0;1;1;-1 diff portée longue ou extrème
+Armor;;;;;;;
+194;Armature en Cortosis;-;10000;0;2;8;Cortosis
+195;Armure sur mesure;-;5000;0;1;6;Bonne qualité, Encaissement +1, Encombrement -1
+194;Bouclier thermique;-;1000;0;1;3;Résistance chaleur Diff -1 , -2 dés noirs chaleurs extrèmes
+195;Dispositif de camouflage optique;-;5500;0;2;6;Discrétion +2, Mod : Expert en discrétion, Discretion +1
+194;Dispositif de renfort musculaire;-;5500;0;2;4;Vig +1 (sauf encaissement), Mod : Athlétisme +1 (2), Stabilité (2)
+194;Dispositif optique amélioré;-;1750;0;2;3;-2 dés noirs vision, Mod : Vigilance +1
+195;Hermétique;-;1000;0;1;3;Ignore effet du vide ou toxique pendant 10 minutes
+194;Isolation au froid;-;1000;0;1;3;Résistance froid Diff -1 , -2 dés noirs froid extrèmes
+Vehicle;;;;;;;
+270;Blindage renforcé;-;2000;0;2;3;
+270;Cache de contrebandier;I;1200;0;1;1;
+270;Circuits hydroélectriques;-;1000;0;2;7;
+270;Contremesures électroniques;-;3000;0;1;6;
+270;Générateur de bouclier amélioré;-;3800;0;2;5;
+270;Générateur pour hypedrive;-;6400;0;1;4;
+270;Hangar Supplémentaire;-;5000;0;2;3;
+271;Système de visé améliorée;-;4000;0;1;4;
+271;Turbine ionique à haut rendement;-;5300;0;1;5;
+230;Autoblaster;-;3000;0;1;3;
+230;Canon blaster léger;-;4000;0;1;2;
+230;Canon blaste lourd;-;5000;0;1;3;
+230;Canon ionique léger;-;5000;0;1;5;
+230;Canon ionique moyen;-;6000;0;1;6;
+230;Canon ionique lourd;-;7500;0;1;7;
+230;Canon laser léger;-;5500;0;1;4;
+230;Canon laser moyen;-;7000;0;1;4;
+230;Canon laser lourd;-;7500;0;1;5;
+230;Lance missile à concussion;-;7500;0;1;5;
+230;Lance missile à proton;I;9000;0;1;7;
+230;Quad-laser;-;8000;0;1;6;
+230;Rayon tracteur léger;-;6000;0;1;4;
+230;Rayon tracteur moyen;-;8000;0;1;5;
+230;Rayon tracteur lourd;-;10000;0;1;6;
+230;Turbolaser léger;I;12000;0;1;7;
+230;Turbolaser moyen;I;15000;0;1;7;
+230;Turbolaser lourd;I;20000;0;1;8;
+;;;;;;;

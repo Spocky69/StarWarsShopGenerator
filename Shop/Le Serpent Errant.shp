@@ -1,0 +1,62 @@
+Shan Sien
+Gossam
+
+------------ Matériel ------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Rar Description                                                            
+---- Matériel de communication ----------------------------------------
+KoF 49  Comlink renforcé                        - 450      3   4   Liaison satelite, + 1 échec décoder transmissions, +1 succès vaincr... 
+
+---- Matériel de détection --------------------------------------------
+EoE 177 Jumelles scanner                        - 150      0   3   Thermique, amplification lumière                                       
+DCo 57  Système de Télé-Reconnaissance          - 250      1   3   Caméra volante, vision thermique 360°, portée 20km                     
+
+---- Matériel médical -------------------------------------------------
+DoH 49  Brancard antichoc                       - 250      2   2   Diff -1d guérrir blessure critique                                     
+EoE 178 Médipack de secours                     - 100      1   1   Jet Medecine sans malus                                                
+
+---- Matériel de sécurité ---------------------------------------------
+KtP 51  Menotte Grav ALR-DR8                    - 300      1   7   Echapper : jet athlétisme diff 5                                       
+DAl 53  Chevalière                              - 750      0   7   +2 avantages pour assumer son identité                                 
+
+---- Matériel de survie -----------------------------------------------
+FiB 55  Unité Comms                             - 500      2   4   Longue portée planétaire, Cryptage +2 dés noir pour écouter            
+KoF 50  Condensateur                            - 300      2   2   Eau pour une personne, batterie 6 mois                                 
+DoH 48  Purificateur d'eau                      - 100      4   1   Pour 1 personne / jour                                                 
+DCo 58  Tenue de camouflage holographique       - 800      1   8   Diff +1 pour trouver  si immobile                                      
+KtP 52  Respirateur Aquata A99                  - 100      0   7   Durée : 2 heures                                                       
+DAl 53  Datapad par espèce                      - 150      2   2   +2 jet Con Xenologie                                                   
+KtP 52  Générateur InstaMist                    - 150      5   4   Génère brouillard, +3 dés noirs jet attaque distance, +3 dés bleus ... 
+EoE 181 Kit de survie en cas de crash           - 300      5   2   1 couverture thermique, couteau multifonction, balise de detresse, ... 
+
+---- Outils -----------------------------------------------------------
+EVi 50  Skate répulseur                         - 2000     4   4   Silouhette1, Vitesse1, Maniabilité -1, Pil. Planète, 5m                
+Nod 54  Lunette de pistage                      - 600      0   5   Jet perception+1 localiser cible,-2dés noir luminosité,brouillard      
+SoR 115 Bandeau Verpine                         - 500      1   6   Peut dépasser seuil de stress, subit une blessure à la place, Désor... 
+SoF 103 Ceinture anti-grav                      - 500      0   6   Pas de dégats de chute                                                 
+DoH 49  Data Jumelles                           - 250      1   2   Jet Con +1 (choisir la comp en début de rencontre)                     
+
+
+------------ Armes ---------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     Comp Dég Crit Por Enc Emp I Prix     Rar Spécial                                       
+---- Armes à percussion -----------------------------------------------
+KoF 40  Carabine intelligente a fléchette FWG7  Lou  5   2    Moy 5   3   - 1800     7   Souffle 4,Guidé 2,Perforant 3                 
+SoF 97  Arc composite Corrélien                 Lou  5   5    Moy 3   1   - 200      5   Encombrant 3,Renversement,Munitions limité... 
+
+---- Armes de corps à corps -------------------------------------------
+KtP 45  Vibrolame de parade                     CàC  +1  2    Con 1   2   - 400      6   Parade 1,Perforant 2,Sanguinaire 1            
+Smo 47  Pince mécanique                         CàC  +2  4    Con 5   4   - 500      3   Encombrant 5,Déploiement 1,Sanguinaire 4, ... 
+Fho 43  Pique de choc foudroyante               CàC  5   3    Con 2   2   - 875      6   Choc 1,Dégats Etourdissement                  
+NoP 103 Electrolance Barbottan                  CàC  +2  3    Con 3   2   - 300      5   Parade 2,Dégats Etourdissant                  
+
+
+------------ Armures -------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     Déf Enc I Prix     Enc Emp Rar Description                                                            
+SoF 99  Veste d'interception                    0   2   - 300      1   0   3   
+SoF 99  Manteau de nomade                       0   1   - 100      1   0   4   
+SoR 109 Combinaison journalière Polis Massan    0   1   - 300      1   1   6   Seuil encombrement +1                                                  
+KtP 48  Armure anti émeute                      0   2   - 950      3   2   4   
+SPi 44  Armure en peau de bête                  0   1   - 500      3   0   2   
+Fho 44  Veste armurée taillée sur mesure        0   1   - 850      2   2   4   
+DAl 48  Harnais de chargement                   1   1   - 1000     3   2   6   Enc +6, Diff +2 jet de combat                                          
+
+

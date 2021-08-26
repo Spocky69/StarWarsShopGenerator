@@ -1,0 +1,79 @@
+Communications;;;;;;
+50;Enregistreur dissimulé;-;175;0;5;Dissimulé 2, son et image holo
+50;Manuel de comportement culturel;-;35;0;3;+1 Avantage avec cette culture
+50;Manipulateur de média;-;400;6;6;Permet de produire des images / sons
+52;Outil de conférence intégrée;-;200;4;4;1 heure, permet de parler en public
+53;Atténuateur sonore;-;600;2;7;+2 diff pour détecter un son  dans la sphère d'effet
+;;-;;;;
+Poisons;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Detection;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Medical;;;;;;
+50;Pack d'antidotes;-;250;1;5;Diff -2 Résister poison
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Cybernetic;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Recreational;;;;;;
+51;Bijoux de luxe;-;2000;0;7;+1 avantage jet charme, tromperie
+;;-;;;;
+;;-;;;;
+Security;;;;;;
+50;Outils d'authentification;-;100;1;5;+2 déterminer si un objet est falsifié
+50;Emplacement caché de données;I;150;0;5;Diff 4 pour trouver les données cachées
+51;Authentification diplomatique;I;10000;0;8;+2 avantages jet sociaux diplomatie
+51;Autorisation falsifié;I;800;0;7;Diff 3 Informatique ou 4 perception pour détecter
+52;Plot de restriction trafiqué;I;750;0;8;Ajoute un ordre caché
+52;Anneau venimeux;I;500;0;7;1 dose de poison
+53;Outil de balayage;-;400;1;6;Jet Inf Diff 2 pour détecter les micros
+53;Chevalière;-;750;0;7;+2 avantages pour assumer son identité
+53;Boite à faux fond;I;400;2;6;Enc 2-20, permet de caché la moitié, diff 4 pour détecter
+Survival;;;;;;
+51;Guide du routard galactique;-;25;0;2;+1 avantage dans la région pour chercher
+52;Pistolet d'escalade 'Rider';-;275;1;4;Jet Lég Diff 2, Attache à portée moyenne
+53;Datapad par espèce;-;150;2;2;+2 jet Con Xenologie
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Tools;;;;;;
+51;Outils de falsification;I;650;2;8;Permet de créer une identification falsifiée
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+54;Droid de protocol Série-3PX;-;7750;0;4;Jet Nego +1, Utiliser par l'empire
+55;Droid de protocole Série-5YQ;-;5500;0;3;Jet Nego +1, Version Cheap de 3PO
+55;Droid d'affaire Série-CZ;-;9000;0;4;Jet Nego +1, Lien avec les prix du marché
+55;Droid de protocole Série-TC;-;12000;0;4;Jet Nego +1, Jet Edu Diff 1 apprendre language
+56;Droid de protocole militaire Série M-3PO;I;12000;0;5;Jet Guerre +1, Spe tactique militaire
+57;Droid ambassadeur Serie-LRD;-;15000;0;5;Jet Nego, Charm, Tromperie -2, Envoyer à la place du diplomate 
+58;Droid de protocole Série-LOM;-;8500;0;5;Jet Nego +1, -1 Insectoide, Alliance
+;;;;;;
+;;;;;;
+;;-;;;;

@@ -1,0 +1,40 @@
+Energy;;;;;;;;;;;
+102;Fronde énergétique;Lég;3;0;Cou;1;0;-;40;4;Désorientation 2 (1 avantage),Dégats Etourdissant
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Slugthrowers;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Thrown;;;;;;;;;;;
+;;;;;;;;-;;;
+Others;;;;;;;;;;;
+102;Boomerang Auratérein;Lég;4;5;Moy;1;0;-;65;6;Guidé 1,Munitions limités 1, 1 avantage retourne en main
+102;Atlat Gungan;Lég;5;3;Moy;2;0;-;100;7;Précis 1,Incendiaire 1,Ionique,Munitions limités 1
+102;Boule à plasma Gungan;Lég;5;3;Cou;0;0;-;20;7;Incendiaire 1,Ionique,Munitions limités 1
+102;Arc Long;Lou;5;5;Lon;5;1;-;120;4;Encombrant 3,Perforant 1,Munitions limités 1
+;;;;;;;;-;;;
+Brawling;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Melee;;;;;;;;;;;
+103;Electrolance Barbottan;CàC;+2;3;Con;3;2;-;300;5;Parade 2,Dégats Etourdissant
+103;Pieu électrique Gungan;CàC;+2;4;Con;3;2;-;450;5;Etourdissement 3,Dégats Etourdissant,Lancer (courte)
+103;Bouclier énergétique personnel Gungan;CàC;-1;5;Con;4;0;-;1000;7;Parade 2,Déviation 2, Réduit à 0 si désorienté ou étourdi
+104;Lance de guerre Voss;CàC;+2;4;Con;4;2;-;215;8;Parade 2, Lancer (courte)
+104;Epée Lon Weik;CàC;+4;3;Con;4;2;-;315;8;Encombrant 4,Parade 1
+;;;;;;;;-;;;
+Lightsaber;;;;;;;;;;;
+104;Baton d'entraînement;Sab;+1;5;Con;2;0;-;35;3;Précis 1,Désorientation 1,Dégats Etourdissant, Dissimulation 3
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;

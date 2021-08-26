@@ -1,0 +1,69 @@
+Communications;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Poisons;;;;;;
+109;Toxines Denditron ;I;125;0;7;Diff 4, Stress +1 (1er tour), +3(2eme tour), +5 (3eme tour) + 1 dé noir chaque menace +1 stress  
+109;Gaz Dioxis;I;100;0;6;Diff 3, 5 dégats, chaque menace +2 stress, 3 tours
+109;Venin de Raquor;I;150;0;7;Diff 4, menace +2 stress,  immobilisé, 2 tours, 
+Detection;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Medical;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Cybernetic;;;;;;
+106;Implant d'adrénaline ;-;2250;0;5;+1 rang récupération rapide
+106;Moniteur de menace;-;2750;0;5;+1 avantage jet Init, Mod : +1 avantage (2), +1 rg coup éclair
+106;Réflexe cybernétique;-;2000;0;4;+1 rang réaction éclair
+107;Respirateur cybernétique;-;250;0;7;Respirateur, +1 rang antitoxine
+107;Implant de slicer;-;3750;0;6;+2 stress -> -1 diff jet informatique
+107;Implant de comm Gank;I;3500;0;6;Communicateur silencieux, Inviolable
+107;Traqueur rétinien Q-22;-;2500;0;6;+1 avantage jet artillerie ou Armes lourdes
+107;Point répulseur;-;4750;0;7;+1 rang garde stratégique, Dégats 8, Crit 3, Choc 1, Cadence lente (2) 
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Recreational;;;;;;
+108;Paquet de sadacc marqué;I;500;1;6;
+108;Cubes de chance truqués;I;100;1;5;
+;;-;;;;
+Security;;;;;;
+108;Collier de sécurité Thalassien;I;300;1;5;Jet Magouille diff 4, échec +2 stress, +1 dégats, Désorienté 5
+109;Entraves explosives;I;500;2;6;Jet Magouille diff 4, échec +10 dégats, à toutes personnes engagées
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Survival;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Tools;;;;;;
+111;Disque Ardos;I;10000;1;5;+2 dés bleus jet charme ou négociation avec les Hutts
+111;Netoyeur de crédits;I;2500;12;7;Jet informatique Diff 5 pour tracer les crédits
+111;Secrétaire de poche Microdata P-2;-;800;1;6;Jet informatique diff 4 pour lire les données, échec données éffacées
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;

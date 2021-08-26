@@ -1,0 +1,39 @@
+Communications;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Poisons;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Detection;;;;;;
+50;PX-7 Senseur à chaleur;-;250;3;7;+2 dés bleus détection chaleur (courte) ou Réparation Dgt critique vaisseau ou droid
+51;Veridicator 200;-;4000;1;8;+2Dés bleu détecter les mensonges ou état émotionel, arc 60°, forme de bijoux
+;;-;;;;
+Medical;;;;;;
+51;Scanner sanguin;-;400;1;5;Jet medecine diff 1 trouver poison, +2 avanatges pour traiter
+51;Pansement Med-Aid;-;20;1;4;+1 succès +1 avantage jet medecine premier soins
+Cybernetic;;;;;;
+;;-;;;;
+Recreational;;;;;;
+;;-;;;;
+Security;;;;;;
+51;Menotte Grav ALR-DR8;-;300;1;7;Echapper : jet athlétisme diff 5
+51;Transpondeur personnel;-;100;0;4;Emet un signal. Trouver : jet informatique diff 2 (portée planétaire courte), +1 diff / portée
+52;Menottes étourdissantes;-;100;0;5;Echapper : jet athlétisme ou coordination diff 4, 2 menaces -> 4 pts de stress
+Survival;;;;;;
+52;Respirateur Aquata A99;-;100;0;7;Durée : 2 heures
+52;Générateur InstaMist;-;150;5;4;Génère brouillard, +3 dés noirs jet attaque distance, +3 dés bleus jet discretion
+52;Ceinture utilitaire jedi;I;1000;0;8;+1 seuil d'encombrement, Comlink, Medpack d'urgence, 3 jours de nourriture, respirateur Aquata
+52;Fusée éclairante Luma;-;50;1;4;Jet artillerie diff 1, Succès : Eclaire portée longue, Echec : portée courte, dgt 6, crit 3, portée longue, Souffle 4, Incendiaire 4, désoriente 2, imprécis 2, Déploiement 2, Munitions limitées 1
+;;-;;;;
+;;-;;;;
+Tools;;;;;;
+53;Kit de maintenance de sabre laser;I;700;2;9;+1 avantage pour construire, modifié ou réparer des sabres lasers
+53;Casque aveuglant WJ-880;I;10;3;8;+3 dés noirs jet combat, améliore entrainement à la force
+;;-;;;;
+Droids;;;;;;
+49;GV-3-series droid de surveillance;-;8000;10;7;Rival, CaC, Perception, Blaster léger, Vigilance, Garde du corps
+50;Marksman-H combat hologuidé;-;350;1;5;Minion, Perception, Blaster léger, boule volante
+50;RMD-20 'Oeil dans le Ciel';-;500;1;4;Minion, Perception, vigilance, boule volante, 24h
+;;-;;;;

@@ -1,0 +1,43 @@
+Energy;;;;;;;;;;;
+44;Pistolet blaster de sport Defender;Lég;5;3;Moy;1;1;-;650;6;Réglage étourdissant,Précis 1, Facilement démontable
+44;Pistolet de poche militaire;Lég;6;3;Cou;1;0;-;500;5;Réglage étourdissant,Dissimulé 1,3Men->0Mun
+44;Pistolet blaster ELG-3A;Lég;6;4;Cou;1;0;-;400;5;Réglage étourdissant, Dissimulé 2
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Slugthrowers;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Thrown;;;;;;;;;;;
+;;;;;;;;-;;;
+Others;;;;;;;;;;;
+44;Grenade sonore N-4;Lég;4;6;Cou;1;0;-;150;5;Souffle 4,Dégats Etourdissant,Choc 1,Munitions limités 1
+45;Grenade d'effacement des données;Lég;0;0;Cou;1;0;-;100;7;Munitions limités 1, Efface les données, droid jet de sauvegarde
+45;Grenade cauchemard;Lég;5;0;Cou;1;0;-;175;8;Souffle 4,Dégats Etourdissant,Munitions limités 1, déforme perception
+45;Mine de renversement;Lég;6;0;Cou;1;0;-;200;6;Dégats Etourdissant,Munitions limités 1, gaz paralysant
+;;;;;;;;-;;;
+Brawling;;;;;;;;;;;
+46;Gant à aiguille ;Pug;+0;5;Con;1;0;R;750;8;1 dose de poison, Dissimulé 3
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;-;;;
+Melee;;;;;;;;;;;
+46;Lame cérémonielle;CàC;+2;3;Con;2;3;-;650;7;Parade 1, +1 pour la garder sur soit
+46;Baton de devoir;CàC;+2;4;Con;3;2;-;350;6;Parade 1,Désorientation 2, +2 pour la garder sur soit
+46;Vibrolame furtive;CàC;+1;2;Con;1;1;-;350;6;Perforant 1,Sanguinaire 1, Dissimulé 2
+47;Canne-épée;CàC;+2;3;Con;2;1;-;475;6;Parade 1, Dissimulé 1
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Lightsaber;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;

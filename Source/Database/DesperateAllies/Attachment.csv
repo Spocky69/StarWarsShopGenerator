@@ -1,0 +1,42 @@
+Weapon;;;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+Armor;;;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+Vehicle;;;;;;;
+64;Simulateur d'environnement;-;7500;0;6;2;Jet Charm, Nego+2 espèce dont l'environement est dupliqué
+65;Cabine de luxe;-;2000;0;3;1;Jet Charm, Nego, Tromperie +1 ou -2 pour riche
+65;Système avancé de chiffrement planétaire;I;6000;0;7;1;Diff 3 pour détecter com', diff +1 pour déchiffrer 
+65;Système Holonet pirate;I;25000;0;8;2;Permet de diffuser sur l'holonet, Intercept diff 3
+Crystal;;;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;

@@ -1,0 +1,16 @@
+Weapon;;;;;;;
+51;Valve de décharge total;I;1500;0;2;6;Manœuvre : Déploiement 1, Dégats +4, plus de munitions
+51;Armes jumelles;-;300;0;1;3;-1 avantage nécessaire pour toucher avec la 2eme arme
+51;Gachette facile;-;450;0;1;4;1er jet : +1 succès +1 menace, Mods : +1 succès
+51;Canon additionel à plombs;I;750;0;3;5;Arme lourde, Dégats 6, Cou, Souffle 5, Renversement, Minutions limitées 1, encombrent +1
+Armor;;;;;;;
+Vehicle;;;;;;;
+62;Cerveau d'astrogation droid;-;7500;0;6;0;Jet Astrogation Int 2 , Mods : +1 comp astrogation (2)
+62;Cerveau d'autopilotage droid;-;6000;0;5;0;Jet Pilotage Agi 2 , Mods : +1 comp Pilotage (2)
+62;Canon blaster de défense au sol;-;2000;0;5;1;Jet Arme lourde Agi 2 , Mods : +1 comp Arme lourde (2), Dgt 12, crit 3, Moy, Auto, Perforant 2
+63;Compartiment camouflé de contrebande;I;2200;0;4;1;Charge utile +25 Mods : Charge utile +25 (2), Trouver : perception diff 3 
+63;Système sonore intégré;-;800;0;3;1;+1 seuil de stress
+63;Camouflage ombre de la nuit;I;3500;0;8;1;-1 porteur sensée ennemi, Mods : Silouhette -1 en combat
+63;Unité de stockage de luxe;-;750;0;3;1;Améliore Jet Charme, Tromperie, Negociation à bords du vaisseau
+63;Evacuation de soute rapide;I;500;0;3;1;Jet mécanique diff 2 pour éjecter contenu de la soute, Mods : plus de jet
+63;Moteur à poussé discrète;I;7500;0;7;1;Detecter le vaisseau : Diff +1 si vit <= 3
