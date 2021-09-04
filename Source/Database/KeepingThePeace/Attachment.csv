@@ -1,25 +1,25 @@
 Weapon;;;;;;;
-53;Chargeur cycliques de cristaux;I;1500;0;2;8;2 crystaux, Mod : 3eme crystal
-53;ParamËtre de surcharge ÈnergÈtique;-;500;0;3;5;Vibrolame, Manúuvre : Sanguinaire 3, 3 menaces -> arrÍt, Mods : +1 avantage, Manúuvre -> Incident
-54;RÈsonateur de sensibilitÈ ‡ la force;I;1000;0;2;8;Arme LÈgere, arme lourde, NÈcessite force 1 minimum, Mods : Tir prÈcient (p29)
-54;Lampe intÈgrÈe;-;200;1;1;4;-2 dÈs noirs luminositÈ (courte), mods : longue, DÈsorientÈ (2)
-54;Tuteur d'arme magnÈtique;-;250;0;1;2;Arme 1 main, RÈcupÈrer son arme, Incident, EngagÈ, Mods : Arme en main
+53;Chargeur cycliques de cristaux;I;1500;0;2;8;2 crystaux,Mod : 3eme crystal
+53;ParamËtre de surcharge ÈnergÈtique;-;500;0;3;5;Vibrolame,Manúuvre : Sanguinaire 3, 3 menaces -> arrÍt, Mods : +1 avantage, Manúuvre -> Incident
+54;RÈsonateur de sensibilitÈ ‡ la force;I;1000;0;2;8;ArmeLÈgere,ArmeLourde,NÈcessite force 1 minimum, Mods : Tir prÈcient (p29)
+54;Lampe intÈgrÈe;-;200;1;1;4;-2dÈs noirs luminositÈ (courte), mods : longue, DÈsorientÈ (2)
+54;Tuteur d'arme magnÈtique;-;250;0;1;2;1main, RÈcupÈrer son arme,Incident,EngagÈ, Mods : Arme en main
 54;Pack de dÈcharge pour bouclier;-;800;1;1;5;Bouclier, Si attaquer CaC et 2 meances attaquant subit 3 stress, Mods : DÈsoriente+1 (2), Garde stratÈgique
 Armor;;;;;;;
-56;Armure ‡ pic;-;500;2;3;2;
-56;Sauvegarde;-;900;2;2;4;
-56;Recouvrement Kiirium;-;2500;1;2;7;
-56;Recouvrement anti-friction;-;750;0;1;5;
-57;EnlËvement rapide;-;650;0;1;4;
-57;Plaques rÈactives;-;2000;4;4;6;
-58;Peau camÈlÈon Reflec;I;1200;0;1;6;
-58;Matrice Ètourdissante;-;1750;1;1;3;
-58;Etanche au vide;-;1750;1;1;3;
+56;Armure ‡ pic;-;500;2;3;2;Encombrement+2,CacAdversaire:3Menaces->Att:6dgt,Mods:dgt+1(3),Talent Intimidation+1
+56;Circuit de Sauvegarde;-;900;2;2;4;ProtËge contre arme ‡ ion ou ÈlectromagnÈtique
+56;Recouvrement Kiirium;-;2500;1;2;7;+1Encaissement,Mods:DiffResistance-1(chaleur,feu)
+56;Recouvrement anti-friction;-;750;0;1;5;DÈfenseMelÈe+1,RÈparer/modifier +2dÈ noir,Mods:Coordination+1
+57;EnlËvement rapide;-;650;0;1;4;Encombrement+3 ou plus,Manúuvre->EnleverArmure,RÈassembler->MecDiff2
+57;Plaques rÈactives;-;2000;4;4;6;Encombrement+2 ou plus,Encombrement+4,1erAttaqueDgt-10/EndommagÈ+1,Mods:Encombrement-3
+58;Peau camÈlÈon Reflec;I;1200;0;1;6;Discretion+1Av Mods:Filature+1(2),Detection+1DÈ Noir
+58;Matrice Ètourdissante;-;1750;1;1;3;Encombrement+1,CacAdversaire:2Menaces->DÈsorientÈ2 Mods:3Menaces->Immobilisation,DÈsastreEtourdi
+58;Etanche au vide;-;1750;1;1;3;10min
 ;;-;;;;;
 Vehicle;;;;;;;
 ;;-;;;;;
 Crystal;;;;;;;
-55;Pierre Kimber;I;6500;0;2;8;
-55;Crystal Sorian;I;16000;0;4;9;
+55;Pierre Kimber;I;6500;0;2;8;Dgt9,Crit-,DÈgats Etourdissant,Mods:Dgt+1(2),Choc+1,DÈsorientation+1(2)
+55;Crystal Sorian;I;16000;0;4;9;Dgt6,Crit3,BrÍche1,Briseur,Parade->+1DÈBleu,Mods:Dgt+1(3),TalentParrer+1,DÈsorientation+1
 ;;-;;;;;
 ;;-;;;;;

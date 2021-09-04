@@ -22,14 +22,14 @@ Weapon;;;;;;;
 ;;-;;;;;
 ;;-;;;;;
 Armor;;;;;;;
-57;Modification amphibie;-;500;0;1;4;
-57;Forme personnalisée;-;400;0;1;3;
-57;Équipement d'escalade intégré;-;350;0;2;3;
-58;Equipement de slicer intégré;-;750;0;3;6;
-58;Protection ionique;-;2000;0;1;7;
-58;Protection contre les radiations;-;500;0;1;3;
-58;Gants renforcés;-;250;0;2;2;
-58;Système de réparation automatique;-;3000;0;2;6;
+57;Modification amphibie;-;500;0;1;4;SousEau,5Heure,-1DéNoir Mods:+1heure(2)
+57;Forme personnalisée;-;400;0;1;3;Athlétisme/Discretion-1DéNoir Mods : -1DéNoir
+57;Équipement d'escalade intégré;-;350;0;2;3;InstallerGrappin,Diff2
+58;Equipement de slicer intégré;-;750;0;3;6;OutilSlicer,CommandeVocale,DétecterSlicing+1DéNoir
+58;Protection ionique;-;2000;0;1;7;Encaissement+3 vs ion Mods : Defense+1 vs ion 
+58;Protection contre les radiations;-;500;0;1;3;ResistanceRadiation+2Dé Bleu Mods : Encaissement+1 vs radiation
+58;Gants renforcés;-;250;0;2;2;Cac,Dgt+1,Crit4,Désorientation3 Mods : Talent DurAuMal
+58;Système de réparation automatique;-;3000;0;2;6;ParRencontre,1Manoeuvre,Réparation,Int2Mec2,SansCout
 Vehicle;;;;;;;
 65;Jambes tout-terrain8;-;3000;0;5;2;
 65;Modification amphibie;-;1000;0;5;1;

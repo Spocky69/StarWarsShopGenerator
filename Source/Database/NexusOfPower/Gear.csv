@@ -62,7 +62,7 @@ Tools;;;;;;
 ;;-;;;;
 ;;-;;;;
 Droids;;;;;;
-107;Droid caméléon;-;2000;0;7;
-107;Gardien de pierre;-;5000;0;9;
+107;Droid caméléon;-;2000;0;7;Rival,Perception2,ArmeLourde1,Discretion2,+2DéBleuDiscretion
+107;Gardien de pierre;-;5000;0;9;Athlétisme2,Pugilat3,Perception2,Vigilance2,Vigueur5
 ;;-;;;;
 ;;-;;;;

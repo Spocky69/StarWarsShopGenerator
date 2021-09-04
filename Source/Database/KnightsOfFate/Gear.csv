@@ -1,6 +1,6 @@
 Communications;;;;;;
-49;Scanner de combat;-;2000;1;6;Optique 360°, Audio, Infrarouge, Mouvement, Matériaux, Donnée. -2 dés noirs luminosité, +2 dés noirs interceptions
-49;Comlink renforcé;-;450;3;4;Liaison satelite, + 1 échec décoder transmissions, +1 succès vaincre brouillage
+49;Scanner de combat;-;2000;1;6;Optique 360°, Audio, Infrarouge,Mouvement,Matériaux,Donnée.-2dés noirs luminosité,+2dés noirs interceptions
+49;Comlink renforcé;-;450;3;4;Liaison satelite, +1 échec décoder transmissions, +1 succès vaincre brouillage
 ;;-;;;;
 Poisons;;;;;;
 ;;-;;;;
@@ -62,7 +62,7 @@ Tools;;;;;;
 ;;-;;;;
 ;;-;;;;
 Droids;;;;;;
-51;Droid de combat ASP-19;I;80000;0;9;
-52;Droid scout Série-SR;I;13000;0;6;
-52;Droid de combat 'Harrier' MKIII;I;6000;0;6;
+51;Droid de combat ASP-19;I;80000;0;9;Némésis,Pugilat2,Coercition3,SabreLaser2,Cac2,ArmeLourde2,Vigilance3
+52;Droid scout Série-SR;I;13000;0;6;Rvial,Athlétisme2,Informatique3,SavoirGuerre3,Perception4,ArmeLourde2,Discretion4,Vigilance3
+52;Droid de combat 'Harrier' MKIII;I;6000;0;6;Minion,Airspeeder,BlasterARepetition
 ;;-;;;;

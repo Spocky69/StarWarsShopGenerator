@@ -63,6 +63,6 @@ Tools;;;;;;
 ;;-;;;;
 ;;-;;;;
 Droids;;;;;;
-102;Cam droid;-;800;0;3;
-102;Droid extincteur;-;8000;10;4;
+102;Droid Cam J57;-;800;0;3;Minion,Perception,Vigilance,Agilité3
+102;Droid extincteur SérieFD;-;8000;10;4;Minion,Athlétisme,Diff2 Eteindre feu
 ;;-;;;;

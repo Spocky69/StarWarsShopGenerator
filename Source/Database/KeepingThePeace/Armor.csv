@@ -1,8 +1,8 @@
-47;Armure de la chance de Cresh;0;2;-;1000;4;1;5;+1 avanatge vigilance
+47;Armure de la chance de Cresh;0;2;-;1000;4;1;5;Vigilance +1 av
 47;Armure de combat lourde;1;2;I;5000;6;4;7;
-47;Armure de combat jedi;1;2;I;7500;5;5;9;Sur mesure (diff 3 mecanique )
-47;Armure de guarde du temple jedi;2;1;I;12000;4;3;10;Comlink, Scanner
+47;Armure de combat jedi;1;2;I;7500;5;5;9;+2Dé noir,SurMesure (diff 3 mecanique )
+47;Armure de guarde du temple jedi;2;1;I;12000;4;3;10;Comlink,Scanner
 47;Armure d'entraînement jedi;0;2;I;400;4;0;9;Enc 6 avec poids (diff 1 mecanique pour enlever)
-47;Armure énergétique de Kav-Damn;2;2;I;13500;4;6;7;4 heure dans le vide, +1 dé bleu resist radiation, -1 dé noir effet environnementaux
+47;Armure énergétique de Kav-Damn;2;2;I;13500;4;6;7;4h dans le vide, +1dé bleu resist radiation, -1dé noir effet environnementaux
 48;Demi veste de Koromondain;1;1;-;500;3;0;5;Blessure critique -> +1 niveau de dégats
 48;Armure anti émeute;0;2;-;950;3;2;4;

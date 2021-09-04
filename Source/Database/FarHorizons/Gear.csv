@@ -1,5 +1,5 @@
 Communications;;;;;;
-45;Relais holonet portable X-500;-;75000;15;7;
+45;Relais holonet portable X-500;-;75000;15;7;Connecter à l'holonet
 45;Collier de communication;-;50;0;1;Amplifie la voix, Portée extrème, +100 crédits brancher sur système
 ;;-;;;;
 Poisons;;;;;;
@@ -62,9 +62,9 @@ Tools;;;;;;
 ;;-;;;;
 ;;-;;;;
 Droids;;;;;;
-49;Droid de maintien de l'ordre;I;9600;0;5;
-49;Droid de traque;I;9800;0;4;
-49;Mini-med Medtech;-;900;0;3;
-50;Droid de recyclage série 1.42.08;-;6500;0;4;
-50;Droid de spectacle série SDMN;-;4000;0;5;
+49;Droid de maintien de l'ordre AC;I;9600;0;5;Rival,Coercition2,Sang-Frooid2,Cac2,PilotageEspace2,SystèmeD3,Vigilance3
+49;Droid de traque DZ-70;I;9800;0;4;Rival,PilotagePlanétaire2,Discretion2,Survie3,Vigilance2
+49;Mini-med Medtech;-;900;0;3;Minion,Talent Chirurgien +1/Droid
+50;Droid de recyclage série 1.42.08;-;6500;0;4;Minion,Recycle nourriture
+50;Droid de spectacle série SDMN;-;4000;0;5;Rival,Charme2,Calme2,Informatique2,Coordination2,Tromperie2
 ;;-;;;;

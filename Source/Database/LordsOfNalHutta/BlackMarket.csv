@@ -1,26 +1,26 @@
-Drogs;;;;;
-109;Grenouille des arbres de Nala (12 doses);-;15;1;5
-110;Herbe de Marcan (1 dose);-;20;1;4
-110;Ryll (1 dose);I;50;1;4
-110;Epice Gunjack (1 dose);I;75;1;5
-111;Fée à neutron (1 dose);I;100;1;6
-109;Toxines Denditron ;I;125;0;7
-109;Gaz Dioxis;I;100;0;6
-109;Venin de Raquor;I;150;0;7
-;;I;;;
-;;I;;;
-;;I;;;
-Illegal;;;;;
-;;I;;;
-;;I;;;
-;;I;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
-;;;;;
+Drogs;;;;;;
+109;Grenouille des arbres de Nala (12 doses);-;15;1;5;
+110;Herbe de Marcan (1 dose);-;20;1;4;
+110;Ryll (1 dose);I;50;1;4;Ignore Blessure Crit Facile-Moyenne,Difficile2Doses,+2Dé Noir
+110;Epice Gunjack (1 dose);I;75;1;5;Vigueur+1,Diff+1Agilité,Intelligence,Ruse
+111;Fée à neutron (1 dose);I;100;1;6;Agilité-Volonté+2Av,+1MenaceVigueur-Intelligence-Ruse
+109;Toxines Denditron ;I;125;0;7;Resistance Diff4,dgt1/3tours,5DernierTour,+1Dé Noir,1Menace+1Stress
+109;Gaz Dioxis;I;100;0;6;Resistance Diff3,5Stress,1Menace+2Stress,3Tours
+109;Venin de Raquor;I;150;0;7;Resistance Diff4,Immobilisé2tours,1Menace+2Stress,
+;;I;;;;
+;;I;;;;
+;;I;;;;
+Illegal;;;;;;
+;;I;;;;
+;;I;;;;
+;;I;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;

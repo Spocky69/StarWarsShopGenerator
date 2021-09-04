@@ -1,68 +1,68 @@
-Communications;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Poisons;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Detection;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Medical;;;;;
-;Kit vétérinaire portable XV-38;-;600;3;3
-;Harnais de contrainte chimique XV-09;-;1200;2;5
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Cybernetic;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Recreational;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Security;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Survival;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Tools;;;;;
-45;Kit d'outils personnalisés Journeyman Tool Inc.;-;1000;1;5
-45;Jumelles de visée Fabritech AG/L MK.III;-;700;5;5
-46;Manuel de maintenance Foreman-Series;-;100;1;1
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Droids;;;;;
-46;Droid astromech R7-Series;-;11000;0;6
-47;Droid astromech Q7-Series;-;6500;0;8
-;;-;;;
-;;-;;;
+Communications;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Poisons;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Detection;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Medical;;;;;;
+44;Kit vétérinaire portable XV-38;-;600;3;3;SupprimePénalitéSoinSurCréature,+1Dé Bleu Médecine,Survie,Xénologie soin
+44;Harnais de contrainte chimique XV-09;-;1200;2;5;InstallerSurvieDiff3(2SiJetXénologie),Survie+2DéBleu,BêteSang-Froid+1DéBleu,3Menaces->EffetSecondaire
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Cybernetic;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Recreational;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Security;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Survival;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Tools;;;;;;
+45;Kit d'outils personnalisés Journeyman Tool Inc.;-;1000;1;5;Personnalisé,+1Dé Bleu Réparer Objet,Mauvais Objet +1Dé Noir
+45;Jumelles de visée Fabritech AG/L MK.III;-;700;5;5;Silouhette+1,Cible Artillerie
+46;Manuel de maintenance Foreman-Series;-;100;1;1;Personnalisé,DégradeDifficultéDe1
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+46;Droid astromech R7-Series;-;11000;0;6;Rival,Astrogation3,Informatique3,Calme2,Mecanique3,PilotageEspace2,CarteGalactique
+47;Droid astromech Q7-Series;-;6500;0;8;Rival,Astrogation3,Informatique3,Calme2,Mecanique2,PilotageEspace2
+;;-;;;;
+;;-;;;;

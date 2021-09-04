@@ -1,7 +1,7 @@
 Energy;;;;;;;;;;;
-40;Défenseur 12;Lég;5;5;Cou;1;0;-;25;4;Mauvaise qualité,Munitions limités 2
-40;Blaster de poche Quickfire;Lég;5;3;Cou;1;0;-;250;4;Réglage étourdissant
-40;Fusil sonic SW-E2;Lou;8;6;Lon;4;3;-;1200;6;Choc 1,Cadence Lente 1,Dégats Etourdissement
+40;Défenseur 12;Lég;5;5;Cou;1;0;-;25;4;Mauvaise qualité,Munitions limitées2,Dissimulation2,UsageUnique
+40;Blaster de poche Quickfire Q4;Lég;5;3;Cou;1;0;-;250;4;Réglage étourdissant,Dissimulation1,ChargeurIntégré
+40;Fusil sonic SW-E2;Lou;8;6;Lon;4;3;-;1200;6;Choc1,Cadence Lente1,Dégats Etourdissement,Imparrable
 ;;;;;;;;;;;
 ;;;;;;;;;;;
 ;;;;;;;;;;;
@@ -18,19 +18,19 @@ Slugthrowers;;;;;;;;;;;
 Thrown;;;;;;;;;;;
 ;;;;;;;;;;;
 Others;;;;;;;;;;;
-41;Fusil anti-émeute R-88;Lou;0;0;Lon;4;0;-;2500;8;Précis 2,Enchevêtrement 4,Cadence Lente 1,Etourdissement 8
-41;Vaporisateur de toile;Lou;8;0;Moy;4;2;-;2000;5;Souffle 5,Désorientation 3,Dégats Etourdissement
-41;Carabine de désorientation;Lou;1;4;Cou;2;1;-;500;5;Enchevêtrement 3
+41;Fusil anti-émeute R-88;Lou;0;0;Lon;4;0;-;2500;8;Précis2,Enchevêtrement4,Cadence Lente1,Etourdissement8,Inhalation
+41;Vaporisateur de toile;Lou;8;0;Moy;4;2;-;2000;5;Souffle5,Désorientation3,Dégats Etourdissement,CrosseEtourdissante(Cac,+2,Imprécis1,DégatsEtourdissant)
+41;Canon d'enchevêtrement 7;Lou;1;4;Cou;2;1;-;500;5;Enchevêtrement3
 ;;;;;;;;;;;
 ;;;;;;;;;;;
 Brawling;;;;;;;;;;;
-42;Gant de choc;Pug;+1;3;Con;0;2;-;2000;4;Choc 1,Cadence Lente 1,Dégats Etourdissement
+42;Gant de choc;Pug;+1;3;Con;0;2;-;2000;4;Choc1,CadenceLente1,DégatsEtourdissement
 ;;;;;;;;-;;;
 Melee;;;;;;;;;;;
-43;Stilet moléculaire;CàC;+0;2;Con;1;1;-;500;5;Perforant 5,Sanguinaire 1
-43;Bouclier anti-émeute;CàC;+0;6;Con;5;1;-;300;4;Encombrant 3,Déflexion 2,Parade 2,Désorientation 1
-43;Baton étourdissant;CàC;+2;6;Con;2;2;-;200;4;Désorientation 2,Dégats Etourdissement
-43;Pique de choc foudroyante;CàC;5;3;Con;2;2;-;875;6;Choc 1,Dégats Etourdissement
+43;Stilet moléculaire MSW-9;CàC;+0;2;Con;1;1;-;500;5;Perforant5,Sanguinaire1,Fragile2,Dissimulation1
+43;Bouclier anti-émeute Activv1;CàC;+0;6;Con;5;1;-;300;4;1Main,Encombrant3,Déflexion2,Parade2,Désorientation1,ArmeLourde+1DéNoir
+43;Baton étourdissant Z2;CàC;+2;6;Con;2;2;-;200;4;Désorientation2,DégatsEtourdissement
+43;Baton coup de foudre;CàC;5;3;Con;2;2;-;875;6;Choc1,DégatsEtourdissement
 ;;;;;;;;;;;
 ;;;;;;;;;;;
 ;;;;;;;;;;;

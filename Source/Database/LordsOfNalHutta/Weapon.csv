@@ -1,9 +1,9 @@
 Energy;;;;;;;;;;;
-100;Blaster Bonta;Lég;6;3;Cou;1;1;-;1000;8;Réglage étourdissant
-100;Blaster à charge pulsé Greff-Timms ATA;Lég;5;3;Cou;2;2;I;750;6;Sanguinaire 3
+100;Blaster Bonta;Lég;6;3;Cou;1;1;-;1000;8;Réglage étourdissant,Dissimulation1
+100;Blaster à charge pulsé Greff-Timms ATA;Lég;5;3;Cou;2;2;I;750;6;Sanguinaire3
 100;Revolver à répétition Arakid Industry ACP;Lou;7;3;Moy;3;1;-;1000;6;Automatique,Réglage étourdissant
-100;Lance blaster Weekaï;Lou;8;3;Ext;5;2;-;850;6;Précis 1,Encombrant 2
-101;Fusil à répulsion Saktek D-29;Art;8;4;Moy;3;3;-;1550;7;Désorientation 3,Renversement,Dégats Etourdissant
+100;Lance blaster Weekaï;Lou;8;3;Ext;5;2;-;850;6;Précis1,Encombrant2
+101;Fusil à répulsion Saktek D-29;Art;8;4;Moy;3;3;-;1550;7;Désorientation3,Renversement,Dégats Etourdissant
 ;;;;;;;;;;;
 ;;;;;;;;;;;
 ;;;;;;;;-;;;
@@ -13,14 +13,14 @@ Energy;;;;;;;;;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Slugthrowers;;;;;;;;;;;
-102;Pistolet de dissuasion Arms KD-30;Lég;4;5;Cou;2;0;-;350;6;Perforant 2,Sanguinaire 1
-102;Lanceur camouflé à main 2-VX;Lég;1;5;Cou;0;0;-;300;5;Munitions limités 3
-102;Fusil de chasse Vodran;Lou;7;4;Lon;4;2;-;800;7;Encombrant 2
+102;Pistolet de dissuasion Arms KD-30;Lég;4;5;Cou;2;0;-;350;6;Perforant2,Sanguinaire1
+102;Lanceur camouflé à main 2-VX;Lég;1;5;Cou;0;0;-;300;5;MunitionLimité3,Dissimulation2
+102;Fusil de chasse Vodran;Lou;7;4;Lon;4;2;-;800;7;Encombrant2
 Thrown;;;;;;;;;;;
 ;;;;;;;;-;;;
 Others;;;;;;;;;;;
-102;Projecteur d'acide Tenloss L70;Lou;6;2;Cou;4;1;-;1250;7;Souffle 6,Incendiaire 3,Sanguinaire 1
-102;Grenade à gaz empoisonné;Lég;0;0;Cou;1;0;-;50;5;Souffle 2,Munitions limités 1
+102;Projecteur d'acide Tenloss L70;Lou;6;2;Cou;4;1;-;1250;7;Souffle6,Incendiaire3,Sanguinaire1,Menace2->BruleAllier
+102;Grenade à gaz empoisonné;Lég;0;0;Cou;1;0;-;50;5;Souffle2,MunitionLimité1,Durée2Rounds
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
@@ -28,11 +28,11 @@ Brawling;;;;;;;;;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Melee;;;;;;;;;;;
-103;Arg'Garok;CàC;5;3;Con;5;3;-;1000;7;Encombrant 5,Mauvaise qualité,Perforant 1,Briseur
-103;Vibro-Glaive de maître des bêtes;CàC;2;2;Con;3;3;-;975;6;Parade 2,Perforant 3
-104;Baton de cortosis Morgukai;CàC;8;1;Con;3;0;I;9000;10;Brêche 1,Cortosis,Parade 1
-104;Fouet neural;CàC;1;4;Cou;1;1;-;750;6;Désorientation 4,Enchevêtrement 1,Dégats Etourdissant
-104;Pic de d?fennse contre les bêtes;CàC;4;3;Con;3;1;-;1050;8;Parade 1,Renversement
+103;Arg'Garok;CàC;5;3;Con;5;3;-;1000;7;2Mains,Encombrant5,MauvaiseQualité,Perforant1,Briseur
+103;Vibro-Glaive de maître des bêtes;CàC;2;2;Con;3;3;-;975;6;2Mains,Parade2,Perforant3
+104;Baton de cortosis Morgukai;CàC;8;1;Con;3;0;I;9000;10;2Mains,Brêche1,Cortosis,Parade1
+104;Fouet neural;CàC;1;4;Cou;1;1;-;750;6;Désorientation4,Enchevêtrement1,DégatsEtourdissant
+104;Pic de d?fennse contre les bêtes;CàC;4;3;Con;3;1;-;1050;8;2Mains,Parade1,Renversement
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Lightsaber;;;;;;;;;;;

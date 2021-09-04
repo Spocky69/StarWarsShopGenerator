@@ -1,8 +1,8 @@
 Energy;;;;;;;;;;;
-42;Blastech DLS-12 carabine blaster lourde;Lou;10;3;Moy;4;3;-;1350;7;Automatique,Encombrant 2
-43;Palandrix KO-2 blaster étourdissant lourd;Lég;8;0;Cou;2;3;-;650;5;Dégats Etourdissement
-43;Security S-5 pistolet blaster lourd;Lég;7;3;Moy;3;1;-;1250;7;Dégats Etourdissement
-43;Pistolet Blaster Réplique Site 145 ;Lég;6;3;Moy;1;0;I;1750;8;Dégats Etourdissement
+42;Carabine blaster lourde Blastech DLS-12 ;Lou;10;3;Moy;4;3;-;1350;7;Automatique,Encombrant 2
+43;Blaster étourdissant lourd Palandrix KO-2;Lég;8;0;Cou;2;3;-;650;5;Dégats Etourdissant
+43;Pistolet blaster lourd Security S-5;Lég;7;3;Moy;3;1;-;1250;7;Dégats Etourdissant,Grappin
+43;Pistolet blaster réplique Site 145 ;Lég;6;3;Moy;1;0;I;1750;8;Dégats Etourdissant,RésonateurDeForce
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
@@ -24,18 +24,18 @@ Others;;;;;;;;;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Brawling;;;;;;;;;;;
-44;Gant bouclier;Pug;+1;5;Con;1;0;-;1500;8;Déviation 2,Dégats Etourdissement
+44;Gant bouclier;Pug;+1;5;Con;1;0;-;1500;8;Déviation2,Dégats Etourdissant,Utilise talent Reflection
 ;;;;;;;;-;;;
 Melee;;;;;;;;;;;
-44;Electrofilet;CàC;6;6;Con;2;0;-;350;6;Enchevêtrement 5,Renversement,Munitions limités 1,Dégats Etourdissement
-45;Bouclier énergetique;CàC;+0;5;Con;2;1;-;1000;7;Choc 1,Parade 1,Déviation 1
-45;Dague de parade;CàC;+1;3;Con;1;0;-;150;5;Parade 1
-45;Vibrolame de parade;CàC;+1;2;Con;1;2;-;400;6;Parade 1,Perforant 2,Sanguinaire 1
-45;Fouet cryogénique Rodien;CàC;+2;3;Cou;1;1;-;1550;7;Enchevêtrement 1,Sanguinaire 2,Imprécis 3
-45;Bouclier Sith;CàC;+1;4;Con;3;2;I;10000;10;Cortosis,Parade 1,Déviation 2,Sanguinaire 1
-45;Batton de frappe;CàC;+1;4;Con;1;1;-;50;4;Désorientation 2
+44;Electrofilet;CàC;6;6;Con;2;0;-;350;6;Enchevêtrement5,Renversement,MunitionLimité1,Dégats Etourdissant
+45;Bouclier énergetique;CàC;+0;5;Con;2;1;-;1000;7;Choc1,Parade1,Déviation1,Désastre->HorsService
+45;Dague de parade;CàC;+1;3;Con;1;0;-;150;5;Parade1
+45;Vibrolame de parade;CàC;+1;2;Con;1;2;-;400;6;Parade1,Perforant2,Sanguinaire1
+45;Fouet cryogénique Rodien;CàC;+2;3;Cou;1;1;-;1550;7;Enchevêtrement1,Sanguinaire2,Imprécis3,PortéeCourte
+45;Bouclier Sith;CàC;+1;4;Con;3;2;I;10000;10;Cortosis,Parade1,Déviation2,Sanguinaire1,DéchargeLaHaine
+45;Batton de frappe;CàC;+1;4;Con;1;1;-;50;4;Désorientation2
 Lightsaber;;;;;;;;;;;
-46;Shoto;Sab;5;2;Con;1;3;I;9700;10;Brêche 1,Parade 1,Déviation 2,Briseur,Imprécis 4
-46;Pic laser des gardien du temple;Sab;6;2;Con;2;4;I;20000;10;Brêche 1,Parade 1,Jumelé 1,Briseur,Imprécis 3,Etourdissement 4
-46;Garde Shoto;Sab;0;0;Con;1;3;-;700;7;Parade 1,Déviation 2,Imprécis 4
-46;Garde Pic laser des gardien du temple;Sab;0;0;Con;2;4;-;2000;9;Parade 1,Jumelé 1,Imprécis 3,Etourdissement 4
+46;Shoto;Sab;5;2;Con;1;3;I;9700;10;Brêche1,Parade1,Déviation2,Briseur,Imprécis4,
+46;Pic laser des gardien du temple;Sab;6;2;Con;2;4;I;20000;10;2Main,Brêche1,Parade1,Jumelé1,Briseur,Imprécis3,Etourdissement4
+46;Garde Shoto;Sab;0;0;Con;1;3;-;700;7;Parade1,Déviation2,Imprécis4
+46;Garde Pic laser des gardien du temple;Sab;0;0;Con;2;4;-;2000;9;Parade1,Jumelé1,Imprécis3,Etourdissement4

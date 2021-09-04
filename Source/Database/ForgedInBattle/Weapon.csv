@@ -1,21 +1,21 @@
 Energy;;;;;;;;;;;
 42;Pistolet blaster SE-14C;Lég;5;4;Cou;1;2;-;650;6;Automatique,Réglage étourdissant
-43;Carabine blaster DH-17;Lou;8;3;Moy;2;3;-;900;6;Automatique,Imprécis 1,Réglage étourdissant
-43;Fusil blaster lourd A280 C;Lou;9;4;Lon;5;2;-;1800;7;Précis 1,Encombrant 3,Réglage étourdissant, Jet réparation diff -1
-43;Canon à pulsation;Lou;9;3;Ext;5;1;I;2750;6;Encombrant 3,Perforant 2,Cadence Lente 1,Charge:Brèche1,Sanguinaire3,Déchargé
-44;Disrupteur à ion T-7;Lou;12;2;Lon;6;2;I;8000;9;Souffle 6,Brêche 2,Encombrant 3,Cadence Lente 1,Sanguinaire 6,Disruption
-44;Arc à énergie Kyuzo;Lou;9;4;Lon;6;1;-;2400;8;Encombrant 3,Renversement,Perforant 5
-44;Canon blastef rotatif Z-6;Lou;12;4;Lon;6;3;I;3000;7;Automatique(forcé),Encombrant 3,Déploiement 1,2menaces->Surchauffe,+2 stress,Endommagé+1
-45;Canon blaster double J-10;Art;13;2;Lon;8;3;I;6750;7;Encombrant 5,Imprécis 1,Jumelé 1,2 menaces -> Surchauffe, +2 stress, Endommagé +1
-45;Canon blaster quadruple Merr-Sonn;Art;10;2;Lon;8;4;I;9950;8;Automatique(forcé),Brêche 1,Encombrant 4,Imprécis 1,Déploiement2,3menaces->DégatCritique-50
-45;Auto-tourelle anti-infanterie Atgar SpaceDefense 1.8 FD;Art;17;2;Ext;25;0;I;12000;6;Automatique,Cadence Lente1,MunitionsLimités8
+43;Carabine blaster DH-17;Lou;8;3;Moy;2;3;-;900;6;Automatique,Imprécis1,Réglage étourdissant
+43;Fusil blaster lourd A280 C;Lou;9;4;Lon;5;2;-;1800;7;Précis1,Encombrant3,RéglageEtourdissant, Jet réparation diff-1
+43;Canon à pulsation;Lou;9;3;Ext;5;1;I;2750;6;Encombrant3,Perforant2,CadenceLente1,Charge:Brèche1,Sanguinaire3,Déchargé
+44;Disrupteur à ion T-7;Lou;12;2;Lon;6;2;I;8000;9;Souffle6,Brêche2,Encombrant3,CadenceLente1,Sanguinaire6,Disruption
+44;Arc à énergie Kyuzo;Lou;9;4;Lon;6;1;-;2400;8;Encombrant3,Renversement,Perforant5
+44;Canon blastef rotatif Z-6;Lou;12;4;Lon;6;3;I;3000;7;Automatique(forcé),Encombrant3,Déploiement1,2menaces->Surchauffe,+2Stress,Endommagé+1
+45;Canon blaster double J-10;Art;13;2;Lon;8;3;I;6750;7;Encombrant5,Imprécis1,Jumelé1,2Menaces->Surchauffe,+2Stress, Endommagé+1
+45;Canon blaster quadruple Merr-Sonn;Art;10;2;Lon;8;4;I;9950;8;Automatique(forcé),Brêche1,Encombrant4,Imprécis1,Déploiement2,3menaces->DégatCritique-50
+45;Auto-tourelle anti-infanterie Atgar SpaceDefense 1.8 FD;Art;17;2;Ext;25;0;I;12000;6;Automatique,CadenceLente1,MunitionsLimités8
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Slugthrowers;;;;;;;;;;;
-46;Pistolet à projectile SH-9;Lég;4;5;Cou;1;0;-;250;4;Perforant 2,Munitions limités 5,Dissimulable1
-46;Fusil berserker;Lou;7;4;Moy;4;0;I;600;5;Incendiaire 1,Encombrant 3,Désorientation 1
-46;Fusil à répétition lourd impérial;Lou;8;4;Moy;3;2;I;1500;7;Automatique,Encombrant 4,Charge:Souffle7,Choc1,Déchargé
+46;Pistolet à projectile SH-9;Lég;4;5;Cou;1;0;-;250;4;Perforant2,MunitionsLimités5,Dissimulable1
+46;Fusil berserker;Lou;7;4;Moy;4;0;I;600;5;Incendiaire1,Encombrant3,Désorientation1
+46;Fusil à répétition lourd impérial;Lou;8;4;Moy;3;2;I;1500;7;Automatique,Encombrant4,Charge:Souffle7,Choc1,Déchargé
 Thrown;;;;;;;;;;;
 ;;;;;;;;-;;;
 Others;;;;;;;;;;;
@@ -28,7 +28,7 @@ Brawling;;;;;;;;;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Melee;;;;;;;;;;;
-48;Vibrodague 'Akrab Clip Point;CàC;+1;2;Con;1;0;-;550;5;Perforant 3,Sanguinaire 1
+48;Vibrodague 'Akrab Clip Point;CàC;+1;2;Con;1;0;-;550;5;Perforant3,Sanguinaire1
 48;Bouclief de combat Kyuzo;CàC;+1;4;Con;3;0;-;750;8;Encombrant3,Parade1,Déviation2,Désorientation1,Lancer->3Avantages boomerang
 48;Vibrolame utilitaire de combat Shistavanen;CàC;+1;2;Con;2;0;-;600;7;Perforant 2,Sanguinaire 1,Jet mécanique+1dés noir,Jet survie+1 dé bleu
 ;;;;;;;;-;;;

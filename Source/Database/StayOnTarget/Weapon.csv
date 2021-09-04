@@ -1,7 +1,7 @@
 Energy;;;;;;;;;;;
-40;Blaster de cavalerie D-45 Dragoon;LÈg;8;3;Moy;1;3;-;1900;6;PrÈcis 1,RÈglage Ètourdissant
-40;Carabine blaster E-5;Lou;9;3;Moy;3;4;-;550;3;ImprÈcis 1,RÈglage Ètourdissant
-41;Pistolet blaster lourd HH-50;LÈg;7;3;Cou;3;2;-;1300;7;JumelÈ 1,RÈglage Ètourdissant,Sanguinaire 1
+40;Blaster de cavalerie D-45 Dragoon;LÈg;8;3;Moy;1;3;-;1900;6;PrÈcis1,RÈglageEtourdissant,1Man LÈgËre->Lourde
+40;Carabine blaster E-5;Lou;9;3;Moy;3;4;-;550;3;ImprÈcis1,RÈglageEtourdissant,3Menaces Dommage+1
+41;Pistolet blaster lourd HH-50;LÈg;7;3;Cou;3;2;-;1300;7;JumelÈ1,RÈglageEtourdissant,Sanguinaire1,2Menace->ZÈroMunition,3Menaces Dommage+1
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
@@ -27,8 +27,8 @@ Brawling;;;;;;;;;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Melee;;;;;;;;;;;
-41;Fouet long;C‡C;1;5;Cou;3;1;-;600;4;EnchevÍtrement 2,DÈg‚ts Etourdissant
-41;"Chockeur d'animaux ""Persuader""";C‡C;2;4;Con;4;2;-;1000;4;Choc 1,Cadence Lente 1,RÈglage Ètourdissant
+41;Fouet long;C‡C;+1;5;Cou;3;1;-;600;4;EnchevÍtrement2,DÈg‚tEtourdissant
+41;"Chockeur d'animaux ""Persuader""";C‡C;+2;4;Con;4;2;-;1000;4;2Mains,Choc1,CadenceLente1,RÈglageEtourdissant
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;

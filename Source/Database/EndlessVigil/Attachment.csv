@@ -1,9 +1,9 @@
 Weapon;;;;;;;
-51;Emetteur d'amortissement ;-;2000;0;1;7;
-51;Cellule de surcharge énergétique ;-;500;0;1;6;
-52;Poignée pistolet;-;750;0;2;5;
-52;Prise réflexe;-;4000;0;2;8;
-52;Poignée inversée personnalisée Shien;-;100;0;1;6;
+51;Emetteur d'amortissement ;-;2000;0;1;7;Sabre Laser, Manoeurvre:Dgts étourdissant->Dgts-2,crit+1,Brêche-1,Mods:Dgts Etourdissant+1 (2)
+51;Cellule de surcharge énergétique ;-;500;0;1;6;Sabre laser,1Av dgt+1, 2Men dgt-1
+52;Poignée pistolet;-;750;0;2;5;Sabre laser,Pistolet,Dgt6,Crit3,Courte,Dégats étourdissant
+52;Prise réflexe;-;4000;0;2;8;Sabre laser,Utilise parade,réflexion+1stress->+1talent Mods:Parade+1,Déflexion+1
+52;Poignée inversée personnalisée Shien;-;100;0;1;6;Sabre laser,+1Av(Ruse),+1Men(Autre)
 ;;-;;;;;
 ;;-;;;;;
 ;;-;;;;;
@@ -36,7 +36,7 @@ Vehicle;;;;;;;
 ;;-;;;;;
 ;;-;;;;;
 Crystal;;;;;;;
-42;Crystal Etaan;I;12000;0;1;9;
-42;Crystal de feu fantôme;I;14000;0;1;9;
+42;Crystal Etaan;I;12000;0;1;9;Sabre laser,Reflect+1,Dgt+2 Mods:Vicieux+1,Dgt+1(2),Crit-1,Parer+1,Réfléchir+1
+42;Crystal de feu fantôme;I;14000;0;1;9;4Av->Empêche Parer Mods: Parade+1(2),Dgts+1(2)
 ;;-;;;;;
 ;;-;;;;;

@@ -13,14 +13,14 @@ Energy;;;;;;;;;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Slugthrowers;;;;;;;;;;;
-39;Fusil ‡ air condensÈ model 77;Lou;6;0;Lon;3;3;-;1100;6;Perforant 4,DÈgats Etourdissant
-40;Fusil de sniper model 38;Lou;8;3;Ext;5;4;-;3000;6;PrÈcis 2,,Perforant 3
+39;Fusil ‡ air condensÈ model 77;Lou;6;0;Lon;3;3;-;1100;6;Perforant4,DÈgats Etourdissant,500 cr FlËche SmartTranq(Resit2,5Stress)
+40;Fusil de sniper model 38;Lou;8;3;Ext;5;4;-;3000;6;Perforant 3,PrÈcis 2(Meca diff3),Mun:DÈtonante souffle(5),Renversement,450cr,Rar7
 41;Marteleur KS-23;Lou;8;4;Cou;5;4;-;1500;5;Souffle 6,Renversement
 Thrown;;;;;;;;;;;
 ;;;;;;;;-;;;
 Others;;;;;;;;;;;
-42;Canon ‡ filet ;Lou;3;0;Cou;4;2;-;750;5;EnchevÍtrement 5
-42;Grenade bloquante;LÈg;0;0;Cou;1;0;-;100;6;Souffle X,EnchevÍtrement 3
+42;Canon ‡ filet AO14 Aranea;Lou;3;0;Cou;4;2;-;750;5;EnchevÍtrement 5
+42;Grenade expansive G-20;LÈg;0;0;Cou;1;0;-;100;6;Souffle X,EnchevÍtrement 3(auto),DÈlais 0-15s,DurÈe 5Min,Coord1->Suffocation,
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
@@ -29,8 +29,8 @@ Brawling;;;;;;;;;;;
 ;;;;;;;;-;;;
 Melee;;;;;;;;;;;
 42;Perforatrice ‡ pulsation G9-GP;C‡C;5;4;Con;5;2;-;1100;4;BrÍche 1,Encombrant 3,ImprÈcis 2
-42;Vibrolance de chasseur;C‡C;3;3;Con;4;2;-;950;6;Perforant 2,Sanguinaire 2
-43;Vibroscie MK. VIII;C‡C;4;2;Con;6;3;-;1500;5;Encombrant 5,Perforant 2,Briseur,Sanguinaire 2
+42;Vibrolance de chasseur;C‡C;+3;3;Con;4;2;-;950;6;Perforant 2,Sanguinaire 2, 2 mains
+43;Vibroscie MK. VIII;C‡C;+4;2;Con;6;3;-;1500;5;Encombrant 5,Perforant 2,Briseur,Sanguinaire 2, 2mains, DÈsastre se touche soi mÍme
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;

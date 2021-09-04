@@ -1,6 +1,6 @@
-44;Armure pour animaux;1;1;-;2500;4;0;5
-44;Armure en peau de bête;0;1;-;500;3;0;2
-45;Armure en Chitin;0;2;-;600;4;1;6
-45;Armure de survie Creshaldyne;0;1;-;550;3;2;6
-;;;;-;;;;
-;;;;-;;;;
+44;Armure pour animaux;1;1;-;2500;4;0;5;Animal,Monte sans penalité
+44;Armure en peau de bête;0;1;-;500;3;0;2;Coercition+1Av,Calme+1Menace
+45;Armure en Chitin;0;2;-;600;4;1;6;Coercition+1Av,Calme+1Menace
+45;Armure de survie Creshaldyne;0;1;-;550;3;2;6;Encombrement+1
+;;;;-;;;;;
+;;;;-;;;;;

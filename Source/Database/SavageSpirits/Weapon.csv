@@ -1,7 +1,7 @@
 Energy;;;;;;;;;;;
-40;Blaster de chasse M-300;Lou;8;3;Ext;4;1;-;1600;6;PrÈcis 1,Encombrant 2,Perforant 2,DÈgats Etourdissement
-40;Fusil d'ÈlÈlimination CR-8;Lou;9;3;Ext;4;1;I;3250;7;PrÈcis 2,DÈploiement 1,Perforant 2,Cadence Lente 1
-40;Arc ‡ Ènergie des soeurs de la nuit;Lou;8;2;Moy;4;2;I;2800;8;Perforant 4,Sanguinaire 2,ImprÈcis 3 
+40;Blaster de chasse M-300;Lou;8;3;Ext;4;1;-;1600;6;PrÈcis1,Encombrant2,Perforant2,DÈgatEtourdissement,PortÈeLongueDiff-1
+40;Fusil d'ÈlÈlimination CR-8;Lou;9;3;Ext;4;1;I;3250;7;PrÈcis2,DÈploiement1,Perforant2,CadenceLente1,Dissimulation2
+40;Arc ‡ Ènergie des soeurs de la nuit;Lou;8;2;Moy;4;2;I;2800;8;Perforant4,Sanguinaire2,ImprÈcis3 
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
@@ -18,22 +18,22 @@ Slugthrowers;;;;;;;;;;;
 Thrown;;;;;;;;;;;
 ;;;;;;;;-;;;
 Others;;;;;;;;;;;
-41;Fusil de chasse 'Ferme' ;Lou;7;5;Lon;5;4;-;500;6;PrÈcis 1,Encombrant 2
-41;Arc composite de sport;Lou;5;4;Moy;4;2;-;500;7;Encombrant 3,Munitions limitÈs 1,Perforant 1,Sanguinaire2
-42;FlËche explosive ;Lou;6;3;Moy;0;0;-;50;5;Souffle 4,Munitions limitÈs 1
-42;FlËche incendiaire ;Lou;6;5;Moy;0;0;-;60;5;Incendiaire 2,Munitions limitÈs 1
-42;FlËche filet;Lou;7;0;Moy;0;0;-;30;5;EnchevÍtrement 2,Munitions limitÈs 1
-42;FlËche Ètourdissante;Lou;6;0;Moy;0;0;-;60;6;DÈgats Etourdissement,Munitions limitÈs 1
-41;Fusil ‡ air comprimÈ ;Lou;6;0;Lon;3;5;-;1100;6;Perforant 4,DÈgats Etourdissement
-42;Canon ‡ filet 'Aranea';Lou;3;0;Moy;4;2;-;775;5;EnchevÍtrement 5,Munitions limitÈs 1
+41;Fusil de chasse 'Paysan' ModËle57 ;Lou;7;5;Lon;5;4;-;500;6;PrÈcis1,Encombrant2
+41;Arc composite de sport FS19;Lou;5;4;Moy;4;2;-;500;7;Encombrant3,MunitionLimitÈ1,Perforant1,Sanguinaire2
+42;FlËche explosive ;Lou;6;3;Moy;0;0;-;50;5;Souffle4,MunitionLimitÈ1
+42;FlËche incendiaire ;Lou;6;5;Moy;0;0;-;60;5;Incendiaire2,MunitionLimitÈ1
+42;FlËche filet;Lou;7;0;Moy;0;0;-;30;5;EnchevÍtrement2,MunitionLimitÈ1
+42;FlËche Ètourdissante;Lou;6;0;Moy;0;0;-;60;6;DÈgatEtourdissement,MunitionLimitÈ1
+41;Fusil ‡ air comprimÈ ModËle77;Lou;6;0;Lon;3;5;-;1100;6;Perforant4,DÈgatEtourdissement
+42;Canon ‡ filet Aranea AO14;Lou;3;0;Moy;4;2;-;775;5;EnchevÍtrement5,MunitionLimitÈ1
 Brawling;;;;;;;;;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Melee;;;;;;;;;;;
-432;Couteau d'explorateur ;C‡C;+1;3;Con;2;0;-;100;3;Sanguinaire 1
-43;Hache Lon;C‡C;+3;5;Con;5;1;-;610;4;Parade 1,Perforant 2,ImprÈcis 2
-43;Vibrolance 'Stalker';C‡C;+2;2;Con;4;2;-;490;6;Parade 1,Perforant 2,Sanguinaire 2
-44;Lance ÈnergÈtique Mon Cal;C‡C;+3;2;Con;4;2;-;1500;6;Encombrant 3,Perforant 3
-44;Nano-dague MSW-12;C‡C;+1;2;Con;1;0;-;700;6;Perforant 5,Sanguinaire 1
-44;Vibro-machette;C‡C;+2;2;Con;2;1;-;550;4;Perforant 1,Sanguinaire 2,Briseur
+432;Couteau d'explorateur ;C‡C;+1;3;Con;2;0;-;100;3;Sanguinaire1,Survie +1DÈ bleu
+43;Hache d'arme Laserhon;C‡C;+3;5;Con;5;1;-;610;4;2Mains,Parade1,Perforant2,ImprÈcis2
+43;Vibrolance 'Stalker' ModËle14;C‡C;+2;2;Con;4;2;-;490;6;2Mains,Parade1,Perforant2,Sanguinaire2,2Men->Survie+2DÈNoir
+44;Lance ÈnergÈtique Mon Cal;C‡C;+3;2;Con;4;2;-;1500;6;Encombrant3,Perforant3
+44;Nano-dague MSW-12;C‡C;+1;2;Con;1;0;-;700;6;Perforant5,Sanguinaire1,3Menaces->Dommage+1
+44;Vibro-machette;C‡C;+2;2;Con;2;1;-;550;4;Perforant1,Sanguinaire2,Briseur
 ;;;;;;;;-;;;

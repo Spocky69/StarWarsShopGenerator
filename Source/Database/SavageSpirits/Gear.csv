@@ -1,73 +1,73 @@
-Communications;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Poisons;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Detection;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Medical;;;;;
-48;Kit de soin;-;0;2;0
-48;Kit vétérinaire portatif;-;500;2;5
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Cybernetic;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Recreational;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Security;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Survival;;;;;
-46;Appat vocal;-;100;1;3
-46;Sac à dos modulaire MK. III;-;15;0;1
-46;Poche supplémentaire modulaire MK. III;-;15;0;1
-46;Harnais de chargement modulaire;-;500;0;5
-46;Chargement modulaire supplémentaire;-;350;0;4
-47;Équipement de monte;-;100;3;4
-47;Sac de selle;-;25;0;4
-47;Cuisine de camp 'flashfire';-;60;2;4
-47;Kit de table;-;10;0;3
-47;Purificateur d'eau;-;50;1;2
-;;-;;;
-Tools;;;;;
-49;Navordinateur à main ;-;3500;1;8
-49;Equipement de géomètre;-;500;6;6
-49;Kit de maintenance d'armes;-;450;2;3
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
-Droids;;;;;
-;;-;;;
-;;-;;;
-;;-;;;
-;;-;;;
+Communications;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Poisons;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Detection;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Medical;;;;;;
+48;Kit de soin;-;0;2;0;Fabriqué Survie Diff3, Enlève pénalité, Remplir Survie Diff2
+48;Kit vétérinaire portatif;-;500;2;5;Medecine,Survie,Xenologie +1Dé bleu soigner animaux
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Cybernetic;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Recreational;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Security;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Survival;;;;;;
+46;Appat vocal;-;100;1;3;Cible Sang-Froid Diff2,Enregistrement Informatique Diff2
+46;Sac à dos modulaire MK. III;-;15;0;1;Encombrement+2,6PochesMax
+46;Poche supplémentaire modulaire MK. III;-;15;0;1;Encombrement+1
+46;Harnais de chargement modulaire;-;500;0;5;AnimauxSilhouette2+,Encombrement+6,4ModuleSupplémentaire
+46;Chargement modulaire supplémentaire;-;350;0;4;AnimauxSilhouette2+,Encombrement+3
+47;Équipement de monte;-;100;3;4;Animaux,Retire penalité (p73)
+47;Sac de selle;-;25;0;4;AnimauxDeMonte,Encombrement+4
+47;Cuisine de camp 'flashfire';-;60;2;4;
+47;Kit de table 'Survivaliste';-;10;0;3;
+47;Purificateur d'eau;-;50;1;2;10min, 1 personnes, 1 jour
+;;-;;;;
+Tools;;;;;;
+49;Navordinateur Microaxial à main ;-;3500;1;8;Astrogation +2dé bleu, +1 dé bleu en dehors de l'holonet
+49;Equipement de géomètre;-;500;6;6;Perception +1-2dé bleu cartographie
+49;Kit de maintenance d'armes;-;450;2;3;Spécialisé,Mécanique +2Dé bleu réparer,modifier,maintenir
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;

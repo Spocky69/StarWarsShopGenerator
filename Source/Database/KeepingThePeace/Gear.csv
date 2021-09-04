@@ -33,7 +33,7 @@ Tools;;;;;;
 53;Casque aveuglant WJ-880;I;10;3;8;+3 dés noirs jet combat, améliore entrainement à la force
 ;;-;;;;
 Droids;;;;;;
-49;GV-3-series droid de surveillance;-;8000;10;7;Rival, CaC, Perception, Blaster léger, Vigilance, Garde du corps
-50;Marksman-H combat hologuidé;-;350;1;5;Minion, Perception, Blaster léger, boule volante
-50;RMD-20 'Oeil dans le Ciel';-;500;1;4;Minion, Perception, vigilance, boule volante, 24h
+49;GV-3-series droid de surveillance;-;8000;10;7;Rival,CaC3,Perception3,BlasterLéger2,Vigilance2,Garde du corps
+50;Marksman-H combat hologuidé;-;350;1;5;Minion,Perception,BlasterLéger,BouleVolante
+50;RMD-20 'Oeil dans le Ciel';-;500;1;4;Minion,Perception,Vigilance,BouleVolante,24h
 ;;-;;;;
