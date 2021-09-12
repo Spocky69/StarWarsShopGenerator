@@ -4,53 +4,48 @@ Humain, ancien mécano
 ------------ Matériel ------------------------------------------------------------------------------------------------------------------------
 Liv P   Nom                                     I Prix     Enc Rar Description                                                            
 ---- Cybernétique -----------------------------------------------------
+SoF 101 Interface avionique                     - 8000     0   6   +1 pilotage (espace, planétaire)                                       
+LNH 107 Implant de slicer                       - 3750     0   6   +2 stress -> -1 diff jet informatique                                  
+LNH 107 Traqueur rétinien Q-22                  - 2500     0   6   +1 avantage jet artillerie ou Armes lourdes                            
 LNH 106 Réflexe cybernétique                    - 2000     0   4   +1 rang réaction éclair                                                
-EoE 175 Implant cognitif                        - 10000    0   6   +1 Int                                                                 
-SoR 112 Interface Droid  Neuro-Saav             - 600      0   4   Nécessite implant cognitif, Améliore jet informatique pour pirater ... 
+LNH 106 Moniteur de menace                      - 2750     0   5   +1 avantage jet Init, Mod : +1 avantage (2), +1 rg coup éclair         
+LNH 107 Point répulseur                         - 4750     0   7   +1 rang garde stratégique, Dégats 8, Crit 3, Choc 1, Cadence lente ... 
 
 ---- Outils -----------------------------------------------------------
+DoH 49  Système de traduction avancée           - 1200     2   2   Jet Charme, Coercition, Nego -2 si différence de langue                
 LbE 47  Base Modulaire Bunker                   - 4900     50  3   Défense 2 à l'intérieur                                                
-Fho 48  Instrument de musique                   - 100      3   2   
-Nod 53  Pisteur holonet                         - 500      0   3   Tracer une cible à travers la galaxie connue                           
+Nod 53  Scan biologique                         - 2000     1   1   +1 dé bleu vs Discretion,Vérifier identité Jet info diff2              
 
 ---- Droids -----------------------------------------------------------
-Fho 49  Mini-med Medtech                        - 900      0   3   
-DoH 55  Droid dd sauvetage Série SBD            - 7500     0   3   Médecine, Jet Per Diff-2                                               
+DoH 54  Droid de support Serie BD-10            - 8500     0   5   Jet Nego +1 (bordure ext), Spécialisé Brodure Ext, Malin               
+DAl 58  Droid de protocole Série-LOM            - 8500     0   5   Jet Nego +1, -1 Insectoide, Alliance                                   
 
 
 ------------ Améliorations -------------------------------------------------------------------------------------------------------------------
 Liv P   Nom                                     I Prix     Enc Emp Rar Description                                                            
 ---- Kit d'arme ----------------------------------------------------------------
-Nod 51  Émetteur de choc                        - 1500     0   2   5   Cac,Pugilat,Etourdissement+2,Mods:Etourdissement+1(2),Désorientation+1 
-Smo 56  Blaster à ion secondaire                - 400      2   2   6   Dgt10,Crit5,Désorienté5,Ion,Encombrant+1,Encombrement+1,Mods:Dgt+1(2)  
-Smo 55  Module de surcharge                     - 650      0   1   7   Pistolet,Carabine,Dgt+1,2Désastre Endommagé+1,Mods:Dgt+1               
-Smo 55  Chargeur rapide Xciter                  - 750      0   1   7   Blaster,Automatique,Imprécis3,Mods:Imprécis-1(2)                       
-EoE 191 Canon accélérateur                      - 1750     0   2   4   Fusil : Dégats +1, +1 dé noir entretien, Mod : Dégats +1 (2) Précis... 
-EVi 52  Poignée pistolet                        - 750      0   2   5   
-DoH 51  Blaster étourdissant                    - 750      1   3   5   Ajoute un blaster étourdissant dans le pomeau (dgt 5)                  
-Smo 54  Scanner intégré                         - 675      0   2   5   Lourde,Scanner général,+2Avantages jet Init,Mods:-1Dé noir(2)          
-FCa 51  Gachette facile                         - 450      0   1   4   1er jet : +1 succès +1 menace, Mods : +1 succès                        
-FiB 51  Visée intégrée pour blaster             - 150      0   1   4   -1dé noir pour visée une partie du corps                               
-EoE 193 Tête lestée                             - 250      0   2   3   Pugilat ou CaC contondant : Dégats +1, Mod : Dégats +1, Etourdissem... 
+DCo 52  Attache poignet model 2                 - 275      0   2   5   Lég : Permet de tirer avec les mains libres                            
+DCo 52  Viseur laser                            - 500      0   1   5   +1 avantage                                                            
+UPo 55  Canne de dissimulation                  - 2500     0   1   6   SabreLaser,Percep Diff5 trouver sabre, Imprécis+1 Mods: Imprécis-1     
+DCo 52  Poignée pour pistolet H9                - 400      0   1   3   Lourde : Comp devient Lég, jet -1 si une main, Portée max moy          
+EoE 192 Module de mise à feu pour blaster       - 500      0   1   4   Pistolet : Dégats +1, +1 dé noir jet attaque, Mod : Dégats +1 (2), ... 
+SoR 110 Réducteur de signature                  - 1000     0   1   6   Diff +2 pour trouver l'arme, +1 dé noir maintenance                    
+EoE 191 Harnais                                 - 500      0   2   2   Arme lourde ou artillerie : Encombrement -2 , Mod : Stabilité          
+DCo 51  Verrou génétique                        - 500      0   1   7   Auto-Déstruction si pas autorisé                                       
+KtP 53  Paramètre de surcharge énergétique      - 500      0   3   5   Vibrolame,Manœuvre : Sanguinaire 3, 3 menaces -> arrêt, Mods : +1 a... 
+SPi 50  Kit d'adaptation environnementale       - 100      0   1   2   ArmeDistance,Résiste à un type d'environement(acide,chaleur, etc.)     
 Smo 54  Cellule énergétique optimisée           - 100      0   1   5   Energétique,+1désastre pour être à court de munitions                  
-KtP 53  Paramètre de surcharge énergétique      - 500      0   3   5   Vibrolame, Manœuvre : Sanguinaire 3, 3 menaces -> arrêt, Mods : +1 ... 
-EoE 189 Arme sur mesure                         - 5000     0   1   6   Bonne qualité, +1 avantage, Dégats +1                                  
-EoE 189 Bipied                                  - 100      0   1   1   Fusil : Encombrant - 2 si déployé                                      
 
 ---- Kit d'armure --------------------------------------------------------------
-Nod 52  Etui intégré                            - 300      4   2   4   Encombrement+3,cache 2 armes Encombrement<=3,Mods:+1noir trouver ar... 
-KtP 56  Sauvegarde                              - 900      2   2   4   
-Nod 52  Répulseur intégré                       - 1000     0   2   3   Vigueur+5(pour encombrement),Mods:Vigueur+1(2),Athlétisme+1(2)         
-LNH 106 Moniteur anti-menace                    - 750      0   1   4   
+Smo 57  Forme personnalisée                     - 400      0   1   3   Athlétisme/Discretion-1DéNoir Mods : -1DéNoir                          
+KtP 56  Recouvrement anti-friction              - 750      0   1   5   DéfenseMelée+1,Réparer/modifier +2dé noir,Mods:Coordination+1          
+KtP 56  Armure à pic                            - 500      2   3   2   Encombrement+2,CacAdversaire:3Menaces->Att:6dgt,Mods:dgt+1(3),Talen... 
+DCo 54  Scanner intégré Omniscan 3              - 1000     0   1   4   Ajoute Détecteur universel, perception +1 mouvement / ennemi           
+Smo 58  Equipement de slicer intégré            - 750      0   3   6   OutilSlicer,CommandeVocale,DétecterSlicing+1DéNoir                     
+Nod 52  Système de pistage                      - 1000     0   1   7   Améliore jet pistage,Mods:Vigilance+1,Survie+1                         
 
 ---- Vehicle -------------------------------------------------------------------
-EoE 230 Lance missile à concussion              - 7500     0   1   5   
-EoE 230 Canon ionique moyen                     - 6000     0   1   6   
-
-
------------- Marché Noir ---------------------------------------------------------------------------------------------------------------------
-Liv P   Nom                                     I Prix     Enc Rar Description                                                            
----- Drogues ----------------------------------------------------------
-NoP 105 Inhalateur de souffre                   - 120      0   3   Dévanorien, Manœuvre -> +2 stress, +1 dé bleu jet vigueur, agilité ... 
+EoE 230 Rayon tracteur lourd                    - 10000    0   1   6   
+SoT 65  Circuit de controle à distance          - 10000    0   2   1   
 
 

@@ -1,7 +1,7 @@
 Drogs;;;;;;
-;;I;;;;
-;;I;;;;
-;;I;;;;
+52;Cendre de Malachor;I;750;0;8;5Conflits->+1Succès,+1Av Fin de la rencontre
+53;Baume calmant;-;25;0;3;SensibleForce,JetForce:1Clair->-1Stress
+53;Poudre stimulante de caf;-;3;0;4;1Heure,SangFroid Diff3,Echec->+2Stess
 ;;I;;;;
 ;;I;;;;
 ;;I;;;;
@@ -12,11 +12,11 @@ Drogs;;;;;;
 ;;I;;;;
 ;;I;;;;
 Illegal;;;;;;
-;;I;;;;
-;;I;;;;
-;;I;;;;
-;;;;;;
-;;;;;;
+52;Holocron Dai Bendu;I;125000;1;10;SangFroid diff2-5,1/jour améliorex2 carac
+52;Chronique Lasan de l'arbre;-;3000;0;7;Jet Culture,Perception,sang-Froid Diff3,Bonus divers
+53;Puzzle d'anneau Thisspiasien;-;500;1;8;1Heure,SangFroid Diff3,Echec->+2Stess,Réussite->Vision
+54;Cubes de vision;-;1000;0;6;DevinerFutur,Av->Succès,Menace->Echec
+54;Orbe de méditation Vurk;-;1000;2;6;Méditation 1Heure->24h,+2Stress->+1Force Altération ou MéditationDeCombat
 ;;;;;;
 ;;;;;;
 ;;;;;;

@@ -88,6 +88,7 @@ namespace ShopGenerator
 		StayOnTarget,
 		StrongholdsOfResistance,
 		SunsOfFortune,
+		UnlimitedPower
 	}
 
 	public enum ElementType

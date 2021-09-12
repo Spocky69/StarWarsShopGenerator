@@ -1,7 +1,7 @@
 Weapon;;;;;;;
-;;-;;;;;
-;;-;;;;;
-;;-;;;;;
+54;Bobine de stabilisation Thisspiasien;-;5500;0;1;5;SabreLaser,-1 dé noir
+54;Poignée Cœur de bois Tholothien;-;8000;0;1;7;SabreLaser,Encombrement+1,+2Succès,Fragile4
+55;Canne de dissimulation;-;2500;0;1;6;SabreLaser,Percep Diff5 trouver sabre, Imprécis+1 Mods: Imprécis-1
 ;;-;;;;;
 ;;-;;;;;
 ;;-;;;;;
@@ -36,7 +36,7 @@ Vehicle;;;;;;;
 ;;-;;;;;
 ;;-;;;;;
 Crystal;;;;;;;
-;;-;;;;;
-;;-;;;;;
+55;Cristal tainté de sœur de la nuit;I;13000;0;2;10;Dgt6,Crit2,Breche1,Briseur,Désorientation3,Sanguinaire4 Mods: Dgt+1,Désorientation+1
+55;Cristal Kyber instable;I;16000;0;2;10;Dgt6,Crit2,Breche1,Briseur,1manoeuvre->+1Force,Fragile4
 ;;-;;;;;
 ;;-;;;;;
