@@ -1,0 +1,72 @@
+Communications;;;;;;
+45;Ecouteur Comlink;-;75;0;5;Longue portée,Détecter Per Diff3
+;;-;;;;
+;;-;;;;
+Poisons;;;;;;
+42;Cristal confiné;I;500;0;8;JetResistance Diff1R3P,10dgt+Crit+40,3Menaces->Mort
+43;Cyanoxis D-570;-;50;1;4;JetResistance Diff3,2dgt+2stress,1dgt+1stress(10j),1menace->+1stress
+43;Skirtopanol;I;500;0;8;JetResistance Diff3,+5stress,Diff resist charme-coercition aug1,1Men+2stress
+43;Vutalamine;-;125;0;5;24h,JetPeur Améliorer1,ArmeLégère/Lourde diff-1. Intel/Ruse+1dé noir
+Detection;;;;;;
+46;Scanneur de surveillance;-;750;2;5;Améliore détection micro,champ magnétique
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+;;;;;;
+Medical;;;;;;
+46;Détecteur de toxine;-;125;1;4;Détecte poison, nourriture gaté
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Cybernetic;;;;;;
+44;Bombe cérébrale;I;1200;0;6;Tue le porteur
+44;Déguisement cybernétique;I;18000;0;8;Kit de déguisement,Activation Tromperie Diff3
+44;Main de crochetage;I;2200;0;6;Désactivé sécurité -1Dé noir+1Dé bleu
+44;Main outil multiusage;-;650;0;4;Permet de soigner droid,Jet réparation
+45;Réducteur de douleur;-;1800;0;6;Résistance Douleur améliore le jet
+45;Implant rétinien;I;1250;0;6;Passer scanner rétinien,6rétines,Per Diff2,Jet Calme-Tromperie Diff1-3
+45;DataImplant;-;900;0;4;Stockage donnée sécurisé,Trouver->Per Diff4
+45;Implant d'émulateur vocal;-;1300;0;5;Changer de voix,Acquérir voix tromperie diff3
+;;-;;;;
+;;-;;;;
+Recreational;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Security;;;;;;
+45;Pic de donnée;I;100;1;3;1Utilisation,Désactive Programme sécurité Diff-2
+46;Déguisement holographique;-;1100;2;6;Déguisement même taille corpulence, Détection diff2-4
+46;Mem-Stick;-;30;0;2;
+46;Brouilleur Vid-Vox;-;2400;2;8;4m,Passer brouillage Per Diff4,Décrypter Info Diff4
+Survival;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Tools;;;;;;
+47;Sac d'agent;-;200;2;7;Couteau de lancer,Microscanner,encombrement+2,micro,enregistreur holo
+47;Trousse d'évasion dissimulée;-;450;0;7;PinceCoupante,Memstick,Fil en duracier,Cutter laser,Monolame(dgt+1,crit3,Perforant1)
+48;Ceinture explosive;I;450;1;7;Mec diff2,Dgt15,Crit3,Con,Souffle5,Breche1,Detecter Diff améliorerX2
+48;Copieur d'empreinte digital;I;1000;0;7;Calme-Tromperie Diff1-3,Detecter Diff4
+48;Montre garrot;I;100;0;5;Garrot retractable
+48;Kit de crochetage;I;50;1;6;Ouvrir porte mécanique et électronique
+49;Cape d'ombre;I;2500;2;6;Statique,1h,Recharge4h,Détecter Diff3-4
+49;Cable tranchant;-;200;1;7;10m,Cac,Dgt+2,Crit2,Con,Perforant2,Sanguinaire3,3Menaces se blesse lui-même
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+49;Droid de surveillance AC1;-;1100;0;4;Minion,Perception,ArmeLégère,Discretion
+50;Droid assassin E522;I;61000;0;8;Nemesis,Pugilat3,Coercition4,Info2,Artillerie3,Macanique2,CorpsACorps3,ArmeLégère4,Vigilance4
+51;Droid Slicer LSX;I;19000;0;8;Rival,Informatique4,Calme3,Tromperie3,SangFroid2,Mecanique2,Perception4,Magouille3,Discretion2
+52;Droid Messager série-M4;-;6500;0;6;Rival,Ruse3,Volonté3,Perception3,Resistance3,Discretion3,Vigilance2,Calme2
+53;Droid Messager Signal-Q;-;50500;0;6;Rival,Vaisseau(Silhouette2),Intelligence2,Ruse2,Perception2,PilotageEspace2,Discretion2
+53;Droid de protocole RA-7;I;12000;0;6;Rival,Intelligence3,Ruse3,Education3,Xénologie3,Negociation3,Perception4,Magouille3
+54;Droid de renseignement militaire RM;I;43000;0;7;Nemesis,Vigueur4,Ruse4,Volonté4,ArtDeLaGuerre4,Mécanique4,Perception4,ArmeLourde4
+55;Droid d'interrogatoire Série TS;I;58000;0;9;Rival,Intelligence4,Ruse4,Coercition4,Education3,Xénologie4,Medecine4,Perception4

@@ -1,0 +1,41 @@
+Energy;;;;;;;;;;;
+38;Pistolet Blaster Lourd Convertible;Lég;8;3;Moy;3;1;I;1700;7;RéglageEtourdissant,ModeLourd:Précis1,Perforant1
+38;Pistolet Blaster Léger Fantome CS14;Lég;5;3;Cou;1;0;I;550;6;RéglageEtourdissant,PerceptionDiff4->Trouver
+39;Fusil Blaster Dard de la Nuit;Lou;10;2;Ext;7;4;-;6500;9;Précis2,Encombrant3,Perforant1,RéglageEtourdissant,ModeDissimulation:TirIndétectable,CadenceLente2
+39;Pistolet Blaster Lourd à Répétition;Lég;6;3;Cou;2;2;-;2100;5;Automatique,Imprécis1,Surcharge2
+40;Blaster de poignet;Lég;6;3;Con;1;0;I;1200;6;MunitionLimité1,Perforant4,PerceptionDiff4->Trouver,3Menaces->3Dgt utilisateur
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Slugthrowers;;;;;;;;;;;
+39;Lance Disque Dissimulable MK-127;Lég;6;3;Cou;0;1;-;800;7;MunitionLimité4,Perforant1,Sanguinaire1,PerceptionDiff4->Trouver,Mode Explosion Souffle6,
+;;;;;;;;;;;
+Thrown;;;;;;;;;;;
+;;;;;;;;-;;;
+Others;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Brawling;;;;;;;;;;;
+40;Garrot;Pug;0;0;Con;1;0;-;50;2;RéglageEtourdissant,Suffoque,PugilantVsPugilant+1dénoir/tour
+40;Gant de cogneur;Pug;+2;5;Con;1;1;-;50;4;Choc1,PerceptionDiff4->Trouver
+;;;;;;;;-;;;
+Melee;;;;;;;;;;;
+40;Dague Moléculaire MMD-18;CàC;+2;3;Con;1;1;-;100;4;Perforant2,Fragile3
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Lightsaber;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;

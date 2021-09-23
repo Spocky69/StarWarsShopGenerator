@@ -67,6 +67,7 @@ namespace ShopGenerator
 	public enum BookType
 	{
 		AgeOfRebellion,
+		CyphersAndMasks,
 		DangerousCovenant,
 		DesperateAllies,
 		DisciplesOfHarmony,
@@ -123,13 +124,15 @@ namespace ShopGenerator
 		Others,
 		Brawling,
 		Melee,
-		Lightsaber
+		Lightsaber,
+		Tools
 	}
 
 	public enum ElementSubTypeAttachment
 	{
 		Weapon,
 		Armor,
+		Tool,
 		Vehicle,
 		Crystal
 	}

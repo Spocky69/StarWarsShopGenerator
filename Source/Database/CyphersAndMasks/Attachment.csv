@@ -1,0 +1,51 @@
+Weapon;;;;;;;
+56;Arme en kit;-;1150;0;2;5;Sépare une arme en pièces,Repérer Arme Mecanique-Magouille Diff5
+56;Allègement du chassis;-;650;0;1;3;Encombrement-1 Mods : Encombrement-1
+57;Matériaux indétectables;I;1000;0;2;6;Indétectable au scanner,Détecter Jet Info Diff3, 2Menaces->Hors service Mods: Encombrement-1
+n;Surchargeur Xciter;I;1100;0;2;7;Déploiement1,Dgt+4,ACourtDeMunitions,3Menaces->ArmeExplose
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+Armor;;;;;;;
+57;Insertion de plaque;-;450;0;0;3;Max Defense0,Encaissement1->Encaissement2,Détecter Per Diff2 Mods: Encaissement+1,Défense+1,Détection+1
+57;Lame de botte;-;100;0;0;5;Rétractable,Dgt+1,Crit3 Mods: Crit-1,Perforant+1(2),Sanguinaire+1
+58;Botte de saut;-;1200;0;1;6;Athlétisme Diff-1 sauter Mods : Athlétisme Diff-1,Vol 1 minute-3tours
+58;Surface adaptative réfléchissante;I;3500;0;2;7;Améliore Discretion Mods : Discretion +1Dé bleu(2)
+58;Protection anti-scanner;I;1800;0;2;6;Améliore Discretion contre scanner
+58;Générateur de champ furtif;I;3800;0;2;7;Améliore diff Détection Mods : +1Dé noir(2)
+;;-;;;;;
+;;-;;;;;
+Tool;;;;;;;
+59;Micro pour comlink;-;150;0;0;4;Portée moyenne, Diffuse les conversations
+59;Corde d'escalade dissimulé;-;100;0;0;2;25m,Corde+Grappin
+59;Pistolet à fléchette;-;200;0;0;4;Dgt2,Crit5,Perforant1,Munition1
+59;Compartiment caché;-;50;0;0;3;Cache objet Encombrement0-2,Détecter Diff3 Mod: Détecter Diff+1
+60;Convertisseur holo;-;600;0;0;6;Modifie projection holo Mods: +1Apparence(2)
+60;Holocam miniature;-;300;0;0;5;Portée3m,Faible résolution,5Minutes
+60;Garrot rétractable;-;200;0;0;6;Fournit un garrot (P40)
+60;Système d'auto-déstruction;-;550;0;0;5;Dgt5,Contact Mod: Dgt+2(3),Portée Courte
+Vehicle;;;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+Crystal;;;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;

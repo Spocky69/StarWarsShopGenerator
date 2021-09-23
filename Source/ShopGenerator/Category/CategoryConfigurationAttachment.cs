@@ -11,12 +11,14 @@ namespace ShopGenerator
 	{
 		private ValueMinMax _weapon = new ValueMinMax(5, 10);
 		private ValueMinMax _armor = new ValueMinMax(4, 7);
-		private ValueMinMax _vehicle = new ValueMinMax(4, 7);
-		private ValueMinMax _crystal = new ValueMinMax(4, 7);
+		private ValueMinMax _tool = new ValueMinMax(0, 0);
+		private ValueMinMax _vehicle = new ValueMinMax(0, 0);
+		private ValueMinMax _crystal = new ValueMinMax(0, 0);
 
 
 		public ValueMinMax Weapon { get { return _weapon; } set { _weapon = value; } }
 		public ValueMinMax Armor { get { return _armor; } set { _armor = value; } }
+		public ValueMinMax Tool { get { return _tool; } set { _tool = value; } }
 		public ValueMinMax Vehicle { get { return _vehicle; } set { _vehicle = value; } }
 		public ValueMinMax Crystal { get { return _crystal; } set { _crystal = value; } }
 
@@ -36,8 +38,9 @@ namespace ShopGenerator
 			listLimitationNumber.Add(new LimitationNumber(typeof(ElementType), ElementType.Attachment, Number.Min, Number.Max));
 			listLimitationNumber.Add(new LimitationNumber(typeof(ElementSubTypeAttachment), ElementSubTypeAttachment.Weapon, Weapon.Min, Weapon.Max));
 			listLimitationNumber.Add(new LimitationNumber(typeof(ElementSubTypeAttachment), ElementSubTypeAttachment.Armor, Armor.Min, Armor.Max));
-			listLimitationNumber.Add(new LimitationNumber(typeof(ElementSubTypeAttachment), ElementSubTypeAttachment.Vehicle, Vehicle.Min, Vehicle.Max));
+			listLimitationNumber.Add(new LimitationNumber(typeof(ElementSubTypeAttachment), ElementSubTypeAttachment.Tool, Tool.Min, Tool.Max));
 			listLimitationNumber.Add(new LimitationNumber(typeof(ElementSubTypeAttachment), ElementSubTypeAttachment.Crystal, Crystal.Min, Crystal.Max));
+			listLimitationNumber.Add(new LimitationNumber(typeof(ElementSubTypeAttachment), ElementSubTypeAttachment.Vehicle, Vehicle.Min, Vehicle.Max));
 			return listLimitationNumber;
 		}
 	}

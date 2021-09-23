@@ -4,166 +4,177 @@ Ryyd
 ------------ Matériel ------------------------------------------------------------------------------------------------------------------------
 Liv P   Nom                                     I Prix     Enc Rar Description                                                            
 ---- Matériel de communication ----------------------------------------
-EVi 48  Audio bulle Privacy-7                   - 500      4   5   2 tiges, crée un mur antison, Perception Diff 3 écouter à travers      
-KoF 49  Comlink renforcé                        - 450      3   4   Liaison satelite, +1 échec décoder transmissions, +1 succès vaincre... 
-FiB 52  Comlink sécurisé 3-Mal                  - 250      0   4   Cryptage militaire, +1 dé noir interception, +2 dés bleus jet conna... 
-DCo 56  Systéme de communication renforcés      - 450      3   4   Portée orbital, Cryptage Militaire, +2succès  a travers brouillage     
-DAl 50  Enregistreur dissimulé                  - 175      0   5   Dissimulé 2, son et image holo                                         
-EoE 172 Holo-disque                             - 250      0   4   Communicateur holographique                                            
-SoR 111 Encrypteur de communication point à ... - 1000     0   7   Encrypte les communications des communicteur point à point             
-Fho 45  Collier de communication                - 50       0   1   Amplifie la voix, Portée extrème, +100 crédits brancher sur système    
 SoF 100 Activateur de vaisseau  à distance (... - 1500     0   7   Portée plusieurs parsecs                                               
-KoF 49  Scanner de combat                       - 2000     1   6   Optique 360°, Audio, Infrarouge,Mouvement,Matériaux,Donnée.-2dés no... 
-SoF 100 Encodeur électronique Carbanti United   - 1250     3   6   Crypte les messages, diff 5 pour décrypter                             
-SoF 100 Activateur de vaisseau  à distance (... - 300      0   4   Portée 5 km                                                            
-DAl 50  Manuel de comportement culturel         - 35       0   3   +1 Avantage avec cette culture                                         
 EoE 172 Comlink (standard)                      - 25       0   1   Portée Orbite basse                                                    
-SoR 111 Communicateur Point à Point             - 100      2   7   Portée 25 km, Basse technologie, Peu détectable                        
-EVi 48  Infra-Jumelles longue portée            - 500      1   1   Zoom, Vision thermique désactivable, 2m de béton, Jet perception +1... 
-FiB 52  HeadComm DH-77                          I 400      0   3   Cryptage, +3 dés noirs pour intercepter, portée moyenne planétaire     
-SoR 112 Comlink Verpine                         - 250      1   6   Fréquence verpine, 100 km                                              
-FiB 52  Commande à distance d'artillerie Atgar  - 400      1   7   Lié arme,Jet informatique diff3,portée moyenne,Imprécis2               
-SoR 111 Falsificateur de voix                   - 1400     4   6   Quand utilise une autre voix améliore Charme, Coercition, Tromperie... 
-DAl 53  Atténuateur sonore                      - 600      2   7   +2 diff pour détecter un son  dans la sphère d'effet                   
-SoF 100 Transeveur longue portée                - 1000     5   3   Portée 100 année lumière                                               
-EVi 48  Infra-Jumelles                          - 350      1   1   Vision thermique, 2m de béton, Jet perception +1 dé noir               
-DAl 50  Manipulateur de média                   - 400      6   6   Permet de produire des images / sons                                   
 DAl 52  Outil de conférence intégrée            - 200      4   4   1 heure, permet de parler en public                                    
-SoR 111 Traducteur Polis Massan                 - 50       1   6   Communicateur pour Polis Massan                                        
+SoR 112 Comlink Verpine                         - 250      1   6   Fréquence verpine, 100 km                                              
+EVi 48  Infra-Jumelles longue portée            - 500      1   1   Zoom, Vision thermique désactivable, 2m de béton, Jet perception +1... 
+SoR 111 Communicateur Point à Point             - 100      2   7   Portée 25 km, Basse technologie, Peu détectable                        
+SoR 111 Encrypteur de communication point à ... - 1000     0   7   Encrypte les communications des communicteur point à point             
+FiB 52  Commande à distance d'artillerie Atgar  - 400      1   7   Lié arme,Jet informatique diff3,portée moyenne,Imprécis2               
+DAl 50  Enregistreur dissimulé                  - 175      0   5   Dissimulé 2, son et image holo                                         
+FiB 52  HeadComm DH-77                          I 400      0   3   Cryptage, +3 dés noirs pour intercepter, portée moyenne planétaire     
+CaM 45  Ecouteur Comlink                        - 75       0   5   Longue portée,Détecter Per Diff3                                       
+SoF 100 Encodeur électronique Carbanti United   - 1250     3   6   Crypte les messages, diff 5 pour décrypter                             
+KoF 49  Scanner de combat                       - 2000     1   6   Optique 360°, Audio, Infrarouge,Mouvement,Matériaux,Donnée.-2dés no... 
+DAl 53  Atténuateur sonore                      - 600      2   7   +2 diff pour détecter un son  dans la sphère d'effet                   
+KoF 49  Comlink renforcé                        - 450      3   4   Liaison satelite, +1 échec décoder transmissions, +1 succès vaincre... 
+EVi 48  Infra-Jumelles                          - 350      1   1   Vision thermique, 2m de béton, Jet perception +1 dé noir               
+DAl 50  Manuel de comportement culturel         - 35       0   3   +1 Avantage avec cette culture                                         
+FiB 52  Comlink sécurisé 3-Mal                  - 250      0   4   Cryptage militaire, +1 dé noir interception, +2 dés bleus jet conna... 
+EoE 172 Holo-disque                             - 250      0   4   Communicateur holographique                                            
+SoR 111 Falsificateur de voix                   - 1400     4   6   Quand utilise une autre voix améliore Charme, Coercition, Tromperie... 
+SoF 100 Transeveur longue portée                - 1000     5   3   Portée 100 année lumière                                               
 EVi 48  Microdroid espion                       I 1500     0   5   Araignée, Ordre simple, Magouille Vs Vigilance, Détecter Diff 4 Vig... 
+Fho 45  Collier de communication                - 50       0   1   Amplifie la voix, Portée extrème, +100 crédits brancher sur système    
+DCo 56  Systéme de communication renforcés      - 450      3   4   Portée orbital, Cryptage Militaire, +2succès  a travers brouillage     
+SoR 111 Traducteur Polis Massan                 - 50       1   6   Communicateur pour Polis Massan                                        
+EVi 48  Audio bulle Privacy-7                   - 500      4   5   2 tiges, crée un mur antison, Perception Diff 3 écouter à travers      
+SoF 100 Activateur de vaisseau  à distance (... - 300      0   4   Portée 5 km                                                            
+DAl 50  Manipulateur de média                   - 400      6   6   Permet de produire des images / sons                                   
 
 ---- Matériel de détection --------------------------------------------
-SoF 101 Lunettes de détection d'armes           - 750      1   5   +2 dés bleu jet perception pour trouver une arme                       
-EoE 176 Electrojumelles                         - 250      1   1   Zoom, image thermique, enregistrement. -1 dé noir distance ou lumin... 
-EoE 177 Traceur                                 I 175      0   4   3cm diamètre, portée 1-10km                                            
-DCo 57  Système de Télé-Reconnaissance          - 250      1   3   Caméra volante, vision thermique 360°, portée 20km                     
-FCa 49  Scanner holographique                   - 2000     10  5   Trouver objet : Jet perception diff -2                                 
-DCo 56  Scanner de combat Mark 6                - 2000     1   6   Casque vision thermique 360°, com cryptée, portée 100km                
-EoE 177 Détecteur de poche                      - 100      0   2   Signe vitaux, contaminant, agent pathogène, micro défaut               
-FiB 53  Scanner à faible empreinte              - 700      4   5   Silouhette 1, Portée courte : Radiation, moyenne : vie, longue port... 
-EoE 177 Détecteur universel                     - 500      2   3   Forme de vie, radiation, chaleur, onde, métaux. 0,5km-5km              
-EoE 177 Jumelles scanner                        - 150      0   3   Thermique, amplification lumière                                       
 EoE 177 Macrojumelles                           - 75       1   2   Zoom                                                                   
-FiB 53  Senseur automatisé SE-Vigilant          - 3000     2   4   2 senseurs, Détection transmission, automatique                        
-KtP 51  Veridicator 200                         - 4000     1   8   +2Dés bleu détecter les mensonges ou état émotionel, arc 60°, forme... 
+EoE 177 Jumelles scanner                        - 150      0   3   Thermique, amplification lumière                                       
 KtP 50  PX-7 Senseur à chaleur                  - 250      3   7   +2 dés bleus détection chaleur (courte) ou Réparation Dgt critique ... 
 DCo 57  Scanner de demolition Mark 10           - 300      1   4   +1 per pour détecter explosif                                          
+SoF 101 Lunettes de détection d'armes           - 750      1   5   +2 dés bleu jet perception pour trouver une arme                       
+EoE 176 Electrojumelles                         - 250      1   1   Zoom, image thermique, enregistrement. -1 dé noir distance ou lumin... 
+CaM 46  Scanneur de surveillance                - 750      2   5   Améliore détection micro,champ magnétique                              
+EoE 177 Détecteur de poche                      - 100      0   2   Signe vitaux, contaminant, agent pathogène, micro défaut               
+KtP 51  Veridicator 200                         - 4000     1   8   +2Dés bleu détecter les mensonges ou état émotionel, arc 60°, forme... 
+FiB 53  Senseur automatisé SE-Vigilant          - 3000     2   4   2 senseurs, Détection transmission, automatique                        
+DCo 57  Système de Télé-Reconnaissance          - 250      1   3   Caméra volante, vision thermique 360°, portée 20km                     
+FCa 49  Scanner holographique                   - 2000     10  5   Trouver objet : Jet perception diff -2                                 
+EoE 177 Détecteur universel                     - 500      2   3   Forme de vie, radiation, chaleur, onde, métaux. 0,5km-5km              
+FiB 53  Scanner à faible empreinte              - 700      4   5   Silouhette 1, Portée courte : Radiation, moyenne : vie, longue port... 
+EoE 177 Traceur                                 I 175      0   4   3cm diamètre, portée 1-10km                                            
+DCo 56  Scanner de combat Mark 6                - 2000     1   6   Casque vision thermique 360°, com cryptée, portée 100km                
 
 ---- Matériel de sécurité ---------------------------------------------
-EoE 180 Brouilleur                              - 400      4   3   portée 250m-3km, Diff 4 à 2 pour passer le brouillage fonction de l... 
-LbE 49  Réseau d'information tactique 'Tacnet'  - 1000     40  3   Jet Informatique diff2 pour activer, -1dé noirjet commandement,2 av... 
-Smo 51  Console de traçage Ealewon A-212        - 3000     12  6   Protège un système:Diff+1dé noir pour pirater,+2dés bleus pour tracer  
-KtP 51  Transpondeur personnel                  - 100      0   4   Emet un signal. Trouver : jet informatique diff 2 (portée planétair... 
-FCa 50  Masque d'empreintes digitales           I 1000     0   7   Passer scanner : Jet Sang-Froid ou tromperie diff 1 - 3. Trouver : ... 
-LbE 46  Batterie anti-véhicule légère           - 4000     30  2   Dgt4,Crit4,Courte,Breche1,Imprécis2,CadenceLente1                      
-DAl 53  Boite à faux fond                       I 400      2   6   Enc 2-20, permet de caché la moitié, diff 4 pour détecter              
-Fho 46  Kit d'investigation                     - 450      4   4   +1 succès Jet Perception, +1dé bleu investigation simple               
-DoH 48  Synthétiseur d'odeur                    - 1500     1   4   Jet Charme, Coercition, Nego -2                                        
-DAl 53  Outil de balayage                       - 400      1   6   Jet Inf Diff 2 pour détecter les micros                                
-DAl 51  Autorisation falsifié                   I 800      0   7   Diff 3 Informatique ou 4 perception pour détecter                      
-DAl 53  Chevalière                              - 750      0   7   +2 avantages pour assumer son identité                                 
-EVi 49  Clé électronique aléatoire              I 750      1   4   Ouvre serrure à code, mdp, 5 min, Magouille diff 4 accélérer à 1min    
-EVi 49  Etourdisseur palmaire Model31           I 500      1   4   Jet MagouilleVsResistance,12 dgt stress,                               
-FCa 49  Cape d'ombres                           I 2500     2   6   Entour le porteur d'ombre, Jet perception Diff 4                       
-LNH 109 Entraves explosives                     I 500      2   6   Jet Magouille diff 4, échec +10 dégats, à toutes personnes engagées    
-EoE 180 Matériel de slicer                      - 500      2   4   Permet de pirater un ordinateur ou élément connecté (caméra, serrure ) 
-Smo 51  Pic de données                          I 100      1   3   Surcharge Sécurité,Grille après utilisation                            
-FCa 49  Caisse à fermeture Magna                - 1000     12  5   Contient Enc 10, Ouvrir : Magouille diff 5                             
-DAl 50  Emplacement caché de données            I 150      0   5   Diff 4 pour trouver les données cachées                                
-LbE 46  Jeu de senseur multifonction            I 2750     20  5   +2 dés bleu Jet Perception,Informatique,Vigilance,+2dés noirs jet d... 
 KtP 52  Menottes étourdissantes                 - 100      0   5   Echapper : jet athlétisme ou coordination diff 4, 2 menaces -> 4 pt... 
-FCa 49  Coffre invisible                        - 2500     5   7   Contient Enc 5, Trouver : Perception diff 5, Ouvrir : Magouille diff 3 
-DoH 48  Détecteur de micro SDS-632              - 450      1   3   Jet Per, Vig +2 pour détecter un micro ou caméra courte portée         
-Fho 46  Magna-menottes                          - 100      1   4   Diff 5 Coordination pour s'échapper                                    
-DoH 48  Anamlyseur de nourriture EZ1            - 300      1   3   Permet d'identifier ce qui est comestible                              
-EoE 179 Trousse de déguisement                  - 100      2   4   Permet de changer d'apparence, d'empreinte digital, camouflage ADN     
-DAl 50  Outils d'authentification               - 100      1   5   +2 déterminer si un objet est falsifié                                 
-LbE 46  Générateur de puit à chaleur            - 550      20  2   Alimente une base modulaire                                            
-KtP 51  Menotte Grav ALR-DR8                    - 300      1   7   Echapper : jet athlétisme diff 5                                       
-DAl 52  Plot de restriction trafiqué            I 750      0   8   Ajoute un ordre caché                                                  
-EoE 180 Crypteur                                - 1000     0   5   Ajoute 2 dés noirs à ceux qui cherche à écouter la conversation        
-Smo 51  Tablette de modification de signature   I 250      2   7   +2 dés noir pour tracer piratage                                       
-DoH 48  GeoScanner Fabritech 7000               - 4800     2   3   Jet Per, Con.(Edu), Con.(Cul) +1 pour étudier le sous sol, Portée M... 
+Smo 51  Console de traçage Ealewon A-212        - 3000     12  6   Protège un système:Diff+1dé noir pour pirater,+2dés bleus pour tracer  
 FCa 49  Outils de crochetage                    I 50       1   8   Crocheter serrure physique                                             
-DAl 52  Anneau venimeux                         I 500      0   7   1 dose de poison                                                       
-EoE 179 Passe-partout électronique              I 1000     1   5   Ouvre automatiquement serrures electronique diff 2                     
+FCa 49  Cape d'ombres                           I 2500     2   6   Entour le porteur d'ombre, Jet perception Diff 4                       
+CaM 46  Mem-Stick                               - 30       0   2   
+Fho 46  Kit d'investigation                     - 450      4   4   +1 succès Jet Perception, +1dé bleu investigation simple               
+FCa 49  Caisse à fermeture Magna                - 1000     12  5   Contient Enc 10, Ouvrir : Magouille diff 5                             
+DAl 53  Chevalière                              - 750      0   7   +2 avantages pour assumer son identité                                 
+FCa 49  Coffre invisible                        - 2500     5   7   Contient Enc 5, Trouver : Perception diff 5, Ouvrir : Magouille diff 3 
+CaM 46  Brouilleur Vid-Vox                      - 2400     2   8   4m,Passer brouillage Per Diff4,Décrypter Info Diff4                    
+EoE 180 Matériel de slicer                      - 500      2   4   Permet de pirater un ordinateur ou élément connecté (caméra, serrure ) 
+DAl 53  Outil de balayage                       - 400      1   6   Jet Inf Diff 2 pour détecter les micros                                
+Smo 51  Pic de données                          I 100      1   3   Surcharge Sécurité,Grille après utilisation                            
+KtP 51  Menotte Grav ALR-DR8                    - 300      1   7   Echapper : jet athlétisme diff 5                                       
+LNH 109 Entraves explosives                     I 500      2   6   Jet Magouille diff 4, échec +10 dégats, à toutes personnes engagées    
+DAl 53  Boite à faux fond                       I 400      2   6   Enc 2-20, permet de caché la moitié, diff 4 pour détecter              
+DoH 48  Synthétiseur d'odeur                    - 1500     1   4   Jet Charme, Coercition, Nego -2                                        
+LbE 46  Générateur de puit à chaleur            - 550      20  2   Alimente une base modulaire                                            
+LbE 49  Réseau d'information tactique 'Tacnet'  - 1000     40  3   Jet Informatique diff2 pour activer, -1dé noirjet commandement,2 av... 
+KtP 51  Transpondeur personnel                  - 100      0   4   Emet un signal. Trouver : jet informatique diff 2 (portée planétair... 
+EVi 49  Clé électronique aléatoire              I 750      1   4   Ouvre serrure à code, mdp, 5 min, Magouille diff 4 accélérer à 1min    
+DAl 52  Plot de restriction trafiqué            I 750      0   8   Ajoute un ordre caché                                                  
+DoH 48  Détecteur de micro SDS-632              - 450      1   3   Jet Per, Vig +2 pour détecter un micro ou caméra courte portée         
+DoH 48  Anamlyseur de nourriture EZ1            - 300      1   3   Permet d'identifier ce qui est comestible                              
+CaM 46  Déguisement holographique               - 1100     2   6   Déguisement même taille corpulence, Détection diff2-4                  
+EoE 180 Brouilleur                              - 400      4   3   portée 250m-3km, Diff 4 à 2 pour passer le brouillage fonction de l... 
+EoE 179 Trousse de déguisement                  - 100      2   4   Permet de changer d'apparence, d'empreinte digital, camouflage ADN     
+Fho 46  Magna-menottes                          - 100      1   4   Diff 5 Coordination pour s'échapper                                    
+DAl 50  Outils d'authentification               - 100      1   5   +2 déterminer si un objet est falsifié                                 
+DoH 48  GeoScanner Fabritech 7000               - 4800     2   3   Jet Per, Con.(Edu), Con.(Cul) +1 pour étudier le sous sol, Portée M... 
 LNH 108 Collier de sécurité Thalassien          I 300      1   5   Jet Magouille diff 4, échec +2 stress, +1 dégats, Désorienté 5         
+EoE 179 Passe-partout électronique              I 1000     1   5   Ouvre automatiquement serrures electronique diff 2                     
+LbE 46  Jeu de senseur multifonction            I 2750     20  5   +2 dés bleu Jet Perception,Informatique,Vigilance,+2dés noirs jet d... 
+EVi 49  Etourdisseur palmaire Model31           I 500      1   4   Jet MagouilleVsResistance,12 dgt stress,                               
+DAl 50  Emplacement caché de données            I 150      0   5   Diff 4 pour trouver les données cachées                                
+DAl 52  Anneau venimeux                         I 500      0   7   1 dose de poison                                                       
+Smo 51  Tablette de modification de signature   I 250      2   7   +2 dés noir pour tracer piratage                                       
+DAl 51  Autorisation falsifié                   I 800      0   7   Diff 3 Informatique ou 4 perception pour détecter                      
+FCa 50  Masque d'empreintes digitales           I 1000     0   7   Passer scanner : Jet Sang-Froid ou tromperie diff 1 - 3. Trouver : ... 
+EoE 180 Crypteur                                - 1000     0   5   Ajoute 2 dés noirs à ceux qui cherche à écouter la conversation        
+CaM 45  Pic de donnée                           I 100      1   3   1Utilisation,Désactive Programme sécurité Diff-2                       
+LbE 46  Batterie anti-véhicule légère           - 4000     30  2   Dgt4,Crit4,Courte,Breche1,Imprécis2,CadenceLente1                      
 
 ---- Outils -----------------------------------------------------------
-NoP 105 Macro-jumelle de sport                  - 250      1   2   5 km, -1 dé noir longue portée ou luminosité                           
-EoE 183 Trousse à outils                        - 350      4   2   Tout jet mécanique pour réparer et soigner les droids                  
-DoH 49  Système de traduction avancée           - 1200     2   2   Jet Charme, Coercition, Nego -2 si différence de langue                
-KtP 53  Casque aveuglant WJ-880                 I 10       3   8   +3 dés noirs jet combat, améliore entrainement à la force              
-SoT 46  Manuel de maintenance Foreman-Series    - 100      1   1   Personnalisé,DégradeDifficultéDe1                                      
-EoE 183 Lanterne à fusion                       - 150      2   2   Lumière et chaleur. Peut charger petits éléments (datapad, baton lu... 
-LbE 47  Base Modulaire Garage                   - 1200     50  2   Outils,Silhouette6 max,Equipement Lourd                                
-LbE 47  Base Modulaire Centre de commandement   - 1750     50  2   Centre de communication,Salle de réunion                               
-DoH 49  Data Jumelles                           - 250      1   2   Jet Con +1 (choisir la comp en début de rencontre)                     
-SoR 115 Gant d'assemblage Verpine               - 250      1   6   +2 dés bleus Informatique et Mécanique (réparations déclicates), Ma... 
-FCa 50  Carte de triche                         I 500      0   6   +1 dé bleu jet Magouille pour tricher                                  
-LbE 47  Base Modulaire Barraquement             - 2000     50  3   Abrite une entière section de soldat, protéger attaque chimique, bi... 
-Smo 52  Boite à outil intelligente Merr-Sonn... - 2500     3   8   Boite à outil,Temps de réparation / 2                                  
-Smo 52  Pinces à répulsion                      - 250      3   1   Peut portée Objet Encombrement10,-1 dé noir réparer coque ou critiq... 
-SoR 115 Branchie organique Mon Cal              - 200      1   5   Ne peut pas parler, Respirer sous l'eau, durée plusieurs semaines, ... 
-SoR 115 Botte de saut Aratech                   - 2000     2   6   Saut 35m haut, Vitesse 2, Maniabilité -1, seuil de stress 3, pilota... 
-FCa 50  Scanner de cargo                        - 300      1   4   Vaisseau sil 3 ou +, Jet informatique diff 2 -> +10% encombrement      
-SoT 45  Kit d'outils personnalisés Journeyma... - 1000     1   5   Personnalisé,+1Dé Bleu Réparer Objet,Mauvais Objet +1Dé Noir           
-DCo 59  Outils impériaux pour tranchées         - 20       1   1   Dégat +2, crit 4                                                       
-SPi 49  Kit de maintenance d'armes              - 450      2   3   Spécialisé,Mécanique +2Dé bleu réparer,modifier,maintenir              
-EoE 183 Munitions / cellules énergétique        - 25       1   1   Pallie une pénurie de munitions sur un désastre                        
-EoE 183 Matériel d'escalade                     - 50       1   2   4 pitons auto adhérent, 50m de synthé-corde                            
-Nod 53  Botte fusée                             - 2500     2   8   Permet de voler,Sil1,Vit1,Maniabilité-3,SeuilStress3,Stress +1/round   
-Smo 52  Station de recyclage OS-Series Tech     - 1500     10  5   +2 dés bleu récupérer des objets,Temps/2,Echec fabrication récupère... 
 FCa 50  Fausse identité                         I 800      0   7   Trouver : Jet informatique Diff 3 ou Perception diff 4                 
-Nod 53  Scan biologique                         - 2000     1   1   +1 dé bleu vs Discretion,Vérifier identité Jet info diff2              
-NoP 106 Carte d'une vergence                    - 1000     0   10  Jet astrogation diff 3 et 2 dés noirs, Avantages pour savoir si c'e... 
-NoP 105 Cutter thermique Copora-Tech            - 125      2   3   5 minutes, Dgt 4, crit 4, Incendiaire 1, Imprécis 2                    
-SoF 103 Ceinture anti-grav                      - 500      0   6   Pas de dégats de chute                                                 
+EoE 183 Jet pack                                - 4500     2   7   Gabarit 1, Vitesse 2, Man 0, Stress mecanique 3. Pilotage planétaire   
+CaM 48  Copieur d'empreinte digital             I 1000     0   7   Calme-Tromperie Diff1-3,Detecter Diff4                                 
 Smo 52  Tentacule mécanique                     - 225      4   4   -2 dés noirs pour rétirer stress véhicule                              
-SoF 103 Sac à dos anti-grav                     - 450      1   5   Pas de dégats de chute                                                 
-KtP 53  Kit de maintenance de sabre laser       I 700      2   9   +1 avantage pour construire, modifié ou réparer des sabres lasers      
-Nod 53  Pisteur holonet                         - 500      0   3   Tracer une cible à travers la galaxie connue                           
-EoE 183 Plaque de réparation d'urgence          - 25       0   1   Soigne 3 pv sur droid (5 applications max / jour)                      
-EVi 50  Patch de réparation d'urgence           - 25       1   1   Droid : 3 blessures (max 5 patchs / jour)                              
 Fho 48  Instrument de musique                   - 100      3   2   
-EVi 50  Skate répulseur                         - 2000     4   4   Silouhette1, Vitesse1, Maniabilité -1, Pil. Planète, 5m                
-SoF 103 Tenue extra-véhiculaire                 - 1500     12  7   Pas de malus en 0G, Outils, laser de coupe                             
-SPi 49  Equipement de géomètre                  - 500      6   6   Perception +1-2dé bleu cartographie                                    
-NoP 105 Chevalière Adamit                       - 500      0   8   Planète Weik                                                           
+SoF 103 Sac à dos anti-grav                     - 450      1   5   Pas de dégats de chute                                                 
+CaM 49  Cable tranchant                         - 200      1   7   10m,Cac,Dgt+2,Crit2,Con,Perforant2,Sanguinaire3,3Menaces se blesse ... 
+SPi 49  Kit de maintenance d'armes              - 450      2   3   Spécialisé,Mécanique +2Dé bleu réparer,modifier,maintenir              
 LNH 111 Secrétaire de poche Microdata P-2       - 800      1   6   Jet informatique diff 4 pour lire les données, échec données éffacées  
-SoT 45  Jumelles de visée Fabritech AG/L MK.III - 700      5   5   Silouhette+1,Cible Artillerie                                          
-DAl 51  Outils de falsification                 I 650      2   8   Permet de créer une identification falsifiée                           
+EoE 183 Matériel d'escalade                     - 50       1   2   4 pitons auto adhérent, 50m de synthé-corde                            
+SoT 46  Manuel de maintenance Foreman-Series    - 100      1   1   Personnalisé,DégradeDifficultéDe1                                      
+DoH 49  Data Jumelles                           - 250      1   2   Jet Con +1 (choisir la comp en début de rencontre)                     
+CaM 48  Kit de crochetage                       I 50       1   6   Ouvrir porte mécanique et électronique                                 
 EVi 51  Compas urbain                           - 125      1   1   -2 dés noirs navigué en ville, +1 dé bleu trouver informations         
+SoF 103 Ceinture anti-grav                      - 500      0   6   Pas de dégats de chute                                                 
+SPi 49  Equipement de géomètre                  - 500      6   6   Perception +1-2dé bleu cartographie                                    
+Fho 47  Système de divertissement portable      - 2500     10  4   
+SoR 115 Gant d'assemblage Verpine               - 250      1   6   +2 dés bleus Informatique et Mécanique (réparations déclicates), Ma... 
+CaM 47  Trousse d'évasion dissimulée            - 450      0   7   PinceCoupante,Memstick,Fil en duracier,Cutter laser,Monolame(dgt+1,... 
+FCa 50  Carte de triche                         I 500      0   6   +1 dé bleu jet Magouille pour tricher                                  
+LbE 47  Base Modulaire Centre de commandement   - 1750     50  2   Centre de communication,Salle de réunion                               
+SoR 115 Botte de saut Aratech                   - 2000     2   6   Saut 35m haut, Vitesse 2, Maniabilité -1, seuil de stress 3, pilota... 
+SoT 45  Jumelles de visée Fabritech AG/L MK.III - 700      5   5   Silouhette+1,Cible Artillerie                                          
+CaM 48  Montre garrot                           I 100      0   5   Garrot retractable                                                     
+EoE 183 Lanterne à fusion                       - 150      2   2   Lumière et chaleur. Peut charger petits éléments (datapad, baton lu... 
 NoP 105 Chronoscanner Barbottan                 - 1200     0   2   Connaître la date de création d'un objet                               
-EVi 50  Kit de secours                          - 250      2   2   40 rations, micro générateur, 1 semaine de survie                      
-NoP 106 Bourse de mage                          - 50       0   4   Planète Weik, Seuil Encombrement +1                                    
-Smo 51  Bras de chargement lourd CZ-88          - 1500     30  3   Saisir objet, Vigueur 5, athlétisme1,vaisseau silhouette 3 minimum     
-EoE 183 Datapad                                 - 75       1   1   Enregister, stocker, consulter des données                             
-SoR 115 Bandeau Verpine                         - 500      1   6   Peut dépasser seuil de stress, subit une blessure à la place, Désor... 
-LbE 47  Base Modulaire Bunker                   - 4900     50  3   Défense 2 à l'intérieur                                                
-Nod 54  Lunette de pistage                      - 600      0   5   Jet perception+1 localiser cible,-2dés noir luminosité,brouillard      
+KtP 53  Kit de maintenance de sabre laser       I 700      2   9   +1 avantage pour construire, modifié ou réparer des sabres lasers      
+SoR 115 Branchie organique Mon Cal              - 200      1   5   Ne peut pas parler, Respirer sous l'eau, durée plusieurs semaines, ... 
+DAl 51  Outils de falsification                 I 650      2   8   Permet de créer une identification falsifiée                           
+CaM 47  Sac d'agent                             - 200      2   7   Couteau de lancer,Microscanner,encombrement+2,micro,enregistreur holo  
+NoP 105 Chevalière Adamit                       - 500      0   8   Planète Weik                                                           
+Fho 48  Datapad de commerce                     - 250      1   3   1 région, +1 dé bleu Jet négo acheter ou vendre                        
+EoE 183 Munitions / cellules énergétique        - 25       1   1   Pallie une pénurie de munitions sur un désastre                        
+Nod 53  Scan biologique                         - 2000     1   1   +1 dé bleu vs Discretion,Vérifier identité Jet info diff2              
+FCa 50  Scanner de cargo                        - 300      1   4   Vaisseau sil 3 ou +, Jet informatique diff 2 -> +10% encombrement      
+EVi 51  Grappin répulseur                       - 620      1   3   Diff escalade -2 ou encombrement -7                                    
+EoE 183 Plaque de réparation d'urgence          - 25       0   1   Soigne 3 pv sur droid (5 applications max / jour)                      
+LbE 47  Base Modulaire Hangar                   - 2200     50  2   Outils,Silhouette12 au total                                           
 LNH 111 Netoyeur de crédits                     I 2500     12  7   Jet informatique Diff 5 pour tracer les crédits                        
 SPi 49  Navordinateur Microaxial à main         - 3500     1   8   Astrogation +2dé bleu, +1 dé bleu en dehors de l'holonet               
-Fho 47  Système de divertissement portable      - 2500     10  4   
-LbE 47  Base Modulaire Hangar                   - 2200     50  2   Outils,Silhouette12 au total                                           
-Fho 48  Datapad de commerce                     - 250      1   3   1 région, +1 dé bleu Jet négo acheter ou vendre                        
+Smo 51  Bras de chargement lourd CZ-88          - 1500     30  3   Saisir objet, Vigueur 5, athlétisme1,vaisseau silhouette 3 minimum     
+Smo 52  Station de recyclage OS-Series Tech     - 1500     10  5   +2 dés bleu récupérer des objets,Temps/2,Echec fabrication récupère... 
+LbE 47  Base Modulaire Bunker                   - 4900     50  3   Défense 2 à l'intérieur                                                
+SoR 115 Bandeau Verpine                         - 500      1   6   Peut dépasser seuil de stress, subit une blessure à la place, Désor... 
+NoP 105 Cutter thermique Copora-Tech            - 125      2   3   5 minutes, Dgt 4, crit 4, Incendiaire 1, Imprécis 2                    
+Nod 53  Botte fusée                             - 2500     2   8   Permet de voler,Sil1,Vit1,Maniabilité-3,SeuilStress3,Stress +1/round   
+CaM 49  Cape d'ombre                            I 2500     2   6   Statique,1h,Recharge4h,Détecter Diff3-4                                
+DCo 59  Outils impériaux pour tranchées         - 20       1   1   Dégat +2, crit 4                                                       
+CaM 48  Ceinture explosive                      I 450      1   7   Mec diff2,Dgt15,Crit3,Con,Souffle5,Breche1,Detecter Diff améliorerX2   
+EoE 183 Datapad                                 - 75       1   1   Enregister, stocker, consulter des données                             
 DCo 59  Etui dissimulé                          - 40       0   3   Ajoute +1 Per pour trouver arme                                        
-EoE 183 Jet pack                                - 4500     2   7   Gabarit 1, Vitesse 2, Man 0, Stress mecanique 3. Pilotage planétaire   
-EVi 51  Grappin répulseur                       - 620      1   3   Diff escalade -2 ou encombrement -7                                    
+LbE 47  Base Modulaire Barraquement             - 2000     50  3   Abrite une entière section de soldat, protéger attaque chimique, bi... 
+Nod 54  Lunette de pistage                      - 600      0   5   Jet perception+1 localiser cible,-2dés noir luminosité,brouillard      
+NoP 105 Macro-jumelle de sport                  - 250      1   2   5 km, -1 dé noir longue portée ou luminosité                           
+Smo 52  Pinces à répulsion                      - 250      3   1   Peut portée Objet Encombrement10,-1 dé noir réparer coque ou critiq... 
+SoF 103 Tenue extra-véhiculaire                 - 1500     12  7   Pas de malus en 0G, Outils, laser de coupe                             
+Nod 53  Pisteur holonet                         - 500      0   3   Tracer une cible à travers la galaxie connue                           
+KtP 53  Casque aveuglant WJ-880                 I 10       3   8   +3 dés noirs jet combat, améliore entrainement à la force              
+EVi 50  Skate répulseur                         - 2000     4   4   Silouhette1, Vitesse1, Maniabilité -1, Pil. Planète, 5m                
+Smo 52  Boite à outil intelligente Merr-Sonn... - 2500     3   8   Boite à outil,Temps de réparation / 2                                  
+DoH 49  Système de traduction avancée           - 1200     2   2   Jet Charme, Coercition, Nego -2 si différence de langue                
+NoP 106 Carte d'une vergence                    - 1000     0   10  Jet astrogation diff 3 et 2 dés noirs, Avantages pour savoir si c'e... 
+NoP 106 Bourse de mage                          - 50       0   4   Planète Weik, Seuil Encombrement +1                                    
+EVi 50  Kit de secours                          - 250      2   2   40 rations, micro générateur, 1 semaine de survie                      
+EoE 183 Trousse à outils                        - 350      4   2   Tout jet mécanique pour réparer et soigner les droids                  
+SoT 45  Kit d'outils personnalisés Journeyma... - 1000     1   5   Personnalisé,+1Dé Bleu Réparer Objet,Mauvais Objet +1Dé Noir           
+LbE 47  Base Modulaire Garage                   - 1200     50  2   Outils,Silhouette6 max,Equipement Lourd                                
+EVi 50  Patch de réparation d'urgence           - 25       1   1   Droid : 3 blessures (max 5 patchs / jour)                              
 
 
 ------------ Marché Noir ---------------------------------------------------------------------------------------------------------------------
 Liv P   Nom                                     I Prix     Enc Rar Description                                                            
 ---- Objets illégaux uniques ------------------------------------------
 UPo 53  Puzzle d'anneau Thisspiasien            - 500      1   8   1Heure,SangFroid Diff3,Echec->+2Stess,Réussite->Vision                 
-UPo 54  Orbe de méditation Vurk                 - 1000     2   6   Méditation 1Heure->24h,+2Stress->+1Force Altération ou MéditationDe... 
-UPo 52  Chronique Lasan de l'arbre              - 3000     0   7   Jet Culture,Perception,sang-Froid Diff3,Bonus divers                   
 NoP 110 La couronne de vérité (Auratera)        - 2000     0   10  
-NoP 110 Le gant de Herder (Iktotch)             - 4000     0   10  
 Nod 54  Pompe à eau salée                       - 2500     1   7   Clawdites,Prendre apparence : +1 dé bleu jet tromperie,-1dé noir dé... 
-EoE 188 Trousse de camouflage techno-organique  I 2500     2   7   Diff 5 pour trouver l'identité du porteur                              
-Nod 54  Scanner de communication                I 5000     10  6   Trianguler communicateur,Jet informatique diff2,portée planétaire c... 
+NoP 110 Le gant de Herder (Iktotch)             - 4000     0   10  
 UPo 54  Cubes de vision                         - 1000     0   6   DevinerFutur,Av->Succès,Menace->Echec                                  
-EoE 188 Briseur de code                         I 1000     1   6   +2 dés bleus test piratage                                             
+UPo 52  Chronique Lasan de l'arbre              - 3000     0   7   Jet Culture,Perception,sang-Froid Diff3,Bonus divers                   
+UPo 54  Orbe de méditation Vurk                 - 1000     2   6   Méditation 1Heure->24h,+2Stress->+1Force Altération ou MéditationDe... 
 
 
