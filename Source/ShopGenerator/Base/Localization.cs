@@ -23,11 +23,14 @@ namespace ShopGenerator
 
 			public void Init(string[] lines)
 			{
-				for(int i=0; i<lines.Length;i++)
+				for (int i = 0; i < lines.Length; i++)
 				{
-					string[] values = lines[i].Split(';');
-					object enumValue = Enum.Parse(_enumTypeToLocalize, values[0]);
-					AddEnumValueLocalization(enumValue, values[1]);
+					if (string.IsNullOrEmpty(lines[i]) == false)
+					{
+						string[] values = lines[i].Split(';');
+						object enumValue = Enum.Parse(_enumTypeToLocalize, values[0]);
+						AddEnumValueLocalization(enumValue, values[1]);
+					}
 				}
 			}
 
@@ -39,9 +42,9 @@ namespace ShopGenerator
 
 			public string GetEnumValueLocalization(object enumValue)
 			{
-				foreach(EnumValueLocalization enumValueLocalization in _listEnumValueLocalization)
+				foreach (EnumValueLocalization enumValueLocalization in _listEnumValueLocalization)
 				{
-					if((int)enumValueLocalization.EnumValue == (int)enumValue)
+					if ((int)enumValueLocalization.EnumValue == (int)enumValue)
 					{
 						return enumValueLocalization.Value;
 					}
@@ -49,12 +52,12 @@ namespace ShopGenerator
 				return enumValue.ToString();
 			}
 		}
-		
+
 		public class EnumValueLocalization
 		{
 			private object _enumValue;
 			private string _value;
-			
+
 			public object EnumValue { get { return _enumValue; } }
 			public string Value { get { return _value; } }
 
@@ -83,7 +86,7 @@ namespace ShopGenerator
 			_enumLocalizations.Add(new EnumLocalization(typeof(ElementSubTypeAttachment)));
 			_enumLocalizations.Add(new EnumLocalization(typeof(ElementSubTypeBlackMarket)));
 			_enumLocalizations.Add(new EnumLocalization(typeof(PropertyType)));
-			foreach(EnumLocalization enumLocalization in _enumLocalizations)
+			foreach (EnumLocalization enumLocalization in _enumLocalizations)
 			{
 				string filePath = localizationRep + enumLocalization.EnumTypeToLocalize.ToString() + ".loc";
 				enumLocalization.Init(File.ReadAllLines(filePath));
@@ -94,7 +97,7 @@ namespace ShopGenerator
 		{
 			foreach (EnumLocalization enumLocalization in _enumLocalizations)
 			{
-				if(enumLocalization.EnumTypeToLocalize == type)
+				if (enumLocalization.EnumTypeToLocalize == type)
 				{
 					return enumLocalization.GetEnumValueLocalization(enumValue);
 				}

@@ -1,0 +1,43 @@
+Energy;;;;;;;;;;;
+51;Fusil à rayon DC-12U;Lou;7;3;Moy;3;3;I;1600;7;Aquatique,Lié1,-1Dé noir obscurité,Imprécis2(à l'ai libre)
+51;Carabine Blaster DC-15A;Lou;9;3;Moy;3;4;I;1400;5;Automatique,Perforant1,RéglageEtourdissant
+51;Blaster DC-17;Lég;7;3;Moy;2;3;I;1000;6;Précis1,RéglageEtourdissant
+51;Pistoler blatser lourd DE-10;Lég;6;2;Lon;1;2;-;1400;8;Précis1,RéglageEtourdissant,Réparation+1Dé Bleu,Résistant,Portée Longue extrème-1
+52;Fusil Blaster E-5;Lou;9;3;Lon;2;2;-;600;4;RéglageEtourdissant
+52;Carabine blaster EE-3;Lou;8;3;Moy;3;3;-;1500;6;Automatique,RéglageEtourdissant
+53;Carabine blaster Galaar-15;Lou;9;2;Lon;4;4;-;1100;7;Précis1,RéglageEtourdissant
+53;Arc à energie des sœurs de la nuit;Lou;8;2;Moy;4;2;I;2800;8;Perforant4,Imprécis3,Sanguinaire2
+53;Pistoler blaster Westar-35;Lég;6;2;Moy;1;3;-;1200;8;Précis1,RéglageEtourdissant
+;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Slugthrowers;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Thrown;;;;;;;;;;;
+;;;;;;;;-;;;
+Others;;;;;;;;;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Brawling;;;;;;;;;;;
+54;Gantelet d'écrasement;Pug;+4;2;Con;1;0;I;5000;8;Cortosis,Briseur,Sanguinaire2,Ecrasement AmélioreVig,3Menaces->2Dgts
+;;;;;;;;-;;;
+Melee;;;;;;;;;;;
+53;Beskad;CàC;+3;2;Con;4;2;I;6500;8;Cortosis,Encombrant3,Briseur,Sanguinaire3
+54;Lame du crépuscule;CàC;+3;3;Con;2;1;-;1800;8;Perforant2,Supérieur
+54;Dague Kal;CàC;+2;2;Con;1;1;I;4000;8;Cortosis,Briseur,Sanguinaire2
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+;;;;;;;;-;;;
+Lightsaber;;;;;;;;;;;
+54;Sabre laser;Sab;6;2;Con;1;5;-;8000;10;Breche1,Briseur
+55;Sabre laser à double lame;Sab;6;2;Con;2;4;I;18600;10;Breche1,Lié1,Briseur,Imprécis3
+55;Cane sabre laser;Sab;5;2;Con;1;3;-;10000;10;Précis1,Breche1,Briseur,Dgt-1
+;;;;;;;;;;;
+;;;;;;;;;;;
+;;;;;;;;;;;

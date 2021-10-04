@@ -1,8 +1,16 @@
 Name
 Description
 
------------- Armures -------------------------------------------------------------------------------------------------------------------------
-Liv P   Nom                                     Déf Enc I Prix     Enc Emp Rar Description                                                            
-Nod 50  Armure mandalorienne                    1   2   I 6000     6   5   8   
+------------ Armes ---------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     Comp Dég Crit Por Enc Emp I Prix     Rar Spécial                                       
+---- Explosifs et autres armes ----------------------------------------
+Nod 47  Lanceur de Mini-Missile                 Lég  0   0    Moy 3   0   - 500      7   3 Mini-missiles                               
+
+
+------------ Améliorations -------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Emp Rar Description                                                            
+---- Kit d'arme ----------------------------------------------------------------
+DCo 52  Système secondaire lance-missile        - 3000     3   3   6   Lourde : ajoute lance missille, Encombrant 2, Encombrement+3           
+Nod 51  Lanceur de Mini-missile                 - 1200     3   3   6   1MiniMissile,Encombrant+1,Encombrement+3,Mods:MiniMissile+1(2),-1dé... 
 
 

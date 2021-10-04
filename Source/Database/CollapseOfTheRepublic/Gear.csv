@@ -1,0 +1,68 @@
+Communications;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Poisons;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Detection;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Medical;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Cybernetic;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Recreational;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Security;;;;;;
+58;Enregistreur caché;-;175;0;5;Détecter+2Dé Noir
+58;Autorisation Diplomatique;I;10000;0;8;Social+2Av
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Survival;;;;;;
+58;Tenue Aquatique;-;250;3;2;Air6h,pas de Pénalité sous eau
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Tools;;;;;;
+58;Jetpack JT-12C;-;4750;2;7;Sil1,Vit2,Man0,SeuilStress4
+58;Nano-Droids;I;50000;0;9;Dgt20,Breche1,Courte Portée,Détecter+3Dés Noir
+59;Botte fusée;-;2500;2;8;Sil1,Vit1,Man-3,SeuilStress4,+1Stress/Tour
+59;Menottes Etourdissantes;-;100;0;5;Echappé Athlétisme-Coordination Diff4,2Menaces+4 Stress
+59;Jetpack Z-6;-;5250;3;7;Sil1,Vit2,Man0,SeuilStress3,Missile Dgt15,Crit3,Longue,Souffle10,Breche1,Imprecis1,
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+Droids;;;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;
+;;-;;;;

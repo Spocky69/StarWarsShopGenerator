@@ -29,7 +29,7 @@ namespace ShopGenerator
 			return new ElementDesc();
 		}
 
-		public void ReadLine(string[] lineElements, BookType bookType, ElementType elementType, object elementSubType)
+		public void ReadLine(string[] lineElements, string bookType, ElementType elementType, object elementSubType)
 		{
 			ElementDesc elementDesc = CreateElementDesc();
 			int index = 0;

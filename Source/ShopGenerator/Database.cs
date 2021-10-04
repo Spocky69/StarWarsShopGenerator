@@ -12,7 +12,7 @@ namespace ShopGenerator
 	public class Database : Singleton<Database>
 	{
 		private List<ContainerElementDesc> _containerElementDescs = new List<ContainerElementDesc>();
-		Localization _localization;
+		private Localization _localization;
 		private string _databaseRep = "";
 		private char[] _separators = { ';'}; 
 
@@ -143,7 +143,8 @@ namespace ShopGenerator
 						ContainerElementDesc containerElementDesc = GetContainerElementDesc(elementType);
 						if(containerElementDesc != null)
 						{
-							containerElementDesc.ReadLine(allLineElements, bookType, elementType, elementSubType);
+							string bookName = Localization.Instance.GetValue(typeof(BookType), bookType);
+							containerElementDesc.ReadLine(allLineElements, bookName, elementType, elementSubType);
 						}
 					}
 					else

@@ -67,8 +67,10 @@ namespace ShopGenerator
 	public enum BookType
 	{
 		AgeOfRebellion,
+		CollapseOfTheRepublic,
 		CyphersAndMasks,
 		DangerousCovenant,
+		DawnOfRebellion,
 		DesperateAllies,
 		DisciplesOfHarmony,
 		EdgeOfEmpire,
@@ -84,6 +86,7 @@ namespace ShopGenerator
 		LordsOfNalHutta,
 		NexusOfPower,
 		NoDisintegrations,
+		RiseOfTheSeparatists,
 		SavageSpirits,
 		SpecialModifications,
 		StayOnTarget,

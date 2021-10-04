@@ -15,9 +15,26 @@ namespace ShopGenerator
 
 		public override bool IsValid(ElementDesc elementDesc)
 		{
-			if(elementDesc.GetPropertyValue(_propertyType).IndexOf(_refValue, 0, StringComparison.InvariantCultureIgnoreCase) >= 0)
+			if (_propertyType != PropertyType.Invalid)
 			{
-				return true;
+				if (elementDesc.GetPropertyValue(_propertyType).IndexOf(_refValue, 0, StringComparison.InvariantCultureIgnoreCase) >= 0)
+				{
+					return true;
+				}
+			}
+			else
+			{
+				foreach (PropertyType propertyType in Enum.GetValues(typeof(PropertyType)))
+				{
+					if (propertyType != PropertyType.Invalid)
+					{
+						string propertyValue = elementDesc.GetPropertyValue(propertyType);
+						if (propertyValue != null && propertyValue.Contains(_refValue))
+						{
+							return true;
+						}
+					}
+				}
 			}
 			return false;
 		}

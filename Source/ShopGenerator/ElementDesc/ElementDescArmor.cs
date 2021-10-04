@@ -25,7 +25,7 @@ namespace ShopGenerator
 		{
 			_listProperty.Clear();
 			_listProperty.Add(new PropertyEnum<ElementType>(PropertyType.ElementType, TypeHelper.GetPropertyTypeNbChar(PropertyType.ElementType)));
-			_listProperty.Add(new PropertyEnum<BookType>(PropertyType.Book, TypeHelper.GetPropertyTypeNbChar(PropertyType.Book), false));
+			_listProperty.Add(new PropertyString(PropertyType.Book, TypeHelper.GetPropertyTypeNbChar(PropertyType.Book), false));
 			_listProperty.Add(new PropertyString(PropertyType.Page, TypeHelper.GetPropertyTypeNbChar(PropertyType.Page), false));
 			_listProperty.Add(new PropertyString(PropertyType.Name, TypeHelper.GetPropertyTypeNbChar(PropertyType.Name)));
 			_listProperty.Add(new PropertyString(PropertyType.Defense, TypeHelper.GetPropertyTypeNbChar(PropertyType.Defense)));

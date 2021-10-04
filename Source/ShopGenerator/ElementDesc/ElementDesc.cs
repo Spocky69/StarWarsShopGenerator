@@ -25,7 +25,7 @@ namespace ShopGenerator
 		{
 			_listProperty.Add(new PropertyEnum<ElementType>(PropertyType.ElementType, TypeHelper.GetPropertyTypeNbChar(PropertyType.ElementType)));
 			_listProperty.Add(new PropertyEnum<Enum>(PropertyType.ElementSubType, TypeHelper.GetPropertyTypeNbChar(PropertyType.ElementSubType)));
-			_listProperty.Add(new PropertyEnum<BookType>(PropertyType.Book, TypeHelper.GetPropertyTypeNbChar(PropertyType.Book), false));
+			_listProperty.Add(new PropertyString(PropertyType.Book, TypeHelper.GetPropertyTypeNbChar(PropertyType.Book), false));
 			_listProperty.Add(new PropertyString(PropertyType.Page, TypeHelper.GetPropertyTypeNbChar(PropertyType.Page), false));
 			_listProperty.Add(new PropertyString(PropertyType.Name, TypeHelper.GetPropertyTypeNbChar(PropertyType.Name)));
 			_listProperty.Add(new PropertyString(PropertyType.Illegality, TypeHelper.GetPropertyTypeNbChar(PropertyType.Illegality), false));
@@ -64,7 +64,7 @@ namespace ShopGenerator
 			return finalText;
 		}
 
-		public virtual void FillFromDatabaseString(ref int curIndex , string[] arrayElems, BookType bookType, ElementType elementType, Enum subType)
+		public virtual void FillFromDatabaseString(ref int curIndex , string[] arrayElems, string bookType, ElementType elementType, Enum subType)
 		{
 			int curPropertyIndex = 0;
 			_listProperty[curPropertyIndex++].SetValue(elementType);

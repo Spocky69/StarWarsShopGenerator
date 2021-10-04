@@ -1,0 +1,42 @@
+Weapon;;;;;;;
+60;Chambre d'amplification;-;350;0;1;4;Blaster,Souffle4,Réparation+1DéNoir Mods: Dgt+1,Souffle+1(5)
+60;Bayonette;-;50;1;1;1;Fusil,Cac,Dgt+1,Crit3 Mods: Parade+1,Perforant+1
+60;Gachette ultra sensible;-;250;0;1;2;Pistolet,Lié1,Imprécis+2 Mods : Imprécis-1
+60;Chambre mandaliorienne;-;250;0;1;5;Blaster,Etourdissement3,Portée-1 Mods : Etourdissement+1(2),Désorientation+1(3),Portée+1
+60;Détonteur de proximité;-;100;0;0;3;Détruit l'arme si une sil1 approche
+61;Support de poignet;-;275;0;2;5;Pistolet,Utilisation sans les mains
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+Armor;;;;;;;
+62;Electro-Jumelle polarisé de clone;-;500;0;1;4;Perception+1Dé Bleu,-1Dé Noir Mods : Perception+1
+62;Micro-Roquette;I;800;3;2;6;1MiniRoquette Mods : +1Miniroquette(5),-1Dé noir
+62;VibroScie;-;900;0;1;1;Dgt+4,Crit2,Con,Encombrant4,Perforant2,Briseur,Imprécis4,Sanguinaire2
+63;Bouclier plasma portatif;-;2500;0;2;4;Arme1Main,Parade1 Mods : Parade+1(2),Déviation+1(3)
+63;Lame de poignet rétractable;-;150;0;1;1;Dgt+1,Crit3,Con,Perforant1 Mods: Parade+1(2)
+63;Lanceur de fouet;-;600;0;1;1;200Kg,Cac,Dgt+1,Crit5,Courte,Enchevêtrement2
+;;-;;;;;
+;;-;;;;;
+Vehicle;;;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+Crystal;;;;;;;
+61;Echec Catastrophique;-;0;0;0;0;Détruit,Explosion,Dgt20,Breche1,Sanguinaire4,Courte
+62;Crystal de Christophsis;-;11000;0;2;8;Dgt7,Crit3,Breche1,Briseur Mods : Breche+1,Renversement,Dgt+1(3),Crit-1(2)
+62;Crystal d'Ilum;-;9000;0;2;9;Dgt6,Crit2,Breche1,Briseur Mods : Sanguinaire+1(2),Dgt+1(4),Crit-1
+;;-;;;;;

@@ -61,7 +61,7 @@ namespace ShopGenerator
 			//Name filter
 			if(string.IsNullOrEmpty(window.NameFilter) == false)
 			{
-				listCriteria.Add(new CriteriaStringContains(ElementType.Invalid, PropertyType.Name, Criteria.ComparaisonType.Equal, window.NameFilter));
+				listCriteria.Add(new CriteriaStringContains(ElementType.Invalid, PropertyType.Invalid, Criteria.ComparaisonType.Equal, window.NameFilter));
 			}
 
 			//Add filter by elementType
