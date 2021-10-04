@@ -1,16 +1,50 @@
 Name
 Description
 
------------- Armes ---------------------------------------------------------------------------------------------------------------------------
-Liv P   Nom                                     Comp Dég Crit Por Enc Emp I Prix     Rar Spécial                                       
----- Explosifs et autres armes ----------------------------------------
-Nod 47  Lanceur de Mini-Missile                 Lég  0   0    Moy 3   0   - 500      7   3 Mini-missiles                               
+------------ Matériel ------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Rar Description                                                            
+---- Cybernétique -----------------------------------------------------
+SoR 112 Interface Droid  Neuro-Saav             - 600      0   4   Nécessite implant cognitif, Améliore jet informatique pour pirater ... 
 
-
------------- Améliorations -------------------------------------------------------------------------------------------------------------------
-Liv P   Nom                                     I Prix     Enc Emp Rar Description                                                            
----- Kit d'arme ----------------------------------------------------------------
-DCo 52  Système secondaire lance-missile        - 3000     3   3   6   Lourde : ajoute lance missille, Encombrant 2, Encombrement+3           
-Nod 51  Lanceur de Mini-missile                 - 1200     3   3   6   1MiniMissile,Encombrant+1,Encombrement+3,Mods:MiniMissile+1(2),-1dé... 
+---- Droids -----------------------------------------------------------
+Smo 53  Nuée d'insecte téléguidé                - 700      0   4   Minion,Mécanique,Cac,Vulnérable Souffle,Dgt2,Crit3,Perforant2          
+DAl 55  Droid d'affaire Série-CZ                - 9000     0   4   Jet Nego +1, Lien avec les prix du marché                              
+DAl 55  Droid de protocole Série-5YQ            - 5500     0   3   Jet Nego +1, Version Cheap de 3PO                                      
+SoR 112 Droid medical CT-4                      - 20000    0   8   Rival, Médecine, Perception, Xénologie, spécialiste bacta              
+Smo 53  Service de réparation téléguidé         - 900      0   3   Minion,Informatique,Mécanique,Durée-25%                                
+SoF 102 Droid extincteur SérieFD                - 8000     10  4   Minion,Athlétisme,Diff2 Eteindre feu                                   
+Smo 53  Appareil téléguidé générique            - 400      0   2   Minion,Perception                                                      
+KtP 50  RMD-20 'Oeil dans le Ciel'              - 500      1   4   Minion,Perception,Vigilance,BouleVolante,24h                           
+NoP 107 Gardien de pierre                       - 5000     0   9   Athlétisme2,Pugilat3,Perception2,Vigilance2,Vigueur5                   
+Fho 50  Droid de recyclage série 1.42.08        - 6500     0   4   Minion,Recycle nourriture                                              
+DAl 55  Droid de protocole Série-TC             - 12000    0   4   Jet Nego +1, Jet Edu Diff 1 apprendre language                         
+DoH 55  Droid hologuidé pour environnement h... - 3500     0   4   (Minion), Répulseur, Piloté à distance, Holoprojecteur                 
+DoR 119 Droid de démantèlement Série DTS        - 40000    0   6   Rival,Vigueur5,Agilité3,Mécanique4,Informatique3,Perception3           
+DAl 58  Droid de protocole Série-LOM            - 8500     0   5   Jet Nego +1, -1 Insectoide, Alliance                                   
+DoH 54  Droid ambassadeur Série ED-V8           - 8000     0   7   Change d'apparence, Autonome, Negociation Elevée                       
+CaM 49  Droid de surveillance AC1               - 1100     0   4   Minion,Perception,ArmeLégère,Discretion                                
+SoR 114 Droid éclaireur de surveillance         - 2500     0   6   Rival, 8 pattes, 2m hauteur, Perception, Discretion, Survie            
+DoH 55  Droid d'entraînement TRD-2              - 7750     0   6   1h entraînement -> Def Cac +2 pour la journée                          
+EVi 46  Droid policier Guardian                 - 8100     0   6   Athlétisme(2),Perception(3),PilotagePlanétaire(2),Arme légère,Vigil... 
+EVi 45  Droid mineur Serie Dum                  - 450      0   1   Minion,Informatique,Mecanique,Perception,+1débleu / 3droids,           
+SoT 47  Droid astromech Q7-Series               - 6500     0   8   Rival,Astrogation3,Informatique3,Calme2,Mecanique2,PilotageEspace2     
+Fho 49  Mini-med Medtech                        - 900      0   3   Minion,Talent Chirurgien +1/Droid                                      
+Smo 53  Bouclier téléguidé                      - 1100     0   5   Minion,Vigilance,Garde du Corps                                        
+DoH 54  Droid de support Serie BD-10            - 8500     0   5   Jet Nego +1 (bordure ext), Spécialisé Brodure Ext, Malin               
+SoR 113 Droid foret Q-4                         - 2000     0   5   Minion, Droid de minage, Perception, Balster léger, 0.7m x 0.2m        
+DoR 121 Droid de maintenance Série MSE          - 200      0   2   Minion,Agilité,Informatique,Mécanique,Perception                       
+DoH 55  Droid dd sauvetage Série SBD            - 7500     0   3   Médecine, Jet Per Diff-2                                               
+DAl 57  Droid ambassadeur Serie-LRD             - 15000    0   5   Jet Nego, Charm, Tromperie -2, Envoyer à la place du diplomate         
+SoT 46  Droid astromech R7-Series               - 11000    0   6   Rival,Astrogation3,Informatique3,Calme2,Mecanique3,PilotageEspace2,... 
+DoH 54  Droid de combat non létal Série BL-0    - 5000     0   6   Fouet Neutralisant, Sécurité non létal, 2 Grenade Etourdissantes       
+DAl 54  Droid de protocol Série-3PX             - 7750     0   4   Jet Nego +1, Utiliser par l'empire                                     
+SoR 114 Droid de réparation G2                  - 6000     0   5   Rival, Sullustéen, Oie, Astrogation, Informatique, Mecanique, Pilot... 
+Fho 50  Droid de spectacle série SDMN           - 4000     0   5   Rival,Charme2,Calme2,Informatique2,Coordination2,Tromperie2            
+KtP 49  GV-3-series droid de surveillance       - 8000     10  7   Rival,CaC3,Perception3,BlasterLéger2,Vigilance2,Garde du corps         
+CaM 52  Droid Messager série-M4                 - 6500     0   6   Rival,Ruse3,Volonté3,Perception3,Resistance3,Discretion3,Vigilance2... 
+SoF 102 Droid Cam J57                           - 800      0   3   Minion,Perception,Vigilance,Agilité3                                   
+DoH 55  Droid dialectique Série TTS20           - 5400     0   7   Débattre, Négo, Tromperie, +2 Jet Négo (bordure ext)                   
+DoR 119 Droid Exécuteur Série IG-RM             - 23000    0   6   Rival,Vigueur3,Agilité3,Pugilat3,Coercition3,Vigilance4,Cac3,Percep... 
+KtP 50  Marksman-H combat hologuidé             - 350      1   5   Minion,Perception,BlasterLéger,BouleVolante                            
 
 
