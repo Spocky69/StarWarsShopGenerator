@@ -1,0 +1,43 @@
+Weapon;;;;;;;
+61;Pistolet d'ascension;-;500;1;1;4;Blaster,Portée Moyenne,ArméeLégère-Coordination Diff1,1portée/tour Mods:+1Dé bleu,vitesse+1
+61;VibroMoteur augmenté;-;500;0;2;4;VibroArme,Dgt+1,Encombrant3(+1) Mods : Dgt+1,Sanguinaire+1,Encombrant-1
+61;Clé de reconnaissance de clone;-;250;0;1;7;Blaster,CloneUniquement Mods: Ajout un non clone
+62;Testé au combat;-;50;0;0;3;ArmeConnu,SangFroid+1Dé bleu Mods: Résist peur+1Dé Bleu
+62;Forgé en Cortosis;-;8000;0;1;8;CaC,Cortosis Mods:Perforant+1(2)
+62;Mécanisme de mise à feu renforcé;-;1000;0;1;7;Blaster,+1AvOuMenace->Endommagé,Déploiement+1 Mods : Déploiement-1
+62;Bobine à ion renforcé;-;800;0;2;5;Blaster,DgtDroid+2,2Menaces->Endommagé+1 Mods: DgtDroid+1(2),CritDroid-1,+1Menace->Endommagé
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+Armor;;;;;;;
+64;Bio Système;-;4000;0;1;6;FinDeRencontre-1Blessure,MedpackAutomatique
+65;Ornement Cérémonial;-;2500;0;0;4;Social-2Dés Noir,Coordination+1Dé Noir Mods: Coordination-1Dé Noir
+65;Système physiologique amélioré;-;10000;0;2;7;GainDeStressnonVoulu-1,Athlétisme-Coordination-Résistance+1Dé Bleu Mods:Athlétisme+1,Coordination+1,Résistance+1
+65;Système d'équipe tactique;-;2000;0;1;5;Perception-Vigilance+1DéBleu,Comlink Mods: Perception+1,Vigilance+1
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+Vehicle;;;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+;;-;;;;;
+Crystal;;;;;;;
+63;Court-Circuit de fusion;-;2000;0;1;6;Breche+1,+3Menaces,3Tours pour couper une porte renforcée
+63;Crystal d'Ilum;-;9000;0;2;9;Dgt6,Crit2,Breche1,Briseur Mods: Sanguinaire+1(2),Dgt+1(4),Crit-1
+63;Eméteur de matrice à ion;-;4000;0;2;6;Dgt+2VsDroid,DgtAutre-1
+63;Crystal de Thontiin;-;9000;0;2;9;Dgt6,Crit2,Breche1,Briseur,IgnoreEffetCrit Diff1 Mods : Dgt+1(3),Crit-1
+64;Crystal Zophis;-;11000;0;2;10;Dgt8,Crit2,Breche2,Briseur2,Sanguinaire1,3Menaces->HorsService1Tour Mods: Dgt+1(2)

@@ -2,7 +2,7 @@ Weapon;;;;;;;
 51;Verrou génétique ;-;500;0;1;7;Auto-Déstruction si pas autorisé
 52;Viseur laser;-;500;0;1;5;+1 avantage
 52;Poignée pour pistolet H9;-;400;0;1;3;Lourde : Comp devient Lég, jet -1 si une main, Portée max moy
-52;Système secondaire lance-missile;-;3000;3;3;6;Lourde : ajoute lance missille, Encombrant 2, Encombrement+3
+52;Système secondaire lance-missile;-;3000;3;3;6;Lourde : ajoute lance missile, Encombrant 2, Encombrement+3
 52;Attache poignet model 2;-;275;0;2;5;Lég : Permet de tirer avec les mains libres
 ;;-;;;;;
 ;;-;;;;;
@@ -31,8 +31,8 @@ Armor;;;;;;;
 ;;-;;;;;
 ;;-;;;;;
 Vehicle;;;;;;;
-60;Batterie de missiles;I;10000;0;0;5;10 missilles, Munition Limitées 2, +2 jet attaque, +2 dégats
-60;Batterie de mini-missiles;I;7000;0;0;5;10 missilles, Munition Limitées 2, +2 jet attaque, +2 dégats
+60;Batterie de missiles;I;10000;0;0;5;10 missiles, Munition Limitées 2, +2 jet attaque, +2 dégats
+60;Batterie de mini-missiles;I;7000;0;0;5;10 missiles, Munition Limitées 2, +2 jet attaque, +2 dégats
 60;Tube lance mini-missile MM-XT;I;700;0;0;4;Munition Limitées 1, Speeder uniquement, sil 2 min
 60;Support externe pour arme surclassée;I;3000;0;0;6;Arme non limité par la silouhette, Maniabilité -1, Stress -4
 61;Tube d'abordage T9;I;1000;3;0;4;5 tours pour percer une coque

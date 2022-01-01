@@ -1,71 +1,46 @@
-Name
-Description
+MJ
+
+
+------------ Matériel ------------------------------------------------------------------------------------------------------------------------
+Liv P   Nom                                     I Prix     Enc Rar Description                                                            
+---- Outils -----------------------------------------------------------
+CoR 59  Jetpack Z-6                             - 5250     3   7   Sil1,Vit2,Man0,SeuilStress3,Missile Dgt15,Crit3,Longue,Souffle10,Br... 
+
 
 ------------ Armes ---------------------------------------------------------------------------------------------------------------------------
 Liv P   Nom                                     Comp Dég Crit Por Enc Emp I Prix     Rar Spécial                                       
----- Armes énergétiques -----------------------------------------------
-Nod 44  Blaster anti-émeute                     Lou  10  6    Cou 6   3   - 1250     5   Souffle 6,Encombrant 3,Réglage étourdissant   
-EoE 164 Arbalète blaster                        Lou  10  3    Moy 5   2   - 1250     7   Encombrant 3, Renversement, Manœuvre pour ... 
-FiB 43  Fusil blaster lourd A280 C              Lou  9   4    Lon 5   2   - 1800     7   Précis1,Encombrant3,RéglageEtourdissant, J... 
-FCa 43  Pistoler blaster lourd 'Déstructeur ... Lég  8   3    Moy 3   3   - 1000     7   RéglageEtourdissant                           
-EoE 163 Fusil blaster                           Lou  9   3    Lon 4   4   - 900      5   Réglage étourdissant                          
-SoF 94  Pistolet blaster CDEF                   Lég  5   4    Moy 1   1   - 150      4   Mauvaise qualité,Réglage étourdissant         
-SoF 96  Pistolet blaster lourd CR-2             Lég  7   4    Moy 2   2   - 600      5   Réglage étourdissant                          
-KtP 43  Pistolet blaster lourd Security S-5     Lég  7   3    Moy 3   1   - 1250     7   Dégats Etourdissant,Grappin                   
-EoE 162 Pistolet blaster                        Lég  6   3    Moy 1   3   - 400      4   Réglage étourdissant                          
-CoR 52  Carabine blaster EE-3                   Lou  8   3    Moy 3   3   - 1500     6   Automatique,RéglageEtourdissant               
-SoR 106 Lance blaster Mon Calamari              Lou  8   3    Lon 5   3   - 1350     5   Réglage étourdissant                          
-SoT 40  Carabine blaster E-5                    Lou  9   3    Moy 3   4   - 550      3   Imprécis1,RéglageEtourdissant,3Menaces Dom... 
-EoE 162 Blaster de poche                        Lég  5   4    Cou 1   1   - 200      4   Réglage étourdissant, Caché 1                 
-SoT 41  Pistolet blaster lourd HH-50            Lég  7   3    Cou 3   2   - 1300     7   Jumelé1,RéglageEtourdissant,Sanguinaire1,2... 
-FCa 43  Pistolet blaster léger Liquidsilver L7  Lég  6   3    Moy 1   1   - 425      4   RéglageEtourdissant,Dissimulation2(vaisseau)  
-CaM 39  Pistolet Blaster Lourd à Répétition     Lég  6   3    Cou 2   2   - 2100     5   Automatique,Imprécis1,Surcharge2              
-SoR 106 Pistolet blaster lourd 'Renegade'       Lég  8   3    Moy 2   3   - 950      4   Imprécis 1,Réglage étourdissant               
-Fho 40  Blaster de poche Quickfire Q4           Lég  5   3    Cou 1   0   - 250      4   Réglage étourdissant,Dissimulation1,Charge... 
-DCo 43  Fusil blaster lourd DH-X                Lou  10  3    Lon 7   4   - 1900     6   Etourdissement 3,Perforant 2                  
-SoR 104 Blaster de poche réglable               Lég  7   4    Cou 1   0   - 400      7   Munitions limités 12, dgt 1à7,Dissimulable1   
-EVi 40  Lance Blaster GLX                       Lou  7   3    Lon 3   3   - 1600     6   Automatique,Désorientation 2,Réglage étour... 
-EoE 163 Fusil blaster lourd                     Lou  10  3    Lon 6   4   - 1500     6   Automatique,Encombrant 3                      
-Smo 44  Pistolet blaster Blastech DL-19C        Lég  5   4    Moy 1   4   - 450      4   RéglageEtourdissant,Bidouillage appliqué x2   
-EoE 164 Blaster à ionisation                    Lou  10  5    Cou 3   3   - 250      3   Désorientation 5,Dégâts étourdissant (Droï... 
-DAl 44  Pistolet blaster de sport Defender      Lég  5   3    Moy 1   1   - 650      6   Réglage étourdissant,Précis 1, Facilement ... 
-LNH 100 Blaster Bonta                           Lég  6   3    Cou 1   1   - 1000     8   Réglage étourdissant,Dissimulation1           
-DCo 41  Pistolet blaster Model 44               Lég  6   3    Moy 1   4   - 500      4   Réglage étourdissant                          
-SoF 95  Pistolet blaster H-7 'Equalizer'        Lég  7   2    Moy 2   3   - 1200     8   Réglage étourdissant,Bonne qualité            
-KtP 42  Carabine blaster lourde Blastech DLS... Lou  10  3    Moy 4   3   - 1350     7   Automatique,Encombrant 2                      
-DCo 41  Pistolet blaster Model 80               Lég  6   2    Moy 2   3   - 550      5   Réglage étourdissant                          
-FCa 43  Pistolet blaster 'Vipère Nova'          Lég  7   3    Moy 2   2   - 4500     9   RéglageEtourdissant,Précis2,Perforant2, Di... 
-LNH 100 Lance blaster Weekaï                    Lou  8   3    Ext 5   2   - 850      6   Précis1,Encombrant2                           
-SoF 94  Pistolet blaster léger HL-27            Lég  5   3    Moy 1   2   - 450      4   Précis 1,Réglage étourdissant                 
-SoF 96  Blaster de sport CR-Z                   Lou  8   4    Lon 3   4   - 600      4   Réglage étourdissant                          
-KtP 43  Blaster étourdissant lourd Palandrix... Lég  8   0    Cou 2   3   - 650      5   Dégats Etourdissant                           
-EoE 163 Carabine blaster                        Lou  9   3    Moy 3   4   - 850      5   Réglage étourdissant                          
-SPi 40  Blaster de chasse M-300                 Lou  8   3    Ext 4   1   - 1600     6   Précis1,Encombrant2,Perforant2,DégatEtourd... 
-EoE 163 Pistolet blaster lourd                  Lég  7   3    Moy 2   3   - 700      6   Réglage étourdissant, Court Mun 3             
-CoR 53  Pistoler blaster Westar-35              Lég  6   2    Moy 1   3   - 1200     8   Précis1,RéglageEtourdissant                   
-DAl 44  Pistolet blaster ELG-3A                 Lég  6   4    Cou 1   0   - 400      5   Réglage étourdissant, Dissimulé 2             
-SoF 95  Pistolet blaster léger XL-2 'TirFlash'  Lég  5   3    Moy 1   3   - 450      5   Désorientation 1,Réglage étourdissant         
-FCa 44  Blaster de chasse Herloss HBT-4         Lou  10  3    Moy 5   2   - 900      6   RéglageEtourdissant,Encombrant2               
-UPo 47  Blaster Chanceux                        Lég  5   4    Moy 1   2   - 400      10  RéglageEtourdissant,Visée+2Dé Bleu            
-CoR 52  Fusil Blaster E-5                       Lou  9   3    Lon 2   2   - 600      4   RéglageEtourdissant                           
-EoE 162 Pistolet blaster léger                  Lég  5   4    Moy 1   2   - 300      4   Réglage étourdissant                          
-CaM 39  Fusil Blaster Dard de la Nuit           Lou  10  2    Ext 7   4   - 6500     9   Précis2,Encombrant3,Perforant1,RéglageEtou... 
-FCa 43  Pistolet blaster 'Gachette rapide'      Lég  6   3    Moy 1   4   - 450      4   RéglageEtourdissant,Diff-1 réparation ou m... 
-SoT 40  Blaster de cavalerie D-45 Dragoon       Lég  8   3    Moy 1   3   - 1900     6   Précis1,RéglageEtourdissant,1Man Légère->L... 
-SoF 96  Pistolet blaster de poche 'Spukami'     Lég  5   3    Cou 1   1   - 200      2   Réglage étourdissant                          
-CoR 53  Carabine blaster Galaar-15              Lou  9   2    Lon 4   4   - 1100     7   Précis1,RéglageEtourdissant                   
-DCo 43  Carabine blaster OK-98                  Lou  9   3    Moy 4   3   - 1100     5   Réglage étourdissant, Dégats +2 ou extra m... 
-UPo 46  Blaster CoeurDeBois                     Lou  6   5    Moy 3   1   - 1000     6   Etourdissement3,Encombrant2,Manœuvre Stres... 
-FiB 43  Carabine blaster DH-17                  Lou  8   3    Moy 2   3   - 900      6   Automatique,Imprécis1,Réglage étourdissant    
-FiB 42  Pistolet blaster SE-14C                 Lég  5   4    Cou 1   2   - 650      6   Automatique,Réglage étourdissant              
+---- Explosifs et autres armes ----------------------------------------
+Nod 46  Mini-Missile incendiaire                Lou  6   3    Cou 1   1   - 175      5   Souffle 5,Incendiaire 2,Munitions limités 1   
+Nod 47  Lanceur de Mini-Missile                 Lég  0   0    Moy 3   0   - 500      7   3 Mini-missiles                               
+Nod 46  Mini-Missile explosif                   Lou  7   2    Cou 1   1   - 150      4   Souffle 6,Munitions limités 1                 
+DCo 47  Missile incendiaire C-908               Art  10  3    Ext 0   0   I 145      7   Souffle 10,Incendiaire 3,Guidé 2              
+DCo 47  Missile à fragmentation C-88            Art  12  4    Ext 0   0   - 75       7   Souffle 12,Guidé 3                            
+DCo 47  Missile à charge plasma SK-44           Art  16  3    Ext 0   0   I 160      8   Souffle 14,Encombrant 3,Imprécis 1,Perfora... 
+EoE 166 Lance-missiles                          Art  20  2    Ext 7   4   I 7500     8   Brêche 1,Déploiement 1,Encombrant 3,Muniti... 
+Nod 47  Mini-Missile à ion                      Lou  10  3    Cou 1   1   - 100      6   Ion,Briseur,Munitions limités 1               
+KoF 46  Missile explosif                        Art  14  4    Ext 0   0   - 200      8   Souffle10,Choc3,Désorientation5,Guidé2        
+KoF 46  Missile incendiaire                     Art  10  3    Ext 0   0   I 145      7   Souffle10,Incendiaire3,Guidé2                 
+Nod 46  Mini-Missile anti-armure                Lou  8   4    Cou 1   1   - 300      5   Brêche 1,Munitions limités 1                  
+KoF 46  Missile à fragmentation                 Art  12  4    Ext 0   0   - 75       7   Souffle12,Guidé3                              
+KoF 46  Missile à perforation                   Art  18  3    Lon 0   0   I 200      6   Souffle6,Brêche2,Guidé2                       
 
 
 ------------ Améliorations -------------------------------------------------------------------------------------------------------------------
 Liv P   Nom                                     I Prix     Enc Emp Rar Description                                                            
 ---- Kit d'arme ----------------------------------------------------------------
-EoE 192 Module de mise à feu pour blaster       - 500      0   1   4   Pistolet : Dégats +1, +1 dé noir jet attaque, Mod : Dégats +1 (2), ... 
-DoH 51  Blaster étourdissant                    - 750      1   3   5   Ajoute un blaster étourdissant dans le pomeau (dgt 5)                  
-FiB 51  Visée intégrée pour blaster             - 150      0   1   4   -1dé noir pour visée une partie du corps                               
-Smo 56  Blaster à ion secondaire                - 400      2   2   6   Dgt10,Crit5,Désorienté5,Ion,Encombrant+1,Encombrement+1,Mods:Dgt+1(2)  
+Nod 51  Lanceur de Mini-missile                 - 1200     3   3   6   1MiniMissile,Encombrant+1,Encombrement+3,Mods:MiniMissile+1(2),-1dé... 
+DCo 52  Système secondaire lance-missile        - 3000     3   3   6   Lourde : ajoute lance missile, Encombrant 2, Encombrement+3            
+Nod 47  Mini-Missile boosté                     - 25       0   1   2   Mini-Missile,Portée+1,Imprécis+2,Mods:Portée+1,Imprécis-1(2)           
+Nod 47  Mini-Missile autoguidé                  - 50       0   1   4   Mini-Missile,Guidé+2,Mods:Guidé+1(3),Précis+1                          
+
+---- Kit d'armure --------------------------------------------------------------
+Nod 52  Lanceur de Mini-Missile                 I 800      3   2   6   Encombrement+3,1Mini-missile,Mods:+1Mini-missile(5),-1dé noir          
+
+---- Véhicule ------------------------------------------------------------------
+EoE 230 Lance missile à proton                  I 9000     0   1   7   
+DCo 60  Batterie de missiles                    I 10000    0   0   5   10 missiles, Munition Limitées 2, +2 jet attaque, +2 dégats            
+EoE 230 Lance missile à concussion              - 7500     0   1   5   
+DCo 60  Tube lance mini-missile MM-XT           I 700      0   0   4   Munition Limitées 1, Speeder uniquement, sil 2 min                     
+DCo 60  Batterie de mini-missiles               I 7000     0   0   5   10 missiles, Munition Limitées 2, +2 jet attaque, +2 dégats            
 
 

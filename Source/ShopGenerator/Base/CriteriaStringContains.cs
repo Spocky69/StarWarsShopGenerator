@@ -29,9 +29,14 @@ namespace ShopGenerator
 					if (propertyType != PropertyType.Invalid)
 					{
 						string propertyValue = elementDesc.GetPropertyValue(propertyType);
-						if (propertyValue != null && propertyValue.Contains(_refValue))
+						if (propertyValue != null)
 						{
-							return true;
+							propertyValue = propertyValue.ToLowerInvariant();
+							_refValue = _refValue.ToLowerInvariant();
+							if (propertyValue.Contains(_refValue))
+							{
+								return true;
+							}
 						}
 					}
 				}

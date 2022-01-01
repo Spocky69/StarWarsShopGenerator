@@ -12,7 +12,7 @@ namespace ShopGenerator
 	public class Database : Singleton<Database>
 	{
 		private List<ContainerElementDesc> _containerElementDescs = new List<ContainerElementDesc>();
-		private Localization _localization;
+		private Localization _localization = null;
 		private string _databaseRep = "";
 		private char[] _separators = { ';'}; 
 
