@@ -32,6 +32,6 @@ Armor;;;;;;;;
 ;;;;;;;;
 Vehicle;;;;;;;;
 64;Champ de confinement;I;7500;0;2;9;;
-64;Prison améliorée;;3500;0;3;7;;
+64;Prison améliorée;-;3500;0;3;7;;
 64;Poseur de mine;I;4000;0;2;6;;
 ;;;;;;;;

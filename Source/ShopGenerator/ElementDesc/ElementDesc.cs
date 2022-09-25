@@ -131,8 +131,15 @@ namespace ShopGenerator
 				{
 					if(propertyString.Length > property.NbMaxChar)
 					{
-						propertyString = propertyString.Substring(0, property.NbMaxChar-3);
-						propertyString += "...";
+						if(property.NbMaxChar > 3)
+						{
+							propertyString = propertyString.Substring(0, property.NbMaxChar - 3);
+							propertyString += "...";
+						}
+						else
+						{
+							propertyString += " Error";
+						}						
 					}
 					else
 					{
@@ -143,8 +150,6 @@ namespace ShopGenerator
 				total += " ";
 			}
 		}
-
-		
 		#endregion Internals
 		#endregion Methods
 	}

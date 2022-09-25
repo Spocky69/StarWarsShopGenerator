@@ -19,16 +19,24 @@ namespace ShopGenerator
 
 		public void GenerateShop(MainWindow window)
 		{
-			if(Directory.Exists(_shopRep) == false)
+			if (Directory.Exists(_shopRep) == false)
 			{
 				Directory.CreateDirectory(_shopRep);
 			}
-			string shopPath = _shopRep + "/" + window.ShopName + ".shp";
 
-			Database.Instance.GenerateShop(shopPath, window.OwnerName, window.Description, CreateGeneralCriteria(window), CreateLimitationNumbers(window));
-			
+			string baseShopPath = _shopRep + "/" + window.ShopName;
+			string finalShopPath = baseShopPath + ".shp";
+			int shopNumber = 1;
+			while (File.Exists(finalShopPath))
+			{
+				finalShopPath = baseShopPath + "_" + shopNumber + ".shp";
+				shopNumber++;
+			}
+
+			Database.Instance.GenerateShop(finalShopPath, window.OwnerName, window.Description, CreateGeneralCriteria(window), CreateLimitationNumbers(window));
+
 			//Open the shop file
-			System.Diagnostics.Process.Start(shopPath);
+			System.Diagnostics.Process.Start(finalShopPath);
 		}
 
 		private List<Criteria> CreateGeneralCriteria(MainWindow window)
@@ -37,38 +45,38 @@ namespace ShopGenerator
 
 			//Illegal
 			listCriteria.Add(new CriteriaIllegality(ElementType.Invalid, window.Illegal));
-			
+
 			//Price
-			if(window.Price.Min > 0)
+			if (window.Price.Min > 0)
 			{
 				listCriteria.Add(new Criteria(ElementType.Invalid, PropertyType.Price, Criteria.ComparaisonType.Superior, window.Price.Min.ToString()));
 			}
-			if(window.Price.Max > 0)
+			if (window.Price.Max > 0)
 			{
 				listCriteria.Add(new Criteria(ElementType.Invalid, PropertyType.Price, Criteria.ComparaisonType.Inferior, window.Price.Max.ToString()));
 			}
 
 			//Rarity
-			if(window.Rarity.Min > 0)
+			if (window.Rarity.Min > 0)
 			{
 				listCriteria.Add(new Criteria(ElementType.Invalid, PropertyType.Rarity, Criteria.ComparaisonType.Superior, window.Rarity.Min.ToString()));
 			}
-			if(window.Rarity.Max > 0)
+			if (window.Rarity.Max > 0)
 			{
 				listCriteria.Add(new Criteria(ElementType.Invalid, PropertyType.Rarity, Criteria.ComparaisonType.Inferior, window.Rarity.Max.ToString()));
 			}
 
 			//Name filter
-			if(string.IsNullOrEmpty(window.NameFilter) == false)
+			if (string.IsNullOrEmpty(window.NameFilter) == false)
 			{
 				listCriteria.Add(new CriteriaStringContains(ElementType.Invalid, PropertyType.Invalid, Criteria.ComparaisonType.Equal, window.NameFilter));
 			}
 
 			//Add filter by elementType
-			foreach(ElementType elementType in Enum.GetValues(typeof(ElementType)))
+			foreach (ElementType elementType in Enum.GetValues(typeof(ElementType)))
 			{
 				CategoryConfiguration categoryConfiguration = window.GetCategoryConfiguration(elementType);
-				if(categoryConfiguration != null)
+				if (categoryConfiguration != null)
 				{
 					if (categoryConfiguration.Rarity.Min > 0)
 					{

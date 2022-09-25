@@ -30,11 +30,11 @@ namespace ShopGenerator
 				case PropertyType.Name: return 39;
 				case PropertyType.Price: return 8;
 				case PropertyType.Book: return 3;
-				case PropertyType.Special: return 45;
+				case PropertyType.Special: return 100;
 				case PropertyType.Page: return 3;
 				case PropertyType.Skill: return 4;
 				case PropertyType.Range: return 3;
-				case PropertyType.Description: return 70;
+				case PropertyType.Description: return 100;
 				default: return Localization.Instance.GetValue(typeof(PropertyType), propertyType).Length;
 			}
 		}

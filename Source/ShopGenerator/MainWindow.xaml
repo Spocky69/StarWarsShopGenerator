@@ -32,7 +32,7 @@
 					</Label.RenderTransform>
 				</Label>
 				<TextBox Text="{Binding ShopName, Mode=TwoWay}" HorizontalAlignment="Left" Height="23" Margin="119,13,0,0" VerticalAlignment="Top" Width="280" VerticalContentAlignment="Center"/>
-				<ComboBox  ItemsSource="{Binding AllShopNames}" SelectedItem="{Binding ShopName}" HorizontalAlignment="Left" Margin="434,14,0,0" VerticalAlignment="Top" Width="295" SelectionChanged="ComboBox_SelectionChanged"/>
+				<ComboBox  ItemsSource="{Binding AllShopNames, Mode=TwoWay}" SelectedItem="{Binding ShopName}" HorizontalAlignment="Left" Margin="434,14,0,0" VerticalAlignment="Top" Width="295" SelectionChanged="ComboBox_SelectionChanged"/>
 				<GroupBox Header="Options" HorizontalAlignment="Left" Height="95" Margin="10,205,0,0" VerticalAlignment="Top" Width="750" RenderTransformOrigin="0.5,0.5">
 					<Grid HorizontalAlignment="Left" Height="71" Margin="4,5,-29,-2" VerticalAlignment="Top" Width="745">
 						<Grid.ColumnDefinitions>
@@ -1077,6 +1077,7 @@
 			</Grid>
 		</GroupBox>
 		<Button Content="Sauvegarde" Margin="40,745,0,0" VerticalAlignment="Top" Height="79" FontSize="24" FontWeight="Bold" Click="ButtonSauvegarde_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="150"/>
+		<Button Content="Suppression" Margin="226,745,0,0" VerticalAlignment="Top" Height="79" FontSize="24" FontWeight="Bold" Click="ButtonSuppression_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="150"/>
 
 
 	</Grid>

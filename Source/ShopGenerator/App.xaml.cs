@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ShopGenerator.Base;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -45,7 +46,8 @@ namespace ShopGenerator
 			}
 
 			string databaseRep = Directory.GetCurrentDirectory() +  "/Database/";
-			string shopRep = Directory.GetCurrentDirectory() + "/../ShopGenerated/";
+
+			string shopRep = Service.GetApplicationUserPath() + "ShopGenerated/";
 
 			_localization = new Localization();
 			_database = new Database(databaseRep);

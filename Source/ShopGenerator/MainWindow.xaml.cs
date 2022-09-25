@@ -27,7 +27,7 @@ namespace ShopGenerator
 	public partial class MainWindow : INotifyPropertyChanged
 	{
 		static public MainWindow Instance;
-		
+
 		private Configuration _configuration = new Configuration();
 		private List<string> _allShopNames = new List<string>();
 
@@ -35,84 +35,84 @@ namespace ShopGenerator
 		public List<string> AllShopNames
 		{
 			get { return _allShopNames; }
-            set
-            {
-                if(_allShopNames != value)
-                {
-                    _allShopNames = value;
-                    OnPropertyChanged();
-                }
-            }
+			set
+			{
+				if (_allShopNames != value)
+				{
+					_allShopNames = value;
+					OnPropertyChanged();
+				}
+			}
 		}
 
 		public string ShopName
-        {
-            get { return _configuration.ShopName; }
-            set
-            {
-                if(_configuration.ShopName != value)
-                {
-                    _configuration.ShopName = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
+		{
+			get { return _configuration.ShopName; }
+			set
+			{
+				if (_configuration.ShopName != value)
+				{
+					_configuration.ShopName = value;
+					OnPropertyChanged();
+				}
+			}
+		}
 
 		public string OwnerName
-        {
-            get { return _configuration.OwnerName; }
-            set
-            {
-                if(_configuration.OwnerName != value)
-                {
-                    _configuration.OwnerName = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
+		{
+			get { return _configuration.OwnerName; }
+			set
+			{
+				if (_configuration.OwnerName != value)
+				{
+					_configuration.OwnerName = value;
+					OnPropertyChanged();
+				}
+			}
+		}
 
 		public string Description
-        {
-            get { return _configuration.Description; }
-            set
-            {
-                if(_configuration.Description != value)
-                {
-                    _configuration.Description = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
-		
-        public Illegality Illegal
-        {
-            get { return _configuration.Illegal; }
-            set
-            {
-                if(_configuration.Illegal != value)
-                {
-                    _configuration.Illegal = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
+		{
+			get { return _configuration.Description; }
+			set
+			{
+				if (_configuration.Description != value)
+				{
+					_configuration.Description = value;
+					OnPropertyChanged();
+				}
+			}
+		}
+
+		public Illegality Illegal
+		{
+			get { return _configuration.Illegal; }
+			set
+			{
+				if (_configuration.Illegal != value)
+				{
+					_configuration.Illegal = value;
+					OnPropertyChanged();
+				}
+			}
+		}
 
 		public ValueMinMax Price { get { return _configuration.Price; } }
 		public ValueMinMax Rarity { get { return _configuration.Rarity; } }
 		public ValueMinMax NbArticles { get { return _configuration.NbArticles; } }
 
 		public string NameFilter
-        {
-            get { return _configuration.NameFilter; }
-            set
-            {
-                if(_configuration.NameFilter != value)
-                {
-                    _configuration.NameFilter = value;
-                    OnPropertyChanged();
-                }
-            }
-        }
+		{
+			get { return _configuration.NameFilter; }
+			set
+			{
+				if (_configuration.NameFilter != value)
+				{
+					_configuration.NameFilter = value;
+					OnPropertyChanged();
+				}
+			}
+		}
 
 		public CategoryConfigurationWeapon CategoryConfigurationWeapon { get { return _configuration.CategoryConfigurationWeapon; } }
 		public CategoryConfigurationArmor CategoryConfigurationArmor { get { return _configuration.CategoryConfigurationArmor; } }
@@ -126,19 +126,26 @@ namespace ShopGenerator
 
 		public MainWindow()
 		{
-			_configuration.Init();
-			
+			string shopConfigDirectory = "";
+#if DEBUG
+			shopConfigDirectory = Directory.GetCurrentDirectory() + "/../";
+#else
+			shopConfigDirectory = Service.GetApplicationUserPath();
+#endif
+			shopConfigDirectory += "ShopConfig/";
+			_configuration.Init(shopConfigDirectory);
+
 			Instance = this;
 			DataContext = this;
 
 			//Fill from all the cfg 
-			if (Directory.Exists(Configuration.DirectoryName))
+			if (Directory.Exists(_configuration.DirectoryPath))
 			{
-				string[] allFiles = Directory.GetFiles(Configuration.DirectoryName);
-				for(int i=0; i<allFiles.Length; i++)
+				string[] allFiles = Directory.GetFiles(_configuration.DirectoryPath);
+				for (int i = 0; i < allFiles.Length; i++)
 				{
 					string fileName = System.IO.Path.GetFileNameWithoutExtension(allFiles[i]);
-					if(_allShopNames.Contains(fileName) == false)
+					if (_allShopNames.Contains(fileName) == false)
 					{
 						_allShopNames.Add(fileName);
 					}
@@ -155,13 +162,13 @@ namespace ShopGenerator
 		}
 
 		public void OnPropertyChanged([CallerMemberName] string propertyName = null)
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+		{
+			PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+		}
 
 		private void ButtonGenerateShop_Click(object sender, RoutedEventArgs e)
 		{
-			if(_configuration.ShopName != "")
+			if (_configuration.ShopName != "")
 			{
 				Generator.Instance.GenerateShop(this);
 			}
@@ -170,12 +177,46 @@ namespace ShopGenerator
 		private void ButtonSauvegarde_Click(object sender, RoutedEventArgs e)
 		{
 			_configuration.Save();
+			if (_allShopNames.Contains(_configuration.ShopName) == false)
+			{
+				List<string> allShopNames = new List<string>();
+				allShopNames.AddRange(_allShopNames);
+				allShopNames.Add(_configuration.ShopName);
+				allShopNames.Sort();
+				AllShopNames = allShopNames;
+			}
 		}
 
 		private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
-			_configuration.Load(ShopName);
-			OnPropertyChanged(propertyName : null);
+			_configuration.Load();
+			OnPropertyChanged(propertyName: null);
+		}
+
+		private void ButtonSuppression_Click(object sender, RoutedEventArgs e)
+		{
+			int indexCurrentShop = _allShopNames.FindIndex(x => x == _configuration.ShopName);
+			indexCurrentShop = Math.Max(indexCurrentShop - 1, 0);
+
+			List<string> allShopNames = new List<string>();
+			allShopNames.AddRange(_allShopNames);
+
+			allShopNames.Remove(_configuration.ShopName);
+			_configuration.Delete();
+
+			AllShopNames = allShopNames;
+
+			if (allShopNames.Count > 0)
+			{
+				_configuration.ShopName = allShopNames[indexCurrentShop];
+			}
+			else
+			{
+				_configuration.ShopName = "Entrez une nouveau nom de magasin";
+			}
+			_configuration.Load();
+
+			OnPropertyChanged(propertyName: null);
 		}
 	}
 }

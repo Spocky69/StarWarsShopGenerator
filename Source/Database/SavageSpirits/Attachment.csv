@@ -22,9 +22,8 @@ Weapon;;;;;;;
 ;;-;;;;;
 ;;-;;;;;
 Armor;;;;;;;
-51;Systeme de camouflage optique;-;5500;0;2;6;Discretion Amélioré Mods : Discretion+1,MaîtreDesOmbres+1
 51;Bio-Camouflage passif;-;75;0;1;2;Détection+1Dénoir environement approprié
-51;Récupérateur d'eau;-;500;0;2;4;Survie-Résistance améliorer environement chaud et sec
+52;Système de Récupération d'Eau;-;500;0;2;4;Survie-Résistance améliorer environement chaud et sec
 ;;-;;;;;
 ;;-;;;;;
 ;;-;;;;;

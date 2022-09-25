@@ -13,15 +13,9 @@ namespace ShopGenerator
 	[Serializable]
 	public class Configuration
 	{
-#if DEBUG && DEBUG_REP
-        private const string _directoryName = "I:/JDR/Star Wars/Edge/Outils/ShopGenerator/Source/ShopGenerator/ShopConfig/";
-#else
-		private const string _directoryName = "ShopConfig";
-#endif
 		private List<Type> _listExtraType = new List<Type>();
-
-		private string _shopName = "Enter the shop name";
-		private string _ownerName = "Name";
+		private string _shopName = "Entrer une nouveau nom de magasin";
+		private string _ownerName = "Nom";
 		private string _description = "Description";
 		private Illegality _illegal = Illegality.Legal;
 		private ValueMinMax _price = new ValueMinMax(100, 100000);
@@ -32,7 +26,7 @@ namespace ShopGenerator
 		private string _directoryPath = "";
 
 		//Accessors
-		public static string DirectoryName { get { return _directoryName; } }
+		public string DirectoryPath { get { return _directoryPath; } }
 		public string ShopName { get { return _shopName; } set { _shopName = value; } }
 		public string OwnerName { get { return _ownerName; } set { _ownerName = value; } }
 		public string Description { get { return _description; } set { _description = value; } }
@@ -57,16 +51,16 @@ namespace ShopGenerator
 			_listExtraType.Add(typeof(CategoryConfigurationGear));
 			_listExtraType.Add(typeof(CategoryConfigurationBlackMarket));
 			_listExtraType.Add(typeof(CategoryConfigurationAttachment));
-			_directoryPath = Directory.GetCurrentDirectory() + _directoryName + "/";
 		}
 
-		public void Init()
+		public void Init(string directoryPath)
 		{
 			_listCategoryConfiguration.Add(new CategoryConfigurationWeapon(ElementType.Weapon));
 			_listCategoryConfiguration.Add(new CategoryConfigurationArmor(ElementType.Armor));
 			_listCategoryConfiguration.Add(new CategoryConfigurationGear(ElementType.Gear));
 			_listCategoryConfiguration.Add(new CategoryConfigurationBlackMarket(ElementType.BlackMarket));
 			_listCategoryConfiguration.Add(new CategoryConfigurationAttachment(ElementType.Attachment));
+			_directoryPath = directoryPath;
 		}
 
 		public CategoryConfiguration GetCategoryConfiguration(ElementType elementType)
@@ -84,14 +78,20 @@ namespace ShopGenerator
 		public void Save()
 		{
 			//Save to filename
-			_WriteDataInFileXml(_directoryName, _shopName + ".cfg", this, typeof(Configuration));
-
-			Process.Start(_directoryName);
+			WriteDataInFileXml(_directoryPath, _shopName + ".cfg", this, typeof(Configuration));
+			Process.Start(_directoryPath);
 		}
 
-		public void Load(string shopName)
+		public void Delete()
 		{
-			Configuration configuration = _ReadDataInFileXml(_directoryName + "/" + _shopName + ".cfg", typeof(Configuration)) as Configuration;
+			//Save to filename
+			File.Delete(_directoryPath + _shopName + ".cfg");
+			Process.Start(_directoryPath);
+		}
+
+		public void Load()
+		{
+			Configuration configuration = ReadDataInFileXml(_directoryPath + "/" + _shopName + ".cfg", typeof(Configuration)) as Configuration;
 			if (configuration != null)
 			{
 				Copy(configuration);
@@ -111,7 +111,7 @@ namespace ShopGenerator
 			_listCategoryConfiguration = configuration._listCategoryConfiguration;
 		}
 
-		protected object _ReadDataInFileXml(string filePath, Type typeofData)
+		protected object ReadDataInFileXml(string filePath, Type typeofData)
 		{
 			object saveData = null;
 			if (File.Exists(filePath))
@@ -126,7 +126,7 @@ namespace ShopGenerator
 			return saveData;
 		}
 
-		private void _WriteDataInFileXml(string directory, string fileName, object saveData, Type typeofData)
+		private void WriteDataInFileXml(string directory, string fileName, object saveData, Type typeofData)
 		{
 			if (Directory.Exists(directory) == false)
 			{

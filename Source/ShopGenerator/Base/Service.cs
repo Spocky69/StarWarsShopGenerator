@@ -27,5 +27,13 @@ namespace ShopGenerator.Base
 		{
 			return random.Next(min, max);
 		}
+
+		public static string GetApplicationUserPath()
+		{
+			string userRep = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+			string appName = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
+
+			return userRep + "/" + appName + "/";
+		}
 	}
 }
