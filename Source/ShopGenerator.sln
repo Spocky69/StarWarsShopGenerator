@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.32407.337
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopGenerator", "ShopGenerator\ShopGenerator.csproj", "{C2DAF211-7FC2-4347-A91D-08569F3546DB}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Star Wars Shop Generator", "Star Wars Shop Generator\Star Wars Shop Generator.vdproj", "{4A3145CD-F54B-43B6-BF96-47A9142CA72C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,8 @@ Global
 		{C2DAF211-7FC2-4347-A91D-08569F3546DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C2DAF211-7FC2-4347-A91D-08569F3546DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C2DAF211-7FC2-4347-A91D-08569F3546DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A3145CD-F54B-43B6-BF96-47A9142CA72C}.Debug|Any CPU.ActiveCfg = Debug
+		{4A3145CD-F54B-43B6-BF96-47A9142CA72C}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

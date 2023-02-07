@@ -127,12 +127,14 @@ namespace ShopGenerator
 		public MainWindow()
 		{
 			string shopConfigDirectory = "";
-#if DEBUG
 			shopConfigDirectory = Directory.GetCurrentDirectory() + "/../";
-#else
-			shopConfigDirectory = Service.GetApplicationUserPath();
-#endif
 			shopConfigDirectory += "ShopConfig/";
+
+			if(Directory.Exists(shopConfigDirectory) == false)
+			{
+				shopConfigDirectory = Service.GetApplicationUserPath() + "/ShopConfig/";
+			}
+
 			_configuration.Init(shopConfigDirectory);
 
 			Instance = this;

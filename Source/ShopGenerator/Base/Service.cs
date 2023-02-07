@@ -30,9 +30,8 @@ namespace ShopGenerator.Base
 
 		public static string GetApplicationUserPath()
 		{
-			string userRep = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+			string userRep = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
 			string appName = System.Reflection.Assembly.GetExecutingAssembly().GetName().Name;
-
 			return userRep + "/" + appName + "/";
 		}
 	}
