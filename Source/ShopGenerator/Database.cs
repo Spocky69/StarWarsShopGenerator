@@ -1,11 +1,9 @@
-﻿using ShopGenerator.Base;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
 
 namespace ShopGenerator
 {
@@ -14,7 +12,7 @@ namespace ShopGenerator
 		private List<ContainerElementDesc> _containerElementDescs = new List<ContainerElementDesc>();
 		private Localization _localization = null;
 		private string _databaseRep = "";
-		private char[] _separators = { ';'}; 
+		private char[] _separators = { ';' };
 
 		public Database(string databaseRep) : base()
 		{
@@ -22,11 +20,16 @@ namespace ShopGenerator
 			_databaseRep = databaseRep;
 		}
 
+		public void OpenCodeBook()
+		{
+			Process.Start(_databaseRep + "CodeBook.pdf");
+		}
+
 		public void Init()
 		{
-			foreach(ElementType elementType in Enum.GetValues(typeof(ElementType)))
+			foreach (ElementType elementType in Enum.GetValues(typeof(ElementType)))
 			{
-				if(elementType != ElementType.Invalid)
+				if (elementType != ElementType.Invalid)
 				{
 					ContainerElementDesc containerElementDesc = CreateContainerElementDesc(elementType);
 					_containerElementDescs.Add(containerElementDesc);
@@ -34,7 +37,7 @@ namespace ShopGenerator
 			}
 			_localization = new Localization();
 			_localization.Init(_databaseRep);
-			
+
 			ConstructDatabase();
 		}
 
@@ -45,9 +48,9 @@ namespace ShopGenerator
 			foreach (ContainerElementDesc containerElementDesc in _containerElementDescs)
 			{
 				List<ElementDesc> elementDescs = containerElementDesc.GenerateListWithCriteriasAndLimitationNumber(listCriteriaGeneral, listLimitationNumber);
-				if(elementDescs != null)
+				if (elementDescs != null)
 				{
-					elementDescsFinal.AddRange(elementDescs);	
+					elementDescsFinal.AddRange(elementDescs);
 				}
 			}
 
@@ -60,7 +63,7 @@ namespace ShopGenerator
 			finalString += description + "\n\n";
 			foreach (ContainerElementDesc containerElementDesc in _containerElementDescs)
 			{
-				if(elementDescsFinal != null)
+				if (elementDescsFinal != null)
 				{
 					finalString += containerElementDesc.GenerateLines(elementDescsFinal);
 				}
@@ -75,7 +78,7 @@ namespace ShopGenerator
 
 		private ContainerElementDesc CreateContainerElementDesc(ElementType elementType)
 		{
-			switch(elementType)
+			switch (elementType)
 			{
 				case ElementType.Armor: return new ContainerElementDescArmor(elementType);
 				case ElementType.Gear: return new ContainerElementDesc(elementType);
@@ -88,9 +91,9 @@ namespace ShopGenerator
 
 		private ContainerElementDesc GetContainerElementDesc(ElementType elementType)
 		{
-			foreach(ContainerElementDesc containerElementDesc in _containerElementDescs)
+			foreach (ContainerElementDesc containerElementDesc in _containerElementDescs)
 			{
-				if(containerElementDesc.ElementType == elementType)
+				if (containerElementDesc.ElementType == elementType)
 				{
 					return containerElementDesc;
 				}
@@ -122,8 +125,8 @@ namespace ShopGenerator
 						string[] allLines = System.IO.File.ReadAllLines(filePath, Encoding.Default);
 						int curLineIndex = 0;
 						object elementSubType = null;
-						for(int j=curLineIndex; j<allLines.Length; j++)
-						{ 
+						for (int j = curLineIndex; j < allLines.Length; j++)
+						{
 							ReadLine(allLines[j], bookType, (ElementType)i, ref elementSubType);
 						}
 					}
@@ -133,15 +136,15 @@ namespace ShopGenerator
 
 		private void ReadLine(string line, BookType bookType, ElementType elementType, ref object elementSubType)
 		{
-			if(string.IsNullOrEmpty(line) == false)
+			if (string.IsNullOrEmpty(line) == false)
 			{
 				string[] allLineElements = line.Split(_separators, StringSplitOptions.RemoveEmptyEntries);
-				if(allLineElements.Length > 0)
+				if (allLineElements.Length > 0)
 				{
-					if(allLineElements.Length > 1)
+					if (allLineElements.Length > 1)
 					{
 						ContainerElementDesc containerElementDesc = GetContainerElementDesc(elementType);
-						if(containerElementDesc != null)
+						if (containerElementDesc != null)
 						{
 							string bookName = Localization.Instance.GetValue(typeof(BookType), bookType);
 							containerElementDesc.ReadLine(allLineElements, bookName, elementType, elementSubType);
@@ -150,7 +153,7 @@ namespace ShopGenerator
 					else
 					{
 						Type subType = TypeHelper.GetSubType(elementType);
-						if(subType != null && allLineElements[0] != "-" && allLineElements[0] != "-")
+						if (subType != null && allLineElements[0] != "-" && allLineElements[0] != "I")
 						{
 							elementSubType = RetrieveSubType(subType, allLineElements[0]);
 						}
@@ -162,9 +165,9 @@ namespace ShopGenerator
 		private bool RetrieveType(ref ElementType elementType, string line)
 		{
 			string[] names = Enum.GetNames(typeof(ElementType));
-			for(int i=0; i<names.Length; i++)
+			for (int i = 0; i < names.Length; i++)
 			{
-				if(names[i] == line)
+				if (names[i] == line)
 				{
 					elementType = (ElementType)i;
 					return true;

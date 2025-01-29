@@ -33,7 +33,7 @@ Cybernetic;;;;;;
 ;;-;;;;
 Recreational;;;;;;
 44;Pochette à décoration;-;15;0;4;
-44;Symbole de commandement ;-;100;1;3;+1 dé bleu jet social
+44;Symbole de commandement ;-;100;1;3;+1dé bleu jet social
 44;Robe de commandement;-;100;1;5;
 44;Holo charme;-;1800;0;8;Améliore Jet Tromperie,Commandement, Charme
 ;;-;;;;
@@ -42,7 +42,7 @@ Recreational;;;;;;
 Security;;;;;;
 46;Batterie anti-véhicule légère;-;4000;30;2;Dgt4,Crit4,Courte,Breche1,Imprécis2,CadenceLente1
 46;Générateur de puit à chaleur;-;550;20;2;Alimente une base modulaire
-46;Jeu de senseur multifonction ;I;2750;20;5;+2 dés bleu Jet Perception,Informatique,Vigilance,+2dés noirs jet discretion
+46;Jeu de senseur multifonction ;I;2750;20;5;+2dés bleu Jet Perception,Informatique,Vigilance,+2dés noirs jet discretion
 47;Générateur de bouclier planétaire;I;460000;100;4;Défense 2 Nord,Sur,Est,Ouest
 48;Batterie anti-infantery ;I;7500;50;5;Sil1,Dgt15,Crit2,Longue,Souffle10,Imprécis2,Jumelé1,Perforant4,CadenceLente1
 49;Réseau d'information tactique 'Tacnet';-;1000;40;3;Jet Informatique diff2 pour activer, -1dé noirjet commandement,2 avantages->+1 dé bleu
@@ -66,7 +66,7 @@ Tools;;;;;;
 ;;-;;;;
 ;;-;;;;
 Droids;;;;;;
-45;Droid tactique Série T;I;8000;0;8;Calme,Sang-Froid,ArtDeLaGuerre,Commandement,Perception,Vigilance,+2dés bleu jet ArtDeLaGuerre,Commandement
+45;Droid tactique Série T;I;8000;0;8;Calme3,Sang-Froid2,ArtDeLaGuerre3,Commandement3,Perception2,Vigilance2,+2dés bleu jet ArtDeLaGuerre,Commandement
 ;;-;;;;
 ;;-;;;;
 ;;-;;;;

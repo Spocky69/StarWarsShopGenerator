@@ -645,12 +645,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_806F18AA70CBD41B49991844A1EE6D8B"
-        "OwnerKey" = "8:_96D623D4C06141CFA7C6217D179DBC0B"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_80729DB8E38146D3A283C259A67C5A4A"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1017,6 +1011,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_D99C9A9B65159C1DE65D92A5D5B7DECB"
+        "OwnerKey" = "8:_96D623D4C06141CFA7C6217D179DBC0B"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_DBE1C91DE8F04CAFBCDE580F0506359D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1222,7 +1222,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_806F18AA70CBD41B49991844A1EE6D8B"
+        "OwnerKey" = "8:_D99C9A9B65159C1DE65D92A5D5B7DECB"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -3420,37 +3420,6 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_806F18AA70CBD41B49991844A1EE6D8B"
-            {
-            "AssemblyRegister" = "3:1"
-            "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
-                "ScatterAssemblies"
-                {
-                    "_806F18AA70CBD41B49991844A1EE6D8B"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
-                }
-            "SourcePath" = "8:System.Net.Http.dll"
-            "TargetName" = "8:"
-            "Tag" = "8:"
-            "Folder" = "8:_A8AA8017C738476FB963EF68321C5DD2"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_80729DB8E38146D3A283C259A67C5A4A"
             {
             "SourcePath" = "8:..\\Database\\LeadByExample\\Attachment.csv"
@@ -4651,6 +4620,37 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_D99C9A9B65159C1DE65D92A5D5B7DECB"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+                "ScatterAssemblies"
+                {
+                    "_D99C9A9B65159C1DE65D92A5D5B7DECB"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:System.Net.Http.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_A8AA8017C738476FB963EF68321C5DD2"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_DBE1C91DE8F04CAFBCDE580F0506359D"
             {
             "SourcePath" = "8:..\\..\\ShopConfig\\La Roue Tout pour l'explorateur.cfg"
@@ -5719,15 +5719,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Star Wars Shop Generator"
-        "ProductCode" = "8:{BC6BD080-77B5-41BD-B6F0-15426F897034}"
-        "PackageCode" = "8:{5C27628F-27E9-4319-89F7-C0A9BC2C945B}"
+        "ProductCode" = "8:{8937DED6-CC16-4358-8E41-1EB09E72707F}"
+        "PackageCode" = "8:{CAE7F4CD-4B41-4A7C-A77C-B56B5041FCC3}"
         "UpgradeCode" = "8:{A7AE9467-2AA7-4C17-ACA5-515A03F63864}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:FALSE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
-        "ProductVersion" = "8:0.5.1"
+        "ProductVersion" = "8:0.6"
         "Manufacturer" = "8:Spocky"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

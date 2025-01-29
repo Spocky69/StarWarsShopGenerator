@@ -24,7 +24,7 @@ namespace ShopGenerator
 				Directory.CreateDirectory(_shopRep);
 			}
 
-			string baseShopPath = _shopRep + "/" + window.ShopName;
+			string baseShopPath = _shopRep + "/" + window.ShopFileName;
 			string finalShopPath = baseShopPath + ".shp";
 			int shopNumber = 1;
 			while (File.Exists(finalShopPath))
@@ -44,13 +44,17 @@ namespace ShopGenerator
 			List<Criteria> listCriteria = new List<Criteria>();
 
 			//Illegal
-			listCriteria.Add(new CriteriaIllegality(ElementType.Invalid, window.Illegal));
+			if (window.Illegal != Illegality.Both)
+			{
+				listCriteria.Add(new CriteriaIllegality(ElementType.Invalid, window.Illegal));
+			}
 
 			//Price
 			if (window.Price.Min > 0)
 			{
 				listCriteria.Add(new Criteria(ElementType.Invalid, PropertyType.Price, Criteria.ComparaisonType.Superior, window.Price.Min.ToString()));
 			}
+
 			if (window.Price.Max > 0)
 			{
 				listCriteria.Add(new Criteria(ElementType.Invalid, PropertyType.Price, Criteria.ComparaisonType.Inferior, window.Price.Max.ToString()));
@@ -61,6 +65,7 @@ namespace ShopGenerator
 			{
 				listCriteria.Add(new Criteria(ElementType.Invalid, PropertyType.Rarity, Criteria.ComparaisonType.Superior, window.Rarity.Min.ToString()));
 			}
+
 			if (window.Rarity.Max > 0)
 			{
 				listCriteria.Add(new Criteria(ElementType.Invalid, PropertyType.Rarity, Criteria.ComparaisonType.Inferior, window.Rarity.Max.ToString()));
@@ -82,12 +87,13 @@ namespace ShopGenerator
 					{
 						listCriteria.Add(new Criteria(elementType, PropertyType.Rarity, Criteria.ComparaisonType.Superior, categoryConfiguration.Rarity.Min.ToString()));
 					}
+
 					if (categoryConfiguration.Rarity.Max > 0)
 					{
 						listCriteria.Add(new Criteria(elementType, PropertyType.Rarity, Criteria.ComparaisonType.Inferior, categoryConfiguration.Rarity.Max.ToString()));
 					}
 
-					if (categoryConfiguration.Illegal > window.Illegal)
+					if (window.Illegal != Illegality.Both)
 					{
 						listCriteria.Add(new CriteriaIllegality(elementType, categoryConfiguration.Illegal));
 					}

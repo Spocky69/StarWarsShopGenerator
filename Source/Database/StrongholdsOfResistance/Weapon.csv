@@ -29,7 +29,7 @@ Others;;;;;;;;;;;
 107;Mini-torpille étourdissante ;Lou;8;2;Lon;1;0;-;300;5;Souffle 4,Choc 2,Munitions limités 1,Dégats Etourdissement
 107;Grenade à spores étourdissantes;Lég;6;3;Cou;1;0;-;400;5;Souffle6,Choc2,Munitions limités1,Dégats Etourdissement,Diff1rouge,Désastre->+6stress,Jet médecine diff3
 Brawling;;;;;;;;;;;
-;;Pug;;;;;;-;;;
+;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Melee;;;;;;;;;;;
 108;Cape étourdissante SVT-300;Pug;7;3;Con;2;0;-;1500;4;Munitions limités 3,Dégats Etourdissement,Attaquant Mélée->+7stress,Recharger:3Minutes 

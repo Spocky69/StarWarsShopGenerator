@@ -18,19 +18,19 @@ Slugthrowers;;;;;;;;;;;
 Thrown;;;;;;;;;;;
 ;;;;;;;;;;;
 Others;;;;;;;;;;;
-41;Fusil anti-émeute R-88;Lou;0;0;Lon;4;0;-;2500;8;Précis2,Enchevêtrement4,Cadence Lente1,Etourdissement8,Inhalation
-41;Vaporisateur de toile;Lou;8;0;Moy;4;2;-;2000;5;Souffle5,Désorientation3,Dégats Etourdissement,CrosseEtourdissante(Cac,+2,Imprécis1,DégatsEtourdissant)
-41;Canon d'enchevêtrement 7;Lou;1;4;Cou;2;1;-;500;5;Enchevêtrement3
+41; Baton Vaporiseur Stokhli;Lou;0;0;Lon;4;0;-;2500;8;Précis2,Enchevêtrement4,Cadence Lente1,Etourdissement8,,CrosseEtourdissante(Cac,+2,Imprécis1,DégatsEtourdissant)
+41;Fusil anti-émeute R-88;Lou;8;0;Moy;4;2;-;2000;5;Souffle5,Désorientation3,Dégats Etourdissement,Inhalation
+41;Fusil Neutralisant 7;Lou;1;4;Cou;2;1;-;500;5;Enchevêtrement3
 ;;;;;;;;;;;
 ;;;;;;;;;;;
 Brawling;;;;;;;;;;;
-42;Gant de choc;Pug;+1;3;Con;0;2;-;2000;4;Choc1,CadenceLente1,DégatsEtourdissement
+42;Gant à décharge Backhand;Pug;+1;3;Con;0;2;-;2000;4;Choc1,CadenceLente1,DégatsEtourdissement
 ;;;;;;;;-;;;
 Melee;;;;;;;;;;;
 43;Stilet moléculaire MSW-9;CàC;+0;2;Con;1;1;-;500;5;Perforant5,Sanguinaire1,Fragile2,Dissimulation1
 43;Bouclier anti-émeute Activv1;CàC;+0;6;Con;5;1;-;300;4;1Main,Encombrant3,Déflexion2,Parade2,Désorientation1,ArmeLourde+1DéNoir
-43;Baton étourdissant Z2;CàC;+2;6;Con;2;2;-;200;4;Désorientation2,DégatsEtourdissement
-43;Baton coup de foudre;CàC;5;3;Con;2;2;-;875;6;Choc1,DégatsEtourdissement
+43;Matraque étourdissant Z2;CàC;+2;6;Con;2;2;-;200;4;Désorientation2,DégatsEtourdissement
+43;Baton à décharge Thunderbolt;CàC;5;3;Con;2;2;-;875;6;Choc1,DégatsEtourdissement
 ;;;;;;;;;;;
 ;;;;;;;;;;;
 ;;;;;;;;;;;

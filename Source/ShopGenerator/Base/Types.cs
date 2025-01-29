@@ -148,8 +148,8 @@ namespace ShopGenerator
 
 	public enum Illegality
 	{
+		Both,
 		Legal,
-		NotLegal,
-		Both
+		NotLegal
 	}
 }	

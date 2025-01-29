@@ -32,7 +32,7 @@ namespace ShopGenerator
 		public virtual bool IsValid(ElementDesc elementDesc)
 		{
 			int compareValue = elementDesc.GetProperty(_propertyType).CompareTo(_refValue);
-			switch(_comparaisonType)
+			switch (_comparaisonType)
 			{
 				case ComparaisonType.Equal: return compareValue == 0;
 				case ComparaisonType.Different: return compareValue != 0;
@@ -44,22 +44,24 @@ namespace ShopGenerator
 
 		static public List<ElementDesc> FilterList(List<ElementDesc> elementDescs, List<Criteria> listCriterias)
 		{
-			if(elementDescs != null)
+			if (elementDescs != null)
 			{
-				List<ElementDesc> elementDescsFiltered = elementDescs.FindAll((ElementDesc element) => FindElements(element, listCriterias));
+				List<ElementDesc> elementDescsFiltered = elementDescs.FindAll((ElementDesc element) => IsElementValid(element, listCriterias));
 				return elementDescsFiltered;
 			}
 			return null;
 		}
 
-		static private bool FindElements(ElementDesc element, List<Criteria> listCriterias)
+		static private bool IsElementValid(ElementDesc element, List<Criteria> listCriterias)
 		{
-			List<Criteria> listCriteriaFiltered = FilterListCriteriaFromElementType(element, listCriterias);
-			foreach (Criteria criteria in listCriteriaFiltered)
+			foreach (Criteria criteria in listCriterias)
 			{
-				if (criteria.IsValid(element) == false)
+				if (criteria._elementType.ToString() == element.GetPropertyValue(PropertyType.ElementType) || criteria._elementType == ElementType.Invalid)
 				{
-					return false;
+					if (criteria.IsValid(element) == false)
+					{
+						return false;
+					}
 				}
 			}
 			return true;
@@ -70,7 +72,7 @@ namespace ShopGenerator
 			List<Criteria> listCriteriaFiltered = new List<Criteria>();
 
 			//Foreach property get the good criteria
-			foreach(PropertyType propertyType in Enum.GetValues(typeof(PropertyType)))
+			foreach (PropertyType propertyType in Enum.GetValues(typeof(PropertyType)))
 			{
 				foreach (ComparaisonType comparaisonType in Enum.GetValues(typeof(Criteria.ComparaisonType)))
 				{

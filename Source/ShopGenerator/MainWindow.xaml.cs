@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Runtime.CompilerServices;
@@ -19,27 +20,42 @@ using System.Windows.Shapes;
 
 namespace ShopGenerator
 {
+	
+
 	/// <summary>
 	/// Logique d'interaction pour MainWindow.xaml
 	/// </summary>
-	/// 
-
 	public partial class MainWindow : INotifyPropertyChanged
 	{
+		public const string DEFAULT_FILE_NAME = "Nouveau Shop";
 		static public MainWindow Instance;
 
+		private string _shopFileName;
 		private Configuration _configuration = new Configuration();
-		private List<string> _allShopNames = new List<string>();
+		private List<string> _allShopNameFiles = new List<string>();
 
 		#region Accessors
-		public List<string> AllShopNames
+		public List<string> AllShopNameFiles
 		{
-			get { return _allShopNames; }
+			get { return _allShopNameFiles; }
 			set
 			{
-				if (_allShopNames != value)
+				if (_allShopNameFiles != value)
 				{
-					_allShopNames = value;
+					_allShopNameFiles = value;
+					OnPropertyChanged("AllShopNameFiles");
+				}
+			}
+		}
+
+		public string ShopFileName
+		{
+			get { return _shopFileName; }
+			set
+			{
+				if (_shopFileName != value)
+				{
+					_shopFileName = value;
 					OnPropertyChanged();
 				}
 			}
@@ -124,6 +140,8 @@ namespace ShopGenerator
 
 		public event PropertyChangedEventHandler PropertyChanged;
 
+
+
 		public MainWindow()
 		{
 			string shopConfigDirectory = "";
@@ -147,13 +165,14 @@ namespace ShopGenerator
 				for (int i = 0; i < allFiles.Length; i++)
 				{
 					string fileName = System.IO.Path.GetFileNameWithoutExtension(allFiles[i]);
-					if (_allShopNames.Contains(fileName) == false)
+					if (_allShopNameFiles.Contains(fileName) == false)
 					{
-						_allShopNames.Add(fileName);
+						_allShopNameFiles.Add(fileName);
 					}
 				}
 			}
-			_allShopNames.Sort();
+
+			_allShopNameFiles.Sort();
 
 			InitializeComponent();
 		}
@@ -170,7 +189,7 @@ namespace ShopGenerator
 
 		private void ButtonGenerateShop_Click(object sender, RoutedEventArgs e)
 		{
-			if (_configuration.ShopName != "")
+			if (_shopFileName != "")
 			{
 				Generator.Instance.GenerateShop(this);
 			}
@@ -178,47 +197,53 @@ namespace ShopGenerator
 
 		private void ButtonSauvegarde_Click(object sender, RoutedEventArgs e)
 		{
-			_configuration.Save();
-			if (_allShopNames.Contains(_configuration.ShopName) == false)
+			_configuration.Save(_shopFileName);
+			if (_allShopNameFiles.Contains(_shopFileName) == false)
 			{
 				List<string> allShopNames = new List<string>();
-				allShopNames.AddRange(_allShopNames);
-				allShopNames.Add(_configuration.ShopName);
+				allShopNames.AddRange(_allShopNameFiles);
+				allShopNames.Add(_shopFileName);
 				allShopNames.Sort();
-				AllShopNames = allShopNames;
+				AllShopNameFiles = allShopNames;
 			}
+		}
+
+		private void ButtonCodeBook_Click(object sender, RoutedEventArgs e)
+		{
+			Database.Instance.OpenCodeBook();
 		}
 
 		private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
-			_configuration.Load();
+			_configuration.Load(_shopFileName);
 			OnPropertyChanged(propertyName: null);
 		}
 
 		private void ButtonSuppression_Click(object sender, RoutedEventArgs e)
 		{
-			int indexCurrentShop = _allShopNames.FindIndex(x => x == _configuration.ShopName);
+			int indexCurrentShop = _allShopNameFiles.FindIndex(x => x == _shopFileName);
 			indexCurrentShop = Math.Max(indexCurrentShop - 1, 0);
 
 			List<string> allShopNames = new List<string>();
-			allShopNames.AddRange(_allShopNames);
+			allShopNames.AddRange(_allShopNameFiles);
 
-			allShopNames.Remove(_configuration.ShopName);
-			_configuration.Delete();
+			allShopNames.Remove(_shopFileName);
+			_configuration.Delete(_shopFileName);
 
-			AllShopNames = allShopNames;
+			AllShopNameFiles = allShopNames;
 
 			if (allShopNames.Count > 0)
 			{
-				_configuration.ShopName = allShopNames[indexCurrentShop];
+				ShopFileName = allShopNames[indexCurrentShop];
+				_configuration.Load(_shopFileName);
 			}
 			else
 			{
-				_configuration.ShopName = "Entrez une nouveau nom de magasin";
+				ShopFileName = DEFAULT_FILE_NAME;
+				_configuration = new Configuration();
 			}
-			_configuration.Load();
 
-			OnPropertyChanged(propertyName: null);
+			OnPropertyChanged();
 		}
 	}
 }

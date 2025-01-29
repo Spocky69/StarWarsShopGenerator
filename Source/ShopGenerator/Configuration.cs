@@ -3,10 +3,8 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Xml.Serialization;
+using static ShopGenerator.MainWindow;
 
 namespace ShopGenerator
 {
@@ -14,7 +12,7 @@ namespace ShopGenerator
 	public class Configuration
 	{
 		private List<Type> _listExtraType = new List<Type>();
-		private string _shopName = "Entrer une nouveau nom de magasin";
+		private string _shopName = "Entrez / Choissisez un nom de magasin";
 		private string _ownerName = "Nom";
 		private string _description = "Description";
 		private Illegality _illegal = Illegality.Legal;
@@ -36,7 +34,6 @@ namespace ShopGenerator
 		public ValueMinMax NbArticles { get { return _nbArticles; } set { _nbArticles = value; } }
 		public string NameFilter { get { return _nameFilter; } set { _nameFilter = value; } }
 		public List<CategoryConfiguration> ListCategoryConfiguration { get { return _listCategoryConfiguration; } set { _listCategoryConfiguration = value; } }
-
 		public CategoryConfigurationWeapon CategoryConfigurationWeapon { get { return GetCategoryConfiguration(ElementType.Weapon) as CategoryConfigurationWeapon; } }
 		public CategoryConfigurationArmor CategoryConfigurationArmor { get { return GetCategoryConfiguration(ElementType.Armor) as CategoryConfigurationArmor; } }
 		public CategoryConfigurationGear CategoryConfigurationGear { get { return GetCategoryConfiguration(ElementType.Gear) as CategoryConfigurationGear; } }
@@ -75,23 +72,23 @@ namespace ShopGenerator
 			return null;
 		}
 
-		public void Save()
+		public void Save(string fileName)
 		{
 			//Save to filename
-			WriteDataInFileXml(_directoryPath, _shopName + ".cfg", this, typeof(Configuration));
+			WriteDataInFileXml(_directoryPath, fileName + ".cfg", this, typeof(Configuration));
 			Process.Start(_directoryPath);
 		}
 
-		public void Delete()
+		public void Delete(string fileName)
 		{
 			//Save to filename
-			File.Delete(_directoryPath + _shopName + ".cfg");
+			File.Delete(_directoryPath + fileName + ".cfg");
 			Process.Start(_directoryPath);
 		}
 
-		public void Load()
+		public void Load(string fileName)
 		{
-			Configuration configuration = ReadDataInFileXml(_directoryPath + "/" + _shopName + ".cfg", typeof(Configuration)) as Configuration;
+			Configuration configuration = ReadDataInFileXml(_directoryPath + "/" + fileName + ".cfg", typeof(Configuration)) as Configuration;
 			if (configuration != null)
 			{
 				Copy(configuration);

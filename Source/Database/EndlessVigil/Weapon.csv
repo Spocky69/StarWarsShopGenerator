@@ -35,7 +35,7 @@ Melee;;;;;;;;;;;
 ;;;;;;;;-;;;
 ;;;;;;;;-;;;
 Lightsaber;;;;;;;;;;;
-42;Sabre laser avec garde en croix;Sabre Laser;6;2;Contact;1;4;I;9700;10;Brêche 1,Parade 1,Briseur,Attaquant 3 Menaces->Désarmé
-42;Fouet laser;Sabre Laser;4;4;Cou;1;1;I;11400;10;Enchevêtrement 1,Perforant 4,Imprécis 4,2Avantages->Cible ne peut pas utiliser Parade
-43;Couteau à phase Philaxien;Sabre Laser;+1;3;Contact;1;1;-;1500;8;Perforant 4,Sanguinaire 1,Lancer:2Avantages->Boomerang
-42;Garde sabre laser avec garde en croix;Sabre Laser;0;0;Contact;1;4;-;900;7;Parade 1
+42;Sabre laser avec garde en croix;Sab;6;2;Con;1;4;I;9700;10;Brêche 1,Parade 1,Briseur,Attaquant 3 Menaces->Désarmé
+42;Fouet laser;Sab;4;4;Cou;1;1;I;11400;10;Enchevêtrement 1,Perforant 4,Imprécis 4,2Avantages->Cible ne peut pas utiliser Parade
+43;Couteau à phase Philaxien;Sab;+1;3;Con;1;1;-;1500;8;Perforant 4,Sanguinaire 1,Lancer:2Avantages->Boomerang
+42;Garde sabre laser avec garde en croix;Sab;0;0;Con;1;4;-;900;7;Parade 1
