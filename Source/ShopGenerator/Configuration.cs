@@ -21,7 +21,7 @@ namespace ShopGenerator
 		private string _nameFilter = "";
 		private ValueMinMax _nbArticles = new ValueMinMax(10, 100);
 		private List<CategoryConfiguration> _listCategoryConfiguration = new List<CategoryConfiguration>();
-		
+
 		//Accessors
 		public string ShopName { get { return _shopName; } set { _shopName = value; } }
 		public string OwnerName { get { return _ownerName; } set { _ownerName = value; } }
@@ -40,16 +40,28 @@ namespace ShopGenerator
 
 		public Configuration()
 		{
-			_listExtraType.Clear();
+			InitExtraType();
+		}
+
+		public Configuration(bool init)
+		{
+			InitExtraType();
+			if (init)
+			{
+				InitCategoryConfiguration();
+			}
+		}
+
+		private void InitExtraType()
+		{
 			_listExtraType.Add(typeof(CategoryConfigurationWeapon));
 			_listExtraType.Add(typeof(CategoryConfigurationArmor));
 			_listExtraType.Add(typeof(CategoryConfigurationGear));
 			_listExtraType.Add(typeof(CategoryConfigurationBlackMarket));
 			_listExtraType.Add(typeof(CategoryConfigurationAttachment));
-			Init();
 		}
 
-		public void Init()
+		private void InitCategoryConfiguration()
 		{
 			_listCategoryConfiguration.Add(new CategoryConfigurationWeapon(ElementType.Weapon));
 			_listCategoryConfiguration.Add(new CategoryConfigurationArmor(ElementType.Armor));
@@ -70,21 +82,27 @@ namespace ShopGenerator
 			return null;
 		}
 
-		public void Save(string directoryPath, string fileName)
+		public void Save(string directoryPath, string fileName, bool openDir = false)
 		{
 			//Save to filename
 			WriteDataInFileXml(directoryPath, fileName + ".cfg", this, typeof(Configuration));
-			Process.Start(directoryPath);
+			if (openDir)
+			{
+				Process.Start(directoryPath);
+			}
 		}
 
-		public void Delete(string directoryPath, string fileName)
+		public void Delete(string directoryPath, string fileName, bool openDir = false)
 		{
 			//Save to filename
 			File.Delete(directoryPath + fileName + ".cfg");
-			Process.Start(directoryPath);
+			if (openDir)
+			{
+				Process.Start(directoryPath);
+			}
 		}
 
-		public void Load(string directoryPath, string fileName)
+		public void Load(string directoryPath, string fileName, bool openDir = false)
 		{
 			Configuration configuration = ReadDataInFileXml(directoryPath + "/" + fileName + ".cfg", typeof(Configuration)) as Configuration;
 			if (configuration != null)
@@ -120,7 +138,7 @@ namespace ShopGenerator
 			}
 			else
 			{
-				saveData = new Configuration();
+				saveData = new Configuration(true);
 			}
 			return saveData;
 		}

@@ -10,8 +10,6 @@ using System.Windows.Controls;
 
 namespace ShopGenerator
 {
-
-
 	/// <summary>
 	/// Logique d'interaction pour MainWindow.xaml
 	/// </summary>
@@ -21,7 +19,7 @@ namespace ShopGenerator
 		static public MainWindow Instance;
 
 		private string _shopFileName;
-		private Configuration _configuration = new Configuration();
+		private Configuration _configuration = new Configuration(true);
 		private List<string> _allShopNameFiles = new List<string>();
 		private string _directoryPath = "";
 
@@ -230,7 +228,7 @@ namespace ShopGenerator
 			else
 			{
 				ShopFileName = DEFAULT_FILE_NAME;
-				_configuration = new Configuration();
+				_configuration = new Configuration(true);
 			}
 
 			OnPropertyChanged();
@@ -249,7 +247,7 @@ namespace ShopGenerator
 				string newFileName = newFileWindow.FileName;
 				if (string.IsNullOrEmpty(newFileName) == false)
 				{
-					_configuration = new Configuration();
+					_configuration = new Configuration(true);
 					AllShopNameFiles.Add(newFileName);
 					AllShopNameFiles.Sort();
 					List<string> allShopNames = new List<string>();
@@ -278,6 +276,8 @@ namespace ShopGenerator
 					string newFileName = newFileWindow.FileName;
 					if (string.IsNullOrEmpty(newFileName) == false)
 					{
+						_configuration.Save(_directoryPath, newFileName);
+
 						AllShopNameFiles.Add(newFileName);
 						AllShopNameFiles.Sort();
 						List<string> allShopNames = new List<string>();
@@ -285,7 +285,6 @@ namespace ShopGenerator
 						AllShopNameFiles = allShopNames;
 						OnPropertyChanged();
 						ShopFileName = newFileName;
-						_configuration.Save(_directoryPath, _shopFileName);
 					}
 				}
 			}
