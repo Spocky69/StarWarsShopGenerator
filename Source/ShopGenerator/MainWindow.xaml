@@ -6,7 +6,7 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:ShopGenerator"
         mc:Ignorable="d"
-        Title="Shop Générateur" Height="892" Width="814">
+        Title="Shop Générateur" Width="820" Height="900">
 	<Window.Resources>
 		<ObjectDataProvider x:Key="IllegalityEnum"
                             MethodName="GetValues" 
@@ -17,7 +17,7 @@
 		</ObjectDataProvider>
 
 	</Window.Resources>
-	<Grid Margin="0,0,2,0">
+	<Grid Margin="0,0,2,1" Height="856" Width="805">
 		<Button Content="Générer" Margin="608,745,0,0" VerticalAlignment="Top" Height="96" FontSize="24" FontWeight="Bold" Click="ButtonGenerateShop_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="182"/>
 		<GroupBox Header="Magasin" HorizontalAlignment="Left" Height="720" Margin="10,10,0,0" VerticalAlignment="Top" Width="780">
 			<Grid HorizontalAlignment="Left" Height="693" Margin="0,2,-2,0" VerticalAlignment="Top" Width="770">
@@ -71,7 +71,7 @@
 							</Label.RenderTransform>
 						</Label>
 						<TextBox Text="{Binding NameFilter, Mode=TwoWay}" HorizontalAlignment="Left" Height="23" Margin="480,44,0,0" VerticalAlignment="Top" Width="255" MaxLines="1" VerticalContentAlignment="Center"/>
-						<Label Content="Nombre d'artciles" HorizontalAlignment="Left" Margin="0,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="109" Height="23">
+						<Label Content="Nombre d'articles" HorizontalAlignment="Left" Margin="0,44,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="109" Height="23">
 							<Label.RenderTransform>
 								<TransformGroup>
 									<ScaleTransform/>
@@ -146,8 +146,6 @@
 						</Label>
 						<TextBox Text="{Binding Rarity.Min, Mode=TwoWay}" HorizontalAlignment="Left" Height="23" Margin="318,5,0,0" VerticalAlignment="Top" Width="35" MaxLines="1" MaxLength="2" VerticalContentAlignment="Center"/>
 						<ComboBox  ItemsSource="{Binding Source={StaticResource IllegalityEnum}}" SelectedItem="{Binding Path=Illegal}" HorizontalAlignment="Left" Margin="459,5,0,0" VerticalAlignment="Top" Width="120"/>
-
-
 					</Grid>
 				</GroupBox>
 				<GroupBox Header="Catégorie" HorizontalAlignment="Left" Height="371" Margin="10,305,0,-98" VerticalAlignment="Top" Width="750">
@@ -1080,9 +1078,21 @@
 				</GroupBox>
 			</Grid>
 		</GroupBox>
-		<Button Content="Sauvegarde" Margin="40,745,0,0" VerticalAlignment="Top" Height="39" FontSize="24" FontWeight="Bold" Click="ButtonSauvegarde_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="149"/>
-		<Button Content="Suppression" Margin="40,797,0,0" VerticalAlignment="Top" Height="44" FontSize="24" FontWeight="Bold" Click="ButtonSuppression_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="149"/>
-		<Button Content="Codes Livre" Margin="303,745,0,0" VerticalAlignment="Top" Height="39" FontSize="24" FontWeight="Bold" Click="ButtonCodeBook_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="149"/>
+		<Button Content="Codes Livre" Margin="433,745,0,0" VerticalAlignment="Top" Height="39" FontSize="24" FontWeight="Bold" Click="ButtonCodeBook_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="149"/>
+		<GroupBox Header="Fichiers" Margin="10,727,0,0" Height="125" VerticalAlignment="Top" HorizontalAlignment="Left" Width="333">
+			<Grid HorizontalAlignment="Left" Height="108" Margin="10,0,0,0" VerticalAlignment="Top" Width="311">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="26*"/>
+					<ColumnDefinition Width="226*"/>
+					<ColumnDefinition Width="25*"/>
+					<ColumnDefinition Width="34*"/>
+				</Grid.ColumnDefinitions>
+				<Button Content="Sauvegarde" Margin="130,8,0,0" VerticalAlignment="Top" Height="41" FontSize="24" FontWeight="Bold" Click="ButtonSauvegarde_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="148" Grid.ColumnSpan="3" Grid.Column="1"/>
+				<Button Content="Suppression" Margin="130,57,0,0" VerticalAlignment="Top" Height="41" FontSize="24" FontWeight="Bold" Click="ButtonSuppression_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="148" Grid.ColumnSpan="3" Grid.Column="1"/>
+				<Button Content="Nouveau" Margin="0,8,0,0" VerticalAlignment="Top" Height="41" FontSize="24" FontWeight="Bold" Click="ButtonNew_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="150" Grid.ColumnSpan="2"/>
+				<Button Content="Copier" Margin="0,57,0,0" VerticalAlignment="Top" Height="41" FontSize="24" FontWeight="Bold" Click="ButtonCopy_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="149" Grid.ColumnSpan="2"/>
+			</Grid>
+		</GroupBox>
 
 
 	</Grid>

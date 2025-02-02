@@ -21,10 +21,8 @@ namespace ShopGenerator
 		private string _nameFilter = "";
 		private ValueMinMax _nbArticles = new ValueMinMax(10, 100);
 		private List<CategoryConfiguration> _listCategoryConfiguration = new List<CategoryConfiguration>();
-		private string _directoryPath = "";
-
+		
 		//Accessors
-		public string DirectoryPath { get { return _directoryPath; } }
 		public string ShopName { get { return _shopName; } set { _shopName = value; } }
 		public string OwnerName { get { return _ownerName; } set { _ownerName = value; } }
 		public string Description { get { return _description; } set { _description = value; } }
@@ -48,16 +46,16 @@ namespace ShopGenerator
 			_listExtraType.Add(typeof(CategoryConfigurationGear));
 			_listExtraType.Add(typeof(CategoryConfigurationBlackMarket));
 			_listExtraType.Add(typeof(CategoryConfigurationAttachment));
+			Init();
 		}
 
-		public void Init(string directoryPath)
+		public void Init()
 		{
 			_listCategoryConfiguration.Add(new CategoryConfigurationWeapon(ElementType.Weapon));
 			_listCategoryConfiguration.Add(new CategoryConfigurationArmor(ElementType.Armor));
 			_listCategoryConfiguration.Add(new CategoryConfigurationGear(ElementType.Gear));
 			_listCategoryConfiguration.Add(new CategoryConfigurationBlackMarket(ElementType.BlackMarket));
 			_listCategoryConfiguration.Add(new CategoryConfigurationAttachment(ElementType.Attachment));
-			_directoryPath = directoryPath;
 		}
 
 		public CategoryConfiguration GetCategoryConfiguration(ElementType elementType)
@@ -72,23 +70,23 @@ namespace ShopGenerator
 			return null;
 		}
 
-		public void Save(string fileName)
+		public void Save(string directoryPath, string fileName)
 		{
 			//Save to filename
-			WriteDataInFileXml(_directoryPath, fileName + ".cfg", this, typeof(Configuration));
-			Process.Start(_directoryPath);
+			WriteDataInFileXml(directoryPath, fileName + ".cfg", this, typeof(Configuration));
+			Process.Start(directoryPath);
 		}
 
-		public void Delete(string fileName)
+		public void Delete(string directoryPath, string fileName)
 		{
 			//Save to filename
-			File.Delete(_directoryPath + fileName + ".cfg");
-			Process.Start(_directoryPath);
+			File.Delete(directoryPath + fileName + ".cfg");
+			Process.Start(directoryPath);
 		}
 
-		public void Load(string fileName)
+		public void Load(string directoryPath, string fileName)
 		{
-			Configuration configuration = ReadDataInFileXml(_directoryPath + "/" + fileName + ".cfg", typeof(Configuration)) as Configuration;
+			Configuration configuration = ReadDataInFileXml(directoryPath + "/" + fileName + ".cfg", typeof(Configuration)) as Configuration;
 			if (configuration != null)
 			{
 				Copy(configuration);
@@ -108,17 +106,21 @@ namespace ShopGenerator
 			_listCategoryConfiguration = configuration._listCategoryConfiguration;
 		}
 
-		protected object ReadDataInFileXml(string filePath, Type typeofData)
+		protected Configuration ReadDataInFileXml(string filePath, Type typeofData)
 		{
-			object saveData = null;
+			Configuration saveData = null;
 			if (File.Exists(filePath))
 			{
 				XmlSerializer bf = new XmlSerializer(typeofData, _listExtraType.ToArray());
 
 				FileStream file = File.Open(filePath, FileMode.Open);
 
-				saveData = bf.Deserialize(file);
+				saveData = bf.Deserialize(file) as Configuration;
 				file.Close();
+			}
+			else
+			{
+				saveData = new Configuration();
 			}
 			return saveData;
 		}

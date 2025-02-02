@@ -1,26 +1,16 @@
 ﻿using ShopGenerator.Base;
+using StarWarsShopGenerator.View;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Diagnostics;
 using System.IO;
-using System.Linq;
 using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace ShopGenerator
 {
-	
+
 
 	/// <summary>
 	/// Logique d'interaction pour MainWindow.xaml
@@ -33,6 +23,7 @@ namespace ShopGenerator
 		private string _shopFileName;
 		private Configuration _configuration = new Configuration();
 		private List<string> _allShopNameFiles = new List<string>();
+		private string _directoryPath = "";
 
 		#region Accessors
 		public List<string> AllShopNameFiles
@@ -130,17 +121,16 @@ namespace ShopGenerator
 			}
 		}
 
-		public CategoryConfigurationWeapon CategoryConfigurationWeapon { get { return _configuration.CategoryConfigurationWeapon; } }
+		public CategoryConfigurationWeapon CategoryConfigurationWeapon { get { return _configuration.CategoryConfigurationWeapon; }	}
 		public CategoryConfigurationArmor CategoryConfigurationArmor { get { return _configuration.CategoryConfigurationArmor; } }
 		public CategoryConfigurationGear CategoryConfigurationGear { get { return _configuration.CategoryConfigurationGear; } }
 		public CategoryConfigurationBlackMarket CategoryConfigurationBlackMarket { get { return _configuration.CategoryConfigurationBlackMarket; } }
 		public CategoryConfigurationAttachment CategoryConfigurationAttachment { get { return _configuration.CategoryConfigurationAttachment; } }
-
 		#endregion Accessors
 
+		#region Properties
 		public event PropertyChangedEventHandler PropertyChanged;
-
-
+		#endregion Properties
 
 		public MainWindow()
 		{
@@ -148,20 +138,20 @@ namespace ShopGenerator
 			shopConfigDirectory = Directory.GetCurrentDirectory() + "/../";
 			shopConfigDirectory += "ShopConfig/";
 
-			if(Directory.Exists(shopConfigDirectory) == false)
+			if (Directory.Exists(shopConfigDirectory) == false)
 			{
 				shopConfigDirectory = Service.GetApplicationUserPath() + "/ShopConfig/";
 			}
 
-			_configuration.Init(shopConfigDirectory);
+			_directoryPath = shopConfigDirectory;
 
 			Instance = this;
 			DataContext = this;
 
 			//Fill from all the cfg 
-			if (Directory.Exists(_configuration.DirectoryPath))
+			if (Directory.Exists(_directoryPath))
 			{
-				string[] allFiles = Directory.GetFiles(_configuration.DirectoryPath);
+				string[] allFiles = Directory.GetFiles(_directoryPath);
 				for (int i = 0; i < allFiles.Length; i++)
 				{
 					string fileName = System.IO.Path.GetFileNameWithoutExtension(allFiles[i]);
@@ -197,7 +187,7 @@ namespace ShopGenerator
 
 		private void ButtonSauvegarde_Click(object sender, RoutedEventArgs e)
 		{
-			_configuration.Save(_shopFileName);
+			_configuration.Save(_directoryPath, _shopFileName);
 			if (_allShopNameFiles.Contains(_shopFileName) == false)
 			{
 				List<string> allShopNames = new List<string>();
@@ -215,7 +205,7 @@ namespace ShopGenerator
 
 		private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
 		{
-			_configuration.Load(_shopFileName);
+			_configuration.Load(_directoryPath, _shopFileName);
 			OnPropertyChanged(propertyName: null);
 		}
 
@@ -228,14 +218,14 @@ namespace ShopGenerator
 			allShopNames.AddRange(_allShopNameFiles);
 
 			allShopNames.Remove(_shopFileName);
-			_configuration.Delete(_shopFileName);
+			_configuration.Delete(_directoryPath, _shopFileName);
 
 			AllShopNameFiles = allShopNames;
 
 			if (allShopNames.Count > 0)
 			{
 				ShopFileName = allShopNames[indexCurrentShop];
-				_configuration.Load(_shopFileName);
+				_configuration.Load(_directoryPath, _shopFileName);
 			}
 			else
 			{
@@ -244,6 +234,61 @@ namespace ShopGenerator
 			}
 
 			OnPropertyChanged();
+		}
+
+		private void ButtonNew_Click(object sender, RoutedEventArgs e)
+		{
+			NewFileWindow newFileWindow = new NewFileWindow();
+			newFileWindow.TxtInput.Focus();
+			newFileWindow.TxtInput.SelectionStart = newFileWindow.TxtInput.Text.Length;
+			newFileWindow.Top = Instance.Top + 700;
+			newFileWindow.Left = Instance.Left + 20;
+			newFileWindow.ShowDialog();
+			if (newFileWindow.Success)
+			{
+				string newFileName = newFileWindow.FileName;
+				if (string.IsNullOrEmpty(newFileName) == false)
+				{
+					_configuration = new Configuration();
+					AllShopNameFiles.Add(newFileName);
+					AllShopNameFiles.Sort();
+					List<string> allShopNames = new List<string>();
+					allShopNames.AddRange(AllShopNameFiles);
+					AllShopNameFiles = allShopNames;
+					ShopFileName = newFileName;
+					OnPropertyChanged();
+				}
+			}
+		}
+
+		private void ButtonCopy_Click(object sender, RoutedEventArgs e)
+		{
+			NewFileWindow newFileWindow = new NewFileWindow();
+			newFileWindow.TxtInput.Focus();
+			newFileWindow.TxtInput.SelectionStart = newFileWindow.TxtInput.Text.Length;
+			newFileWindow.Top = Instance.Top + 700;
+			newFileWindow.Left = Instance.Left + 20;
+			if (string.IsNullOrEmpty(_shopFileName) == false)
+			{
+				newFileWindow.FileName = _shopFileName + "_Copy";
+				newFileWindow.ShowDialog();
+
+				if (newFileWindow.Success)
+				{
+					string newFileName = newFileWindow.FileName;
+					if (string.IsNullOrEmpty(newFileName) == false)
+					{
+						AllShopNameFiles.Add(newFileName);
+						AllShopNameFiles.Sort();
+						List<string> allShopNames = new List<string>();
+						allShopNames.AddRange(AllShopNameFiles);
+						AllShopNameFiles = allShopNames;
+						OnPropertyChanged();
+						ShopFileName = newFileName;
+						_configuration.Save(_directoryPath, _shopFileName);
+					}
+				}
+			}
 		}
 	}
 }
