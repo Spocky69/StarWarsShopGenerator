@@ -262,6 +262,7 @@ namespace ShopGenerator
 					allShopNames.AddRange(AllShopNameFiles);
 					AllShopNameFiles = allShopNames;
 					ShopFileName = newFileName;
+					ShopName = newFileName;
 					OnPropertyChanged();
 				}
 			}
