@@ -119,7 +119,7 @@ namespace ShopGenerator
 			}
 		}
 
-		public CategoryConfigurationWeapon CategoryConfigurationWeapon { get { return _configuration.CategoryConfigurationWeapon; }	}
+		public CategoryConfigurationWeapon CategoryConfigurationWeapon { get { return _configuration.CategoryConfigurationWeapon; } }
 		public CategoryConfigurationArmor CategoryConfigurationArmor { get { return _configuration.CategoryConfigurationArmor; } }
 		public CategoryConfigurationGear CategoryConfigurationGear { get { return _configuration.CategoryConfigurationGear; } }
 		public CategoryConfigurationBlackMarket CategoryConfigurationBlackMarket { get { return _configuration.CategoryConfigurationBlackMarket; } }
@@ -209,29 +209,37 @@ namespace ShopGenerator
 
 		private void ButtonSuppression_Click(object sender, RoutedEventArgs e)
 		{
-			int indexCurrentShop = _allShopNameFiles.FindIndex(x => x == _shopFileName);
-			indexCurrentShop = Math.Max(indexCurrentShop - 1, 0);
+			ValidationWindow validationWindow = new ValidationWindow();
+			validationWindow.Top = Instance.Top + 720;
+			validationWindow.Left = Instance.Left + 85;
+			validationWindow.ShowDialog();
 
-			List<string> allShopNames = new List<string>();
-			allShopNames.AddRange(_allShopNameFiles);
-
-			allShopNames.Remove(_shopFileName);
-			_configuration.Delete(_directoryPath, _shopFileName);
-
-			AllShopNameFiles = allShopNames;
-
-			if (allShopNames.Count > 0)
+			if (validationWindow.Success)
 			{
-				ShopFileName = allShopNames[indexCurrentShop];
-				_configuration.Load(_directoryPath, _shopFileName);
-			}
-			else
-			{
-				ShopFileName = DEFAULT_FILE_NAME;
-				_configuration = new Configuration(true);
-			}
+				int indexCurrentShop = _allShopNameFiles.FindIndex(x => x == _shopFileName);
+				indexCurrentShop = Math.Max(indexCurrentShop - 1, 0);
 
-			OnPropertyChanged();
+				List<string> allShopNames = new List<string>();
+				allShopNames.AddRange(_allShopNameFiles);
+
+				allShopNames.Remove(_shopFileName);
+				_configuration.Delete(_directoryPath, _shopFileName);
+
+				AllShopNameFiles = allShopNames;
+
+				if (allShopNames.Count > 0)
+				{
+					ShopFileName = allShopNames[indexCurrentShop];
+					_configuration.Load(_directoryPath, _shopFileName);
+				}
+				else
+				{
+					ShopFileName = DEFAULT_FILE_NAME;
+					_configuration = new Configuration(true);
+				}
+
+				OnPropertyChanged();
+			}
 		}
 
 		private void ButtonNew_Click(object sender, RoutedEventArgs e)
