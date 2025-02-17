@@ -57,6 +57,7 @@ namespace ShopGenerator
 			// Remove element from the general numbers of items in the shop
 			LimitationNumber limitationNumberGeneral = LimitationNumber.GetLimitationNumberByType(null, null, listLimitationNumber);
 			elementDescsFinal = limitationNumberGeneral.FilterElementDesc(elementDescsFinal, PropertyType.Invalid);
+			elementDescsFinal.Sort();
 
 			//Write to file
 			string finalString = ownerName + "\n";

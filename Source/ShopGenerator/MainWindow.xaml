@@ -6,7 +6,7 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:ShopGenerator"
         mc:Ignorable="d"
-        Title="Shop Générateur" Width="820" Height="900">
+        Title="Shop Générateur" Width="820" Height="876">
 	<Window.Resources>
 		<ObjectDataProvider x:Key="IllegalityEnum"
                             MethodName="GetValues" 
@@ -17,10 +17,10 @@
 		</ObjectDataProvider>
 
 	</Window.Resources>
-	<Grid Margin="0,0,2,1" Height="856" Width="805">
-		<Button Content="Générer" Margin="608,745,0,0" VerticalAlignment="Top" Height="96" FontSize="24" FontWeight="Bold" Click="ButtonGenerateShop_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="182"/>
-		<GroupBox Header="Magasin" HorizontalAlignment="Left" Height="720" Margin="10,10,0,0" VerticalAlignment="Top" Width="780">
-			<Grid HorizontalAlignment="Left" Height="693" Margin="0,2,-2,0" VerticalAlignment="Top" Width="770">
+	<Grid Margin="6,14,8,4" Width="805">
+		<Button Content="Générer" Margin="608,730,0,0" VerticalAlignment="Top" Height="96" FontSize="24" FontWeight="Bold" Click="ButtonGenerateShop_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="182"/>
+		<GroupBox Header="Magasin" HorizontalAlignment="Left" Height="701" Margin="10,10,0,0" VerticalAlignment="Top" Width="780">
+			<Grid HorizontalAlignment="Left" Height="684" VerticalAlignment="Top" Width="770">
 				<Label Content="Nom du magasin" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="104" Height="27">
 					<Label.RenderTransform>
 						<TransformGroup>
@@ -1065,21 +1065,13 @@
 							</Label.RenderTransform>
 						</Label>
 						<TextBox Text="{Binding OwnerName, Mode=TwoWay}" HorizontalAlignment="Left" Height="23" Margin="73,5,0,0" VerticalAlignment="Top" Width="657" VerticalContentAlignment="Center"/>
-						<RichTextBox HorizontalAlignment="Left" Height="72" Margin="10,33,0,0" VerticalAlignment="Top" Width="720">
-							<FlowDocument>
-								<Paragraph>
-									<Run Text="{Binding Description, Mode=TwoWay}"/>
-								</Paragraph>
-							</FlowDocument>
-						</RichTextBox>
-
-
+						<TextBox Text="{Binding Description, Mode=TwoWay}" HorizontalAlignment="Left" Height="72" Margin="6,33,0,0" VerticalAlignment="Top" Width="724" VerticalContentAlignment="Top" AcceptsReturn="True"/>
 					</Grid>
 				</GroupBox>
 			</Grid>
 		</GroupBox>
-		<Button Content="Codes Livre" Margin="433,745,0,0" VerticalAlignment="Top" Height="39" FontSize="24" FontWeight="Bold" Click="ButtonCodeBook_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="149"/>
-		<GroupBox Header="Fichiers" Margin="10,727,0,0" Height="125" VerticalAlignment="Top" HorizontalAlignment="Left" Width="333">
+		<Button Content="Codes Livre" Margin="412,730,0,0" VerticalAlignment="Top" Height="40" FontSize="24" FontWeight="Bold" Click="ButtonCodeBook_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="149"/>
+		<GroupBox Header="Fichiers" Margin="10,716,0,0" Height="125" VerticalAlignment="Top" HorizontalAlignment="Left" Width="333">
 			<Grid HorizontalAlignment="Left" Height="108" Margin="10,0,0,0" VerticalAlignment="Top" Width="311">
 				<Grid.ColumnDefinitions>
 					<ColumnDefinition Width="26*"/>

@@ -387,6 +387,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_498E67EE78D4477FAC1F04D78127FF0D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_4B40898560FD4FABBAAB1723141F87BE"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -471,6 +477,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_60A9A2A3C3CC4A5B9438E9C3D0F8F317"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_62DE7489E43F4A58B9089F8A4A5292C9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -532,12 +544,6 @@
         "Entry"
         {
         "MsmKey" = "8:_6AF24DC4AF674F3DAF52381D2813BF6C"
-        "OwnerKey" = "8:_UNDEFINED"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_6B416072A4FC4DA5B6396CD4FEAAA04D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1185,6 +1191,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_F8DDCB27FD56412B8EF695FF3BC5EE3F"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_F9B017238D9C496E94517BD75274D372"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -1192,6 +1204,12 @@
         "Entry"
         {
         "MsmKey" = "8:_FD81423BB9024225A01779246533D81D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_FE88DF45C85E4311AB7CD1F3217AB227"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -1308,7 +1326,7 @@
         {
             "LaunchCondition"
             {
-                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_89E53EEAA7454DF786E4C494674D304E"
+                "{A06ECF26-33A3-4562-8140-9B0E340D4F24}:_B796DE7720DC4BD1B48C2FBD2AC07000"
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
@@ -2560,6 +2578,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_498E67EE78D4477FAC1F04D78127FF0D"
+            {
+            "SourcePath" = "8:..\\ShopGenerator\\icon.ico"
+            "TargetName" = "8:icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_7C74EDB96A54420691BEFC6E9D6C6D1D"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_4B40898560FD4FABBAAB1723141F87BE"
             {
             "SourcePath" = "8:..\\Database\\FlyCasual\\Armor.csv"
@@ -2840,6 +2878,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_60A9A2A3C3CC4A5B9438E9C3D0F8F317"
+            {
+            "SourcePath" = "8:..\\Database\\CodeBook.pdf"
+            "TargetName" = "8:CodeBook.pdf"
+            "Tag" = "8:"
+            "Folder" = "8:_27C42D3E541145CEAC30AFAED58B842E"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_62DE7489E43F4A58B9089F8A4A5292C9"
             {
             "SourcePath" = "8:..\\Database\\StayOnTarget\\Attachment.csv"
@@ -3046,26 +3104,6 @@
             "TargetName" = "8:EndlessVigil.xlsm"
             "Tag" = "8:"
             "Folder" = "8:_27C42D3E541145CEAC30AFAED58B842E"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6B416072A4FC4DA5B6396CD4FEAAA04D"
-            {
-            "SourcePath" = "8:C:\\Users\\spoth\\Downloads\\finance_mobile_business_on_payment_marketing_internet_icon_232580.ico"
-            "TargetName" = "8:icon.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_A8AA8017C738476FB963EF68321C5DD2"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5211,6 +5249,26 @@
             "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F8DDCB27FD56412B8EF695FF3BC5EE3F"
+            {
+            "SourcePath" = "8:..\\ShopGenerator\\icon.ico"
+            "TargetName" = "8:icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_59CBAE4A9A564AC3894EE47DF681ED70"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F9B017238D9C496E94517BD75274D372"
             {
             "SourcePath" = "8:..\\..\\ShopConfig\\Empty.cfg"
@@ -5237,6 +5295,26 @@
             "TargetName" = "8:Weapon.csv"
             "Tag" = "8:"
             "Folder" = "8:_45A7D3F3D763473198E75828653A3FB8"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_FE88DF45C85E4311AB7CD1F3217AB227"
+            {
+            "SourcePath" = "8:..\\ShopGenerator\\Icon.ico"
+            "TargetName" = "8:icon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_A8AA8017C738476FB963EF68321C5DD2"
             "Condition" = "8:"
             "Transitive" = "11:FALSE"
             "Vital" = "11:TRUE"
@@ -5720,7 +5798,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Star Wars Shop Generator"
         "ProductCode" = "8:{8937DED6-CC16-4358-8E41-1EB09E72707F}"
-        "PackageCode" = "8:{CAE7F4CD-4B41-4A7C-A77C-B56B5041FCC3}"
+        "PackageCode" = "8:{F9DA7460-20C9-4E27-B510-6C02C62B7AD0}"
         "UpgradeCode" = "8:{A7AE9467-2AA7-4C17-ACA5-515A03F63864}"
         "AspNetVersion" = "8:2.0.50727.0"
         "RestartWWWService" = "11:FALSE"
@@ -5851,7 +5929,7 @@
             "Target" = "8:_96D623D4C06141CFA7C6217D179DBC0B"
             "Folder" = "8:_04BBCE28FED341A1B412FB4E3F04AFAE"
             "WorkingFolder" = "8:_A8AA8017C738476FB963EF68321C5DD2"
-            "Icon" = "8:_6B416072A4FC4DA5B6396CD4FEAAA04D"
+            "Icon" = "8:_F8DDCB27FD56412B8EF695FF3BC5EE3F"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_935DEF2DAB8B44EE93D0B6C66661FE17"
@@ -5865,7 +5943,7 @@
             "Target" = "8:_96D623D4C06141CFA7C6217D179DBC0B"
             "Folder" = "8:_7C74EDB96A54420691BEFC6E9D6C6D1D"
             "WorkingFolder" = "8:_A8AA8017C738476FB963EF68321C5DD2"
-            "Icon" = "8:_6B416072A4FC4DA5B6396CD4FEAAA04D"
+            "Icon" = "8:_498E67EE78D4477FAC1F04D78127FF0D"
             "Feature" = "8:"
             }
         }

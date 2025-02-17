@@ -6,18 +6,11 @@ using System.Threading.Tasks;
 
 namespace ShopGenerator
 {
-	public class ElementDesc
+	public class ElementDesc : IComparable<ElementDesc>
 	{
-		#region Enums
-		
-		#endregion Enums
-
 		#region Fields
 		protected List<IProperty> _listProperty = new List<IProperty>();
 		#endregion Fields
-
-		#region Accessors
-		#endregion Accessors
 
 		#region Methods
 		#region Publics
@@ -38,8 +31,8 @@ namespace ShopGenerator
 		public virtual string ToDatabaseString()
 		{
 			string finalText = "";
-			foreach(IProperty property in _listProperty)
-			{ 
+			foreach (IProperty property in _listProperty)
+			{
 				AddElement(ref finalText, property);
 			}
 			return finalText;
@@ -49,7 +42,7 @@ namespace ShopGenerator
 		{
 			string finalText = "";
 			int nbTotalCharacters = 0;
-			foreach(IProperty property in _listProperty)
+			foreach (IProperty property in _listProperty)
 			{
 				if (property.NbMaxChar >= 0)
 				{
@@ -64,19 +57,19 @@ namespace ShopGenerator
 			return finalText;
 		}
 
-		public virtual void FillFromDatabaseString(ref int curIndex , string[] arrayElems, string bookType, ElementType elementType, Enum subType)
+		public virtual void FillFromDatabaseString(ref int curIndex, string[] arrayElems, string bookType, ElementType elementType, Enum subType)
 		{
 			int curPropertyIndex = 0;
 			_listProperty[curPropertyIndex++].SetValue(elementType);
-			if(subType != null)
+			if (subType != null)
 			{
 				_listProperty[curPropertyIndex++].SetValue(subType);
 			}
 			_listProperty[curPropertyIndex++].SetValue(bookType);
 
-			for(int i=0; i<arrayElems.Length; i++)
-			{ 
-				_listProperty[i+curPropertyIndex].SetValue(arrayElems[i]);
+			for (int i = 0; i < arrayElems.Length; i++)
+			{
+				_listProperty[i + curPropertyIndex].SetValue(arrayElems[i]);
 			}
 			curIndex += _listProperty.Count;
 		}
@@ -84,7 +77,7 @@ namespace ShopGenerator
 		public string GetPropertyValue(PropertyType propertyType)
 		{
 			IProperty property = GetProperty(propertyType);
-			if(property != null)
+			if (property != null)
 			{
 				return property.ToString();
 			}
@@ -96,12 +89,12 @@ namespace ShopGenerator
 			int nbCharacters = 0;
 			foreach (IProperty property in _listProperty)
 			{
-				if(property.NbMaxChar > -1)
+				if (property.NbMaxChar > -1)
 				{
 					nbCharacters += property.NbMaxChar;
-					if(property.Tab)
+					if (property.Tab)
 					{
-						nbCharacters +=4;
+						nbCharacters += 4;
 					}
 				}
 			}
@@ -110,9 +103,9 @@ namespace ShopGenerator
 
 		public IProperty GetProperty(PropertyType propertyType)
 		{
-			foreach(IProperty property in _listProperty)
+			foreach (IProperty property in _listProperty)
 			{
-				if(property.ElementType == propertyType)
+				if (property.ElementType == propertyType)
 				{
 					return property;
 				}
@@ -124,14 +117,14 @@ namespace ShopGenerator
 		#region Internals
 		private void AddElement(ref string total, IProperty property)
 		{
-			if(property.NbMaxChar >= 0 && property.GetValue() != null)
+			if (property.NbMaxChar >= 0 && property.GetValue() != null)
 			{
 				string propertyString = Localization.Instance.GetValue(property.GetValueType(), property.GetValue());
-				if(propertyString != null && property.NbMaxChar > 0)
+				if (propertyString != null && property.NbMaxChar > 0)
 				{
-					if(propertyString.Length > property.NbMaxChar)
+					if (propertyString.Length > property.NbMaxChar)
 					{
-						if(property.NbMaxChar > 3)
+						if (property.NbMaxChar > 3)
 						{
 							propertyString = propertyString.Substring(0, property.NbMaxChar - 3);
 							propertyString += "...";
@@ -139,7 +132,7 @@ namespace ShopGenerator
 						else
 						{
 							propertyString += " Error";
-						}						
+						}
 					}
 					else
 					{
@@ -149,6 +142,11 @@ namespace ShopGenerator
 				total += propertyString;
 				total += " ";
 			}
+		}
+
+		public int CompareTo(ElementDesc other)
+		{
+			return string.CompareOrdinal(GetPropertyValue(PropertyType.Name), other.GetPropertyValue(PropertyType.Name));
 		}
 		#endregion Internals
 		#endregion Methods
