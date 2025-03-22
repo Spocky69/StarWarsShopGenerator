@@ -1,9 +1,9 @@
 Weapon;;;;;;;
 51;Verrou génétique ;-;500;0;1;7;Auto-Déstruction si pas autorisé
 52;Viseur laser;-;500;0;1;5;+1 avantage
-52;Poignée pour pistolet H9;-;400;0;1;3;Lourde : Comp devient Lég, jet -1 si une main, Portée max moy
-52;Système secondaire lance-missile;-;3000;3;3;6;Lourde : ajoute lance missile, Encombrant 2, Encombrement+3
-52;Attache poignet model 2;-;275;0;2;5;Lég : Permet de tirer avec les mains libres
+52;Poignée de pistolet H9;-;400;0;1;3;Lourde : Comp devient Lég, jet -1 si une main, Portée max moy
+52;Lance-missile auxiliaire 'Dernier Mot';-;3000;3;3;6;Lourde : ajoute lance missile, Encombrant 2, Encombrement+3
+52;Bracelet-poignée modèle 2;-;275;0;2;5;Lég : Permet de tirer avec les mains libres
 ;;-;;;;;
 ;;-;;;;;
 ;;-;;;;;
@@ -23,21 +23,21 @@ Weapon;;;;;;;
 ;;-;;;;;
 Armor;;;;;;;
 53;Système medical intégré;-;2500;1;2;7;Jet Médecine +1, 1 stimpack par session
-53;Arme auto-porté;-;1000;0;2;6;Monte arme enc 4 max, tirer sans les mains
-53;Comlink multi-bande;-;200;0;0;1;Comlink longue portée
-54;Scanner intégré Omniscan 3;-;1000;0;1;4;Ajoute Détecteur universel, perception +1 mouvement / ennemi
-54;Détecteur de distance;-;1500;0;1;6;Talent tireur d'élite
-54;Ordinateur de visée intégré ;-;3000;0;1;7;Jet Tir +1 portée longue et extrême
+53;Arsenal Mains-libres VX;-;1000;0;2;6;Monte arme enc 4 max, tirer sans les mains
+53;Comlink à bandes multiples;-;200;0;0;1;Comlink longue portée
+54;Détecteur intégré Omniscan 3;-;1000;0;1;4;Ajoute Détecteur universel, perception +1 mouvement / ennemi
+54;Télémètre MB-7 'Ranger';-;1500;0;1;6;Talent tireur d'élite
+54;Système de visée intégré;-;3000;0;1;7;Jet Tir +1 portée longue et extrême
 ;;-;;;;;
 ;;-;;;;;
 Vehicle;;;;;;;
-60;Batterie de missiles;I;10000;0;0;5;10 missiles, Munition Limitées 2, +2 jet attaque, +2 dégats
-60;Batterie de mini-missiles;I;7000;0;0;5;10 missiles, Munition Limitées 2, +2 jet attaque, +2 dégats
-60;Tube lance mini-missile MM-XT;I;700;0;0;4;Munition Limitées 1, Speeder uniquement, sil 2 min
-60;Support externe pour arme surclassée;I;3000;0;0;6;Arme non limité par la silouhette, Maniabilité -1, Stress -4
-61;Tube d'abordage T9;I;1000;3;0;4;5 tours pour percer une coque
-61;Générateur de fumée 'Fogger';-;2750;1;0;2;Speeder, +3 pour toucher, 2 tours
-62;Rayon tracteur tactique;-;6200;0;0;7;jet attaque pilotage -2 si touché
+60;Lance-missiles multiple;I;10000;0;0;5;10 missiles, Munition Limitées 2, +2 jet attaque, +2 dégats
+60;Lance-mini-missiles multiple;I;7000;0;0;5;10 missiles, Munition Limitées 2, +2 jet attaque, +2 dégats
+60;Mini lance-missiles MM-XT;I;700;0;0;4;Munition Limitées 1, Speeder uniquement, sil 2 min
+60;Support externe pour armes surdimensionnées;I;3000;0;0;6;Arme non limité par la silouhette, Maniabilité -1, Stress -4
+61;Passerelle d'abordage T9;I;1000;3;0;4;5 tours pour percer une coque
+61;Générateur de fumée 'Brumisateur';-;2750;1;0;2;Speeder, +3 pour toucher, 2 tours
+62;Faisceau tracteur tactique Grappler 213;-;6200;0;0;7;jet attaque pilotage -2 si touché
 Crystal;;;;;;;
 ;;-;;;;;
 ;;-;;;;;

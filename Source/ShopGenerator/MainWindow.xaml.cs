@@ -16,6 +16,8 @@ namespace ShopGenerator
 	public partial class MainWindow : INotifyPropertyChanged
 	{
 		public const string DEFAULT_FILE_NAME = "Nouveau Shop";
+		private const int NEW_FILE_VIEW_X = 20;
+		private const int NEW_FILE_VIEW_Y = 80;
 		static public MainWindow Instance;
 
 		private string _shopFileName;
@@ -146,7 +148,7 @@ namespace ShopGenerator
 			Instance = this;
 			DataContext = this;
 
-			//Fill from all the cfg 
+			// Fill from all the cfg 
 			if (Directory.Exists(_directoryPath))
 			{
 				string[] allFiles = Directory.GetFiles(_directoryPath);
@@ -210,8 +212,8 @@ namespace ShopGenerator
 		private void ButtonSuppression_Click(object sender, RoutedEventArgs e)
 		{
 			ValidationWindow validationWindow = new ValidationWindow();
-			validationWindow.Top = Instance.Top + 720;
-			validationWindow.Left = Instance.Left + 85;
+			validationWindow.Top = Instance.Top + NEW_FILE_VIEW_Y;
+			validationWindow.Left = Instance.Left + NEW_FILE_VIEW_X + 10;
 			validationWindow.ShowDialog();
 
 			if (validationWindow.Success)
@@ -247,8 +249,8 @@ namespace ShopGenerator
 			NewFileWindow newFileWindow = new NewFileWindow();
 			newFileWindow.TxtInput.Focus();
 			newFileWindow.TxtInput.SelectionStart = newFileWindow.TxtInput.Text.Length;
-			newFileWindow.Top = Instance.Top + 700;
-			newFileWindow.Left = Instance.Left + 20;
+			newFileWindow.Top = Instance.Top + NEW_FILE_VIEW_Y;
+			newFileWindow.Left = Instance.Left + NEW_FILE_VIEW_X;
 			newFileWindow.ShowDialog();
 			if (newFileWindow.Success)
 			{
@@ -273,8 +275,8 @@ namespace ShopGenerator
 			NewFileWindow newFileWindow = new NewFileWindow();
 			newFileWindow.TxtInput.Focus();
 			newFileWindow.TxtInput.SelectionStart = newFileWindow.TxtInput.Text.Length;
-			newFileWindow.Top = Instance.Top + 700;
-			newFileWindow.Left = Instance.Left + 20;
+			newFileWindow.Top = Instance.Top + NEW_FILE_VIEW_Y;
+			newFileWindow.Left = Instance.Left + NEW_FILE_VIEW_X;
 			if (string.IsNullOrEmpty(_shopFileName) == false)
 			{
 				newFileWindow.FileName = _shopFileName + "_Copy";

@@ -7,28 +7,28 @@ Energy;;;;;;;;;;;
 43;Pistoler blaster lourd 'Déstructeur de dragon';Lég;8;3;Moy;3;3;-;1000;7;RéglageEtourdissant
 44;Blaster de chasse Herloss HBT-4;Lou;10;3;Moy;5;2;-;900;6;RéglageEtourdissant,Encombrant2
 44;Fusil à impulsion Corondexx VES-700;Lou;8;3;Moy;4;3;-;950;6;RéglageEtourdissant,Souffle6
-44;Désactivateur de droïd Felebreck;Lég;12;3;Cou;1;1;-;1050;5;Choc1,Ion,MunitionsLimités3
+44;Mutilateur de droïd Felebreck;Lég;12;3;Cou;1;1;-;1050;5;Choc1,Ion,MunitionsLimités3
 Slugthrowers;;;;;;;;;;;
 44;Pistolet à fléchette FWG-5;Lég;6;3;Cou;1;2;I;825;7;Guidé3,MunitionLimité3
-44;Fusil d'arrêt à huit balles Adostic Arms ;Lou;7;6;Cou;3;2;-;550;4;Souffle3,Renversement
+44;Fusil à dispersion Adostic Arms Cal-8;Lou;7;6;Cou;3;2;-;550;4;Souffle3,Renversement
 Thrown;;;;;;;;;;;
-45;Dague de lancé Ascian;Lég;+1;2;Cou;1;0;-;65;7;Perforant2,MunitionsLimités1,Ignore désavantage engagé
-45;Grenade assomante;Lég;12;0;Cou;1;0;-;120;5;Souffle10,Dégats Etourdissant,Gaz,Munitions limités 1
+45;Dague de lancé Ascienne;Lég;+1;2;Cou;1;0;-;65;7;Perforant2,MunitionsLimités1,Ignore désavantage engagé
+45;Grenade incapacitante;Lég;12;0;Cou;1;0;-;120;5;Souffle10,Dégats Etourdissant,Gaz,Munitions limités 1
+;;;;;;;;;;;
+;;;;;;;;;;;
+Others;;;;;;;;;;;
 45;Pistolet à décharge statique SSB-1;Lég;2;4;Cou;2;1;-;850;7;Désorientation1,Etourdissement8, Fragile
 45;Projecteur CryoBan Taggeco.;Lou;6;2;Cou;3;0;-;500;4;Souffle6,Encombrant3,Sanguinaire2,+1dé bleu éteindre feu
-Others;;;;;;;;;;;
-;;;;;;;;;;;
-;;;;;;;;;;;
 ;;;;;;;;;;;
 ;;;;;;;;;;;
 ;;;;;;;;;;;
 Brawling;;;;;;;;;;;
-45;Bottes de choc;Pug;+0;5;Con;2;0;-;1250;5;Désorientation3,Etourdissement3,Dissimulation1
+45;Bottes à décharge;Pug;+0;5;Con;2;0;-;1250;5;Désorientation3,Etourdissement3,Dissimulation1
 ;;;;;;;;;;;
 Melee;;;;;;;;;;;
-47;Dague au point;CàC;+1;3;Con;1;1;-;75;4;Perforant1,Dissimulable2
-47;VibroRapière;CàC;+2;2;Con;2;2;-;1200;7;Défense1,Perforant5,Silencieuse
-47;Casseur de lame;CàC;+0;4;Con;1;1;-;250;5;Défense2,Perforant1,Briseur
+47;Dague coup-de-poing;CàC;+1;3;Con;1;1;-;75;4;Perforant1,Dissimulable2
+47;Vibrorapière;CàC;+2;2;Con;2;2;-;1200;7;Défense1,Perforant5,Silencieuse
+47;Brise-lame;CàC;+0;4;Con;1;1;-;250;5;Défense2,Perforant1,Briseur
 ;;;;;;;;;;;
 ;;;;;;;;;;;
 ;;;;;;;;;;;

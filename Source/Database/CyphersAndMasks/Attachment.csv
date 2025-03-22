@@ -2,7 +2,7 @@ Weapon;;;;;;;
 56;Arme en kit;-;1150;0;2;5;Sépare une arme en pièces,Repérer Arme Mecanique-Magouille Diff5
 56;Allègement du chassis;-;650;0;1;3;Encombrement-1 Mods : Encombrement-1
 57;Matériaux indétectables;I;1000;0;2;6;Indétectable au scanner,Détecter Jet Info Diff3, 2Menaces->Hors service Mods: Encombrement-1
-n;Surchargeur Xciter;I;1100;0;2;7;Déploiement1,Dgt+4,ACourtDeMunitions,3Menaces->ArmeExplose
+57;Surchargeur Xciter;I;1100;0;2;7;Déploiement1,Dgt+4,ACourtDeMunitions,3Menaces->ArmeExplose
 ;;-;;;;;
 ;;-;;;;;
 ;;-;;;;;

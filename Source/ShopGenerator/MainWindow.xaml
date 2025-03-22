@@ -6,7 +6,7 @@
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         xmlns:local="clr-namespace:ShopGenerator"
         mc:Ignorable="d"
-        Title="Shop Générateur" Width="820" Height="876">
+        Title="Shop Générateur" Width="820" Height="829">
 	<Window.Resources>
 		<ObjectDataProvider x:Key="IllegalityEnum"
                             MethodName="GetValues" 
@@ -15,11 +15,99 @@
 				<x:Type TypeName="local:Illegality"/>
 			</ObjectDataProvider.MethodParameters>
 		</ObjectDataProvider>
+		<Style x:Key="FocusVisual">
+			<Setter Property="Control.Template">
+				<Setter.Value>
+					<ControlTemplate>
+						<Rectangle Margin="2" StrokeDashArray="1 2" Stroke="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}" SnapsToDevicePixels="true" StrokeThickness="1"/>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<SolidColorBrush x:Key="Button.Static.Background" Color="#FFDDDDDD"/>
+		<SolidColorBrush x:Key="Button.Static.Border" Color="#FF707070"/>
+		<SolidColorBrush x:Key="Button.MouseOver.Background" Color="#FFBEE6FD"/>
+		<SolidColorBrush x:Key="Button.MouseOver.Border" Color="#FF3C7FB1"/>
+		<SolidColorBrush x:Key="Button.Pressed.Background" Color="#FFC4E5F6"/>
+		<SolidColorBrush x:Key="Button.Pressed.Border" Color="#FF2C628B"/>
+		<SolidColorBrush x:Key="Button.Disabled.Background" Color="#FFF4F4F4"/>
+		<SolidColorBrush x:Key="Button.Disabled.Border" Color="#FFADB2B5"/>
+		<SolidColorBrush x:Key="Button.Disabled.Foreground" Color="#FF838383"/>
+		<Style x:Key="FileStyle" TargetType="{x:Type Button}">
+			<Setter Property="FocusVisualStyle" Value="{StaticResource FocusVisual}"/>
+			<Setter Property="Background" Value="{StaticResource Button.Static.Background}"/>
+			<Setter Property="BorderBrush" Value="{StaticResource Button.Static.Border}"/>
+			<Setter Property="Foreground" Value="{DynamicResource {x:Static SystemColors.ControlTextBrushKey}}"/>
+			<Setter Property="BorderThickness" Value="1"/>
+			<Setter Property="HorizontalContentAlignment" Value="Center"/>
+			<Setter Property="VerticalContentAlignment" Value="Center"/>
+			<Setter Property="Padding" Value="1"/>
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="{x:Type Button}">
+						<Grid Name="ButtonGrid" Background="Transparent" RenderTransformOrigin="0.5, 0.5">
+							<Border x:Name="border" Background="{TemplateBinding Background}" BorderBrush="{TemplateBinding BorderBrush}" BorderThickness="{TemplateBinding BorderThickness}" SnapsToDevicePixels="true">
+								<ContentPresenter x:Name="contentPresenter" Focusable="False" HorizontalAlignment="{TemplateBinding HorizontalContentAlignment}" Margin="{TemplateBinding Padding}" RecognizesAccessKey="True" SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" VerticalAlignment="{TemplateBinding VerticalContentAlignment}"/>
+							</Border>
+							<Grid.RenderTransform>
+								<ScaleTransform />
+							</Grid.RenderTransform>
+						</Grid>
+						<ControlTemplate.Triggers>
+							<Trigger Property="IsDefaulted" Value="true">
+								<Setter Property="BorderBrush" TargetName="border" Value="{DynamicResource {x:Static SystemColors.HighlightBrushKey}}"/>
+							</Trigger>
+							<Trigger Property="IsMouseOver" Value="true">
+								<Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.MouseOver.Border}"/>
+								<Trigger.EnterActions>
+									<BeginStoryboard>
+										<Storyboard>
+											<DoubleAnimation
+                    Duration="0:0:0.1"
+                    Storyboard.TargetName="ButtonGrid"
+                    Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleX)"
+                    To="1.1"/>
+											<DoubleAnimation
+                    Duration="0:0:0.1"
+                    Storyboard.TargetName="ButtonGrid"
+                    Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleY)"
+                    To="1.1"/>
+										</Storyboard>
+									</BeginStoryboard>
+								</Trigger.EnterActions>
+								<Trigger.ExitActions>
+									<BeginStoryboard>
+										<Storyboard>
+											<DoubleAnimation
+                    Duration="0:0:0.1"
+                    Storyboard.TargetName="ButtonGrid"
+                    Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleX)"
+                    To="1"/>
+											<DoubleAnimation
+                    Duration="0:0:0.1"
+                    Storyboard.TargetName="ButtonGrid"
+                    Storyboard.TargetProperty="(RenderTransform).(ScaleTransform.ScaleY)"
+                    To="1"/>
+										</Storyboard>
+									</BeginStoryboard>
+								</Trigger.ExitActions>
+							</Trigger>
+							<Trigger Property="IsPressed" Value="true">
+								<Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Pressed.Border}"/>
+							</Trigger>
+							<Trigger Property="IsEnabled" Value="false">
+								<Setter Property="BorderBrush" TargetName="border" Value="{StaticResource Button.Disabled.Border}"/>
+								<Setter Property="TextElement.Foreground" TargetName="contentPresenter" Value="{StaticResource Button.Disabled.Foreground}"/>
+							</Trigger>
+						</ControlTemplate.Triggers>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
 
 	</Window.Resources>
-	<Grid Margin="6,14,8,4" Width="805">
-		<Button Content="Générer" Margin="608,730,0,0" VerticalAlignment="Top" Height="96" FontSize="24" FontWeight="Bold" Click="ButtonGenerateShop_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="182"/>
-		<GroupBox Header="Magasin" HorizontalAlignment="Left" Height="701" Margin="10,10,0,0" VerticalAlignment="Top" Width="780">
+	<Grid Margin="9,14,10,4">
+		<GroupBox Header="Magasin" HorizontalAlignment="Left" Height="701" Margin="0,72,0,0" VerticalAlignment="Top" Width="780">
 			<Grid HorizontalAlignment="Left" Height="684" VerticalAlignment="Top" Width="770">
 				<Label Content="Nom du magasin" HorizontalAlignment="Left" Margin="10,12,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="104" Height="27">
 					<Label.RenderTransform>
@@ -31,8 +119,7 @@
 						</TransformGroup>
 					</Label.RenderTransform>
 				</Label>
-				<TextBox Text="{Binding ShopName, Mode=TwoWay}" HorizontalAlignment="Left" Height="23" Margin="119,13,0,0" VerticalAlignment="Top" Width="280" VerticalContentAlignment="Center"/>
-				<ComboBox  ItemsSource="{Binding AllShopNameFiles, Mode=TwoWay}" SelectedItem="{Binding ShopFileName, Mode=TwoWay}" HorizontalAlignment="Left" Margin="434,14,0,0" VerticalAlignment="Top" Width="295" SelectionChanged="ComboBox_SelectionChanged"/>
+				<TextBox Text="{Binding ShopName, Mode=TwoWay}" HorizontalAlignment="Left" Height="23" Margin="119,13,0,0" VerticalAlignment="Top" Width="625" VerticalContentAlignment="Center"/>
 				<GroupBox Header="Options" HorizontalAlignment="Left" Height="95" Margin="10,205,0,0" VerticalAlignment="Top" Width="750" RenderTransformOrigin="0.5,0.5">
 					<Grid HorizontalAlignment="Left" Height="71" Margin="4,5,-29,-2" VerticalAlignment="Top" Width="745">
 						<Grid.ColumnDefinitions>
@@ -1070,19 +1157,51 @@
 				</GroupBox>
 			</Grid>
 		</GroupBox>
-		<Button Content="Codes Livre" Margin="412,730,0,0" VerticalAlignment="Top" Height="40" FontSize="24" FontWeight="Bold" Click="ButtonCodeBook_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="149"/>
-		<GroupBox Header="Fichiers" Margin="10,716,0,0" Height="125" VerticalAlignment="Top" HorizontalAlignment="Left" Width="333">
-			<Grid HorizontalAlignment="Left" Height="108" Margin="10,0,0,0" VerticalAlignment="Top" Width="311">
-				<Grid.ColumnDefinitions>
-					<ColumnDefinition Width="26*"/>
-					<ColumnDefinition Width="226*"/>
-					<ColumnDefinition Width="25*"/>
-					<ColumnDefinition Width="34*"/>
+		<GroupBox Header="Fichiers" Margin="0,-5,0,0" Height="77" VerticalAlignment="Top" HorizontalAlignment="Left" Width="780">
+			<Grid
+		Width="770" VerticalAlignment="Center" Height="54" HorizontalAlignment="Left">
+				<Grid.ColumnDefinitions
+		>
+					<ColumnDefinition/>
+					<ColumnDefinition
+		Width="0*"/>
+					<ColumnDefinition
+		Width="0*"/>
 				</Grid.ColumnDefinitions>
-				<Button Content="Sauvegarde" Margin="130,8,0,0" VerticalAlignment="Top" Height="41" FontSize="24" FontWeight="Bold" Click="ButtonSauvegarde_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="148" Grid.ColumnSpan="3" Grid.Column="1"/>
-				<Button Content="Suppression" Margin="130,57,0,0" VerticalAlignment="Top" Height="41" FontSize="24" FontWeight="Bold" Click="ButtonSuppression_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="148" Grid.ColumnSpan="3" Grid.Column="1"/>
-				<Button Content="Nouveau" Margin="0,8,0,0" VerticalAlignment="Top" Height="41" FontSize="24" FontWeight="Bold" Click="ButtonNew_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="150" Grid.ColumnSpan="2"/>
-				<Button Content="Copier" Margin="0,57,0,0" VerticalAlignment="Top" Height="41" FontSize="24" FontWeight="Bold" Click="ButtonCopy_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="149" Grid.ColumnSpan="2"/>
+				<Button x:Name="CopierMagasin1"
+		Style="{StaticResource FileStyle}" Width="34" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="136,0,0,0" Height="34" HorizontalAlignment="Left" FontSize="24" FontWeight="Bold" Content="" Click="ButtonSauvegarde_Click" ToolTip="Sauvegarder magasin">
+					<Button.Background>
+						<ImageBrush	ImageSource="/SaveFile.png" Stretch="Uniform"/>
+					</Button.Background>
+				</Button>
+				<Button x:Name="SupprimerMagasin"
+		Style="{StaticResource FileStyle}" Width="34" VerticalAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="-0.217,0.595" Margin="91,0,0,0" Height="34" HorizontalAlignment="Left" FontSize="24" FontWeight="Bold" Content="" Click="ButtonSuppression_Click" ToolTip="Supprimer magasin">
+					<Button.Background
+		>
+						<ImageBrush
+		ImageSource="/DeleteFile.png" Stretch="Uniform"/>
+					</Button.Background>
+				</Button>
+				<Button x:Name="NouveauMagasin" 
+		Panel.ZIndex="-2" Style="{StaticResource FileStyle}" Width="34" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="6,0,0,0" Height="34" HorizontalAlignment="Left" FontSize="24" FontWeight="Bold" Content="" Click="ButtonNew_Click" BorderBrush="#FF707070" ToolTip="Nouveau magasin">
+					<Button.Background
+		>
+						<ImageBrush
+		ImageSource="/NewFile.png" Stretch="Uniform" TileMode="None"/>
+					</Button.Background>
+				</Button>
+				<Button x:Name="CopierMagasin"
+		Style="{StaticResource FileStyle}" Width="34" VerticalAlignment="Center" VerticalContentAlignment="Center" Margin="48,0,0,0" Height="34" HorizontalAlignment="Left" FontSize="24" FontWeight="Bold" Content="" Click="ButtonCopy_Click" ToolTip="Copier magasin">
+					<Button.Background
+		>
+						<ImageBrush
+		ImageSource="/CopyFile.png" Stretch="Uniform"/>
+					</Button.Background>
+				</Button>
+				<ComboBox
+				HorizontalAlignment="Left" Margin="175,11,0,0" Width="280" VerticalAlignment="Top" SelectedItem="{Binding ShopFileName, Mode=TwoWay}" SelectionChanged="ComboBox_SelectionChanged" ItemsSource="{Binding AllShopNameFiles, Mode=TwoWay}" Height="21" ToolTip="Choix du magasin"/>
+				<Button x:Name="GenererMagasin" Content="Générer" Margin="460,11,0,0" VerticalAlignment="Top" Height="40" FontSize="24" FontWeight="Bold" Click="ButtonGenerateShop_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="159" ToolTip="Générer le magasin" Background="#FFDDDDDD"/>
+				<Button x:Name="CodesLivre" Content="Codes Livre" Margin="624,11,0,0" VerticalAlignment="Top" Height="40" FontSize="24" FontWeight="Bold" Click="ButtonCodeBook_Click" VerticalContentAlignment="Center" HorizontalAlignment="Left" Width="136" ToolTip="Code des livres"/>
 			</Grid>
 		</GroupBox>
 

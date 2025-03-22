@@ -1,24 +1,24 @@
 Communications;;;;;;
 Poisons;;;;;;
 Detection;;;;;;
-49;Scanner holographique;-;2000;10;5;Trouver objet : Jet perception diff -2
+49;Holoscanner;-;2000;10;5;Trouver objet : Jet perception diff -2
 Medical;;;;;;
 Cybernetic;;;;;;
 49;Oeil évaluateur;-;700;0;7;+1 Avantage jet Négotiation ou Système D
-49;Cache cybernétique;I;775;0;2;+1 rang compartiment caché
-49;Crochet digital;I;2750;0;5;+1 rang craqueur de code
+49;Cavité cybernétique;I;775;0;2;+1 rang compartiment caché
+49;Passe-partout digital;I;2750;0;5;+1 rang craqueur de code
 ;;;;;;
 ;;;;;;
 Recreational;;;;;;
 Security;;;;;;
-49;Outils de crochetage;I;50;1;8;Crocheter serrure physique
-49;Coffre invisible;-;2500;5;7;Contient Enc 5, Trouver : Perception diff 5, Ouvrir : Magouille diff 3
-49;Caisse à fermeture Magna;-;1000;12;5;Contient Enc 10, Ouvrir : Magouille diff 5
-49;Cape d'ombres;I;2500;2;6;Entour le porteur d'ombre, Jet perception Diff 4
+49;Rossignols;I;50;1;8;Crocheter serrure physique
+49;Coffres phasés;-;2500;5;7;Contient Enc 5, Trouver : Perception diff 5, Ouvrir : Magouille diff 3
+49;Magnécoffre;-;1000;12;5;Contient Enc 10, Ouvrir : Magouille diff 5
+49;Manteau d'ombres;I;2500;2;6;Entour le porteur d'ombre, Jet perception Diff 4
 50;Masque d'empreintes digitales;I;1000;0;7;Passer scanner : Jet Sang-Froid ou tromperie diff 1 - 3. Trouver : Perception diff 4
 Survival;;;;;;
 Tools;;;;;;
-50;Fausse identité;I;800;0;7;Trouver : Jet informatique Diff 3 ou Perception diff 4
-50;Carte de triche;I;500;0;6;+1 dé bleu jet Magouille pour tricher
-50;Scanner de cargo;-;300;1;4;Vaisseau sil 3 ou +, Jet informatique diff 2 -> +10% encombrement
+50;Faux documents;I;800;0;7;Trouver : Jet informatique Diff 3 ou Perception diff 4
+50;Skifter;I;500;0;6;+1 dé bleu jet Magouille pour tricher
+50;Scanner de cargaison;-;300;1;4;Vaisseau sil 3 ou +, Jet informatique diff 2 -> +10% encombrement
 ;;;;;;

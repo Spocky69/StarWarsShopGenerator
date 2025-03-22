@@ -1,5 +1,5 @@
 Communications;;;;;;
-56;Systéme de communication renforcés ;-;450;3;4;Portée orbital, Cryptage Militaire, +2succès  a travers brouillage
+56;Comlink renforcés 'Shockhold';-;450;3;4;Portée orbital, Cryptage Militaire, +2succès  a travers brouillage
 ;;-;;;;
 ;;-;;;;
 Poisons;;;;;;
@@ -8,14 +8,14 @@ Poisons;;;;;;
 ;;-;;;;
 Detection;;;;;;
 56;Scanner de combat Mark 6;-;2000;1;6;Casque vision thermique 360°, com cryptée, portée 100km
-57;Scanner de demolition Mark 10;-;300;1;4;+1 per pour détecter explosif
-57;Système de Télé-Reconnaissance;-;250;1;3;Caméra volante, vision thermique 360°, portée 20km
+57;Détecteur d'explosifs Mark 10;-;300;1;4;+1 per pour détecter explosif
+57;Sphère de reconnaissance;-;250;1;3;Caméra volante, vision thermique 360°, portée 20km
 ;;-;;;;
 ;;-;;;;
 ;;-;;;;
 Medical;;;;;;
-57;Stabilisateur cérébral;-;2200;3;7;Stabilise personnage proche de la mort
-57;Medipack militaire;-;400;2;3;Donne 1 en médecine, Médecine sans penalité
+57;Unité de préservation cérébrale;-;2200;3;7;Stabilise personnage proche de la mort
+57;Medipack militaire d'urgence;-;400;2;3;Donne 1 en médecine, Médecine sans penalité
 ;;-;;;;
 ;;-;;;;
 ;;-;;;;
@@ -46,18 +46,18 @@ Security;;;;;;
 Survival;;;;;;
 57;Filet de camouflage CN-15;-;100;4;2;Ajoute 2 échec pour détecter un véhicule
 58;Peinture de camouflage CN-21;-;40;0;2;Ajoute 1 échec pour détecter un objet ou individu (Sil 1 max)
-58;Cantine de l'armée impériale;-;7;1;1;1,5 l, purifie l'eau
-58;Lunette de reconnaissance atmosphérique;-;5;0;0;
-58;Ration de l'armée impériale;-;10;0;2;
-58;Pate à feu;-;3;0;1;Brule 1 heure
-58;Cuisine portative;-;20;3;1;
+58;Gourde de l'armée impériale;-;7;1;1;1,5 l, purifie l'eau
+58;Visière scout 5;-;5;0;0;
+58;Rations de campagne de l'armée impériale;-;10;0;2;
+58;Pâte à feu;-;3;0;1;Brule 1 heure
+58;Système de préparation alimentaire;-;20;3;1;
 58;Tenue de camouflage holographique;-;800;1;8;Diff +1 pour trouver  si immobile
 58;Tente Tauntaun;-;30;3;2;Jusqu’à -20°
 Tools;;;;;;
-59;Etui dissimulé;-;40;0;3;Ajoute +1 Per pour trouver arme
-59;Outils impériaux pour tranchées ;-;20;1;1;Dégat +2, crit 4
-59;Poche pour ceinturre militaire;-;10;0;0;Porter deux objets enc 0, accessible avec broutille
-59;Sac à dos militaire impérial ;-;60;0;0;Enc +6, Encombrant 2
+59;Etui furtif modèle 58;-;40;0;3;Ajoute +1 Per pour trouver arme
+59;Outils de tranchée de l'armée impériale;-;20;1;1;Dégat +2, crit 4
+59;Sacoche militaire;-;10;0;0;Porter deux objets enc 0, accessible avec broutille
+59;Barda de l'armée impériale;-;60;0;0;Enc +6, Encombrant 2
 ;;-;;;;
 ;;-;;;;
 ;;-;;;;
